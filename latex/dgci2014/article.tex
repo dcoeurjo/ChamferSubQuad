@@ -1,0 +1,161 @@
+\documentclass{llncs}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}        % standard LaTeX graphics tool
+\usepackage{tikz}        % standard LaTeX graphics tool
+\usepackage{subfigure}                                 % authors: subfigures
+\usepackage[ruled,vlined,linesnumbered]{algorithm2e}   % authors: last version of algorithm display
+\usepackage{todonotes}
+
+
+%\title{A Subquadratic and Separable Algorithm for Chamfer Norm
+  %Distance Transformation \thanks{This work has been mainly funded
+  %  by  ANR-11-BS02-009 and  ANR-11-IDEX-0007-02 PALSE/2013/21 research grants.}}
+
+
+
+\title{Generic Separable Algorithms for Distance Transformation: A
+  Subquadratic Approach for Path Based Norms\thanks{This work has been
+    mainly funded by ANR-11-BS02-009 and ANR-11-IDEX-0007-02
+    PALSE/2013/21 research grants.}}
+
+\author{David Coeurjolly\inst{1}}
+
+ \institute{ CNRS,  LIRIS, UMR5205, F-69621, France\\
+   \email{david.coeurjolly@liris.cnrs.fr}
+}
+\graphicspath{{./Figs/}}
+\input{macros}
+\begin{document}
+\maketitle
+
+
+\begin{abstract}
+In many applications, separable algorithms have demonstrated their
+efficiency to perform high performance volumetric computations, such
+as distance transformation or medial axis extraction. In the
+literature, several authors have discussed about the conditions on the
+metric to be considered in a separable approach.  In this article, we
+present generic separable algorithms to efficiently compute Voronoi
+maps and distance transformations for a large class of
+metrics. Focusing to path based norms (chamfer masks, neighborhood
+sequences, ...), we detail a subquadratic algorithm to compute such
+volumetric transformations. More precisely, we describe a
+$O(N\log^2(m))$ algorithm in dimension 2 for shapes with $N$ grid
+points and for example a chamfer mask of size $m$.
+
+\keywords{Digital Geometry, Distance Transformation, Chamfer Norms}
+\end{abstract}
+
+\section{Introduction}
+\label{sec:introduction}
+
+Since early works on digital geometry, distance transformation plays
+an important role in many applications
+\cite{Rosenfeld1966,Rosenfeld1968}. Given a finite input shape
+$X\subset \Z^n$, the distance transformation labels each point in $X$
+with the distance to the closest point in $\Z^n \setminus X$. Since
+such characterization is parametrized by a distance function, many
+works have been done to address this distance transformation problem
+with a trade-off between algorithmic performances and the
+\emph{accuracy} of the digital distance function with respect to the
+Euclidean one.  Hence, authors have considered distances based on
+chamfer masks
+\cite{Rosenfeld1968,borgefors,Thiel_IWCIA7,fouard:ivc:2005} or
+sequences of chamfer masks
+\cite{ROSEN_66,mukherjee,Nagy05,Strand2008,DBLP:conf/dgci/NormandSE13};
+the vector displacement based Euclidean distance
+\cite{danielson,ragnemalm,MULL_92,Cuisenaire1999_268}; the Voronoi
+diagram based Euclidean distance
+\cite{BreuEtAl95,GotLin95,Guan,maurer_pami} or the square of the
+Euclidean distance \cite{SaitTori:94,Hirata,roerdnik}.
+
+\paragraph{Contributions} In this article,
+
+\section{Preliminaries}
+\label{sec:preliminaries}
+
+Let us first present some definitions.
+\begin{definition}[Metrics and Metric Space]
+  \label{def:distance}
+  A metric is a map $d$ from $E$ to a sub-group $F$ of $\R$ such that
+  $\forall a,b,c\in E$,
+  \begin{align}
+    (\text{non-negative})\quad & d(a,b)\geq 0\\
+    (\text{identity of indiscernibles}) \quad&  d(a,b)= 0
+    \Leftrightarrow a=b\\
+    (\text{symmetry})\quad &  d(a,b)=d(b,a)\\
+    (\text{triangular inequality})\quad &   d(a,c) \leq d(a,b) + d(b,c)
+  \end{align}
+$(E, F, d)$ is called a metric space.
+\end{definition}
+If property $(4)$ is omitted, we are defining a distance function
+instead of a metric. Note that in the following, we will only consider
+metric spaces with properties $(1-4)$. Furthermore, we may have to
+consider  metrics induced by a vector space norm:
+\begin{definition}[Norm and metric induced by a norm]
+  \label{def:distance}
+  Given a vector space EV, a norm is a map $g$ from  $EV$ to a sub-group
+  $F$ of $\R$ such that $\forall \vec{x},\vec{y}\in EV$,
+  \begin{align}
+    (\text{non-negative})\quad & g(\vec{x})\geq 0\\
+    (\text{identity of indiscernibles}) \quad&  g(\vec{x})= 0
+    \Leftrightarrow \vec{x}=\vec{0}\\
+    (\text{triangular inequality})\quad &   g(\vec{x}+\vec{y}) \leq
+    g(\vec{x}) + g(\vec{y})\\
+    (\text{homogeneity})\quad &  \forall \lambda\in\R, \quad
+    g(\lambda\cdot\vec{x}) = |\lambda|\cdot g(\lambda\cdot\vec{x})
+  \end{align}
+$d(a,b) \EqDef g(b-a)$ is the metric induced by the
+  norm $g$.
+\end{definition}
+Note that the above definition can be extended from vector spaces to
+\emph{modules} on a commutative ring ($\Z^n$ being a module on $\Z$
+but not a vector space) \cite{Thiel_hdr}.
+
+From the literature, path-based approaches (Chamfer masks, (weighted)
+neighborhood sequences...)  aim at defining metrics induced by norms
+in metric spaces $(\Z^n, \Z , d)$.  Note that (weighed, with $w_i\geq 0$) $L_p$ norms inducing
+metrics
+\begin{equation}
+    d_{\ell_p} (a,b) = \left ( \sum_{i=0}^n w_i|a_i-b_i |^p \right )^{\frac{1}{p}}\,
+  \end{equation}
+characterize metric spaces $(\Z^n, \R , d_{\ell_p})$. However,  note that
+$(\Z^n,\Z, \lfloor d_{\ell_p}) \rfloor)$ is a metric space.
+
+
+\section{Separable Distance Transformation}
+\label{sec:separ-dist-transf}
+
+\subsection{A First Generic Adapter}
+\label{sec:first-gener-adapt}
+
+In
+
+\subsection{Subquadratic Algorithm in Dimension 2}
+\label{sec:subq-algor-dimens}
+
+
+\subsection{Subquadratic Algorithms in Higher Dimension}
+\label{sec:subq-algor-high}
+
+
+\section{Experimental Analysis}
+\label{sec:exper-analys}
+
+\subsection{Implementation details}
+\label{sec:impl-deta}
+
+
+\subsection{Voronoi Maps in dimension 2}
+\label{sec:impl-2D}
+
+
+
+\section{Discussion}
+\label{sec:discussion}
+
+
+
+\bibliographystyle{splncs}
+\bibliography{library,mybiblio,dtbib}
+\end{document}
