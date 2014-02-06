@@ -59,8 +59,6 @@ int main(int argc, char **argv)
   VoroChamf voro(&domain, &mySet,&l2Metric);
   double duration = trace.endBlock();
 
-  std::cout <<mask.size()<<" "<<duration<<std::endl;
-
 
 #ifdef SVG_EXPORT
   Board2D board;
