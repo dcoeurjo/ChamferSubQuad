@@ -4,7 +4,7 @@
 # -----------------------------------------------------------------------------
 PROJECT(ChamferSubQuad)
 
-cmake_minimum_required (VERSION 2.6) 
+cmake_minimum_required (VERSION 2.6)
 
 FIND_PACKAGE(DGtal 0.6 REQUIRED)
 INCLUDE_DIRECTORIES(${DGTAL_INCLUDE_DIRS})
@@ -19,8 +19,8 @@ FIND_PACKAGE(Boost 1.46.0 REQUIRED COMPONENTS program_options)
 if ( Boost_FOUND )
   message(STATUS "Boost and boost_program_options found.")
   include_directories( ${Boost_INCLUDE_DIRS} )
-  SET(DGtalToolsLibDependencies ${DGtalToolsLibDependencies} 
-     ${Boost_LIBRAIRIES}  
+  SET(DGtalToolsLibDependencies ${DGtalToolsLibDependencies}
+     ${Boost_LIBRAIRIES}
      ${Boost_PROGRAM_OPTIONS_LIBRARY})
    SET(DGtalLibInc ${Boost_INCLUDE_DIRS})
 endif( Boost_FOUND )
@@ -32,6 +32,7 @@ SET(DGTAL_TOOLS_SRC
   testLogChamfer
   statDistances
   statVoronoi
+  statVoronoil2
 )
 
 
@@ -39,4 +40,3 @@ FOREACH(FILE ${DGTAL_TOOLS_SRC})
   add_executable(${FILE} ${FILE})
   target_link_libraries (${FILE}  ${CGAL_LIBRARIES} ${DGtalToolsLibDependencies} ${DGTAL_LIBRARIES})
 ENDFOREACH(FILE)
-
