@@ -55,8 +55,8 @@ int main(int argc, char **argv)
   trace.beginBlock("DT distances");
 
 
-  typedef VoronoiMap<Z2i::Space, Z2i::DigitalSet, L2Metric > VoroChamf;
-  VoroChamf voro(&domain, &mySet,&l2Metric);
+  typedef VoronoiMap<Z2i::Space, Z2i::DigitalSet, Z2i::L2Metric > VoroChamf;
+  VoroChamf voro(&domain, &mySet,&Z2i::l2Metric);
   double duration = trace.endBlock();
 
 
