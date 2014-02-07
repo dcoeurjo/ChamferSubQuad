@@ -1,10 +1,13 @@
 \documentclass{llncs}
 \usepackage{amsmath,amssymb}
+\usepackage{overpic}
+\usepackage{enumerate}
 \usepackage{graphicx}        % standard LaTeX graphics tool
 \usepackage{tikz}        % standard LaTeX graphics tool
 \usepackage{subfigure}                                 % authors: subfigures
 \usepackage[ruled,vlined,linesnumbered]{algorithm2e}   % authors: last version of algorithm display
 \usepackage{todonotes}
+\usepackage[ruled,vlined,linesnumbered]{algorithm2e}
 
 
 %\title{A Subquadratic and Separable Algorithm for Chamfer Norm
@@ -74,7 +77,7 @@ Euclidean distance \cite{SaitTori:94,Hirata,roerdnik}.
 \section{Preliminaries}
 \label{sec:preliminaries}
 
-Let us first present some definitions.
+Let us first define some elementary concepts and objects.
 \begin{definition}[Metrics and Metric Space]
   \label{def:distance}
   A metric is a map $d$ from $E$ to a sub-group $F$ of $\R$ such that
@@ -119,24 +122,530 @@ metrics
 \begin{equation}
     d_{\ell_p} (a,b) = \left ( \sum_{i=0}^n w_i|a_i-b_i |^p \right )^{\frac{1}{p}}\,
   \end{equation}
-characterize metric spaces $(\Z^n, \R , d_{\ell_p})$. However,  note that
-$(\Z^n,\Z, \lfloor d_{\ell_p}) \rfloor)$ is a metric space.
+characterize metric spaces $(\Z^n, \R , d_{\ell_p})$. However,
+rounding the metric $(\Z^n,\Z, \lceil d_{\ell_p}\rceil)$ implies a
+metric space \cite{klette_book}.
 
+\begin{definition}[Distance Transformation and Voronoi Map]
+  The distance transform $DT_X$ associated with a digital metric space
+  $(\Z^n,\Z,d)$ is a map  $X\rightarrow\Z$ such that
+  \begin{equation}
+    DT_X(a) = \min_{b\in \Z^n\setminus X} \{d(a,b)\}
+  \end{equation}
+The Voronoi map is the map $X\rightarrow\Z^n$:
+  \begin{equation}
+    \Pi_X(a) = \argmin_{b\in \Z^n\setminus X} \{d(a,b)\}
+  \end{equation}
+\end{definition}
+Voronoi map $\Pi_X$ corresponds to the intersection between the
+continuous Voronoi diagram for the metric $d$ of points
+$\Z^n\setminus$ and the lattice $\Z^n$. If a digital point $a$ belongs
+to a Voronoi diagram $d-$facet ($1\leq d< n$), $a$ is equidistant to 2
+or more points in $\Z^n\setminus X$ but only one is considered in
+$\Pi_X(a)$ (please refer to\cite{Couprie2007} for complete digital
+Voronoi map construction).
+
+\begin{definition}[Chamfer Mask]
+  A weighted vector is a pair $(\vec{v},w)$ with $\vec{v}\in\Z^n$ and
+  $w\in\N^*$. A chamfer mask $\M$ is a central-symmetric set of weighted
+  vectors with non-empty vectors and containing at least a basis of
+  $\Z^n$.
+\end{definition}
+
+In the literature
+\cite{borgefors,Thiel_hdr,Strand2008,normandHDR,fouard:ivc:2005} many
+authors have proposed algorithmic and/or analytic approaches to
+construct Chamfer masks approximating the Euclidean metric and being
+induced by norm. In the following, we focus on such \emph{chamfer
+  norms}.  To evaluate distances between two digital points for a
+given chamfer metric, direct formulations have been proposed with
+simple geometrical interpretation:
+\begin{definition}[Rational ball, minimal H-representation \cite{Thiel_hdr,DBLP:journals/pr/NormandE09}]
+  Given a Chamfer mask $\M$ inducing a norm, the rational ball
+  associated with $\M$ is the polytope
+  \begin{equation}
+    \B = conv\left\{ \frac{\vec{v}_i}{w_i};\; (\vec{v}_i,w_i)\in\M \right \}\,.
+  \end{equation}
+Rational ball $\B$ can also be described in a H-representation of
+polytope with minimal parameter \cite{DBLP:conf/dgci/NormandSE13}
+\begin{equation}
+  P = \{ x\in\Z^n; Ax \leq y\;\}\quad \text{ such that }  \forall
+  i\in[1\ldots l], \exists x\in P\quad A_ix=y_i\,.\footnote{$A_i$
+    being the $i^{th}$ row of $A$.}
+\end{equation}
+$l$ being the number of row in $A$ and the number of facets in $\B$,   and is thus related to $|\M|$.
+\end{definition}
+
+An important result for distance computation can be formalized as follows:
+\begin{proposition}[Direct Distance Computation \cite{DBLP:journals/pr/NormandE09}]
+  Given a chamfer mask $\M$ inducing a norm and $(A,y)$ its minimal
+  parameter H-representation, then for any $a\in\Z^n$, the chamfer
+  distance of $a$ from the origin is
+  \begin{equation}
+    \label{eq:1}
+    d_\M(O,a) =  \max_{1\leq i \leq l} \{ A_i a^T\}\,.
+  \end{equation}
+\end{proposition}
+
+
+Among path-based digital metric, we can also introduce (weighted)
+neighborhood sequences
+\cite{ROSEN_66,mukherjee,Nagy05,Strand2008,DBLP:conf/dgci/NormandSE13}
+whose objective is to have better approximation of the Euclidean
+metric from sequences of elementary chamfer masks.  A key result have
+been demonstrated in \cite{DBLP:journals/pr/NormandE09} stating
+that for such distance functions, a minimal parameter polytope
+representation exists and that distances can be from similar
+expression to (\ref{eq:1}):
+\begin{equation}
+  d(O,a)  =\max_{1\leq i \leq l} \{ f_i(A_i a^T)\}\,,
+\end{equation}
+($f_i$ being and integer sequence characterizing the neighborhood
+sequence metric).
+
+
+ In the following and for the sake of simplicity, we describe our
+ algorithms focusing to chamfer norms but similar results can be
+ obtained for more generic path-based metric such neighborhood
+ sequences.
 
 \section{Separable Distance Transformation}
 \label{sec:separ-dist-transf}
 
+
+
+\subsection{Voronoi Map from Separable Approach and Metric Conditions}
+\label{sec:voronoi-map-from}
+
+In \cite{Hirata1996,SaitTori:94,Breu1995,Meijster2000,Maurer2003},
+several authors have described optimal in time and separable
+techniques to compute error-free Voronoi maps or distance
+transformations for $L_2$ and $L_p$ metrics. Separability means that
+computations are performed dimension by dimension, allowing fast
+computations and multithread implementations (see
+\cite{dcoeurjo_ChapDT} for an overview).  In the following, we
+consider Voronoi map approach as defined in \cite{Breu1995} (see
+Fig.~\ref{fig:2Dbreu}): Let us first define hyper-rectangular domain
+$I_X: [0..N_1]\times\ldots[0..N_n] \rightarrow \{0,1\}$ such that
+$X\subset I_X$ and $I_X(a)= 1$ for $a\in [0..N_1]\times\ldots[0..N_n]$
+iff $a\in X$ ($I_X(a)=0$ otherwise). As illustrated in
+Fig.~\ref{fig:2Dbreu} in dimension 2, we first process each row of the
+input image to create independent 1D Voronoi maps along the first
+dimension for the metric. Then, for each further dimension, the
+partial Voronoi map $\Pi_X$ is updated using one dimensional
+independent processes on image spans along the $i^{th}$
+dimension.
+
+\begin{algorithm}[H]
+  \KwData{Input binary map $I_X$ if $i=1$ or  partial Voronoi map $\Pi_X$ obtained for
+    dimension $1<j<i$, and a 1D segment $S$ with points
+    $\{s_1,\ldots,s_{N_i}\}$ sorted by their $i^{th}$ coordinate.}
+  \KwResult{Updated partial Voronoi map $\Pi_X$ along $S$.}
+\If{ i = 1}
+{ $k=0$\;
+\ForEach{point $s_i$ in $S$}{
+    \If{$I_X(s_i) = 1$}
+     {
+       $L_S[k] = s_i$\;
+       $k++$\;
+     }
+}
+}
+\Else{
+ ${L}_S[0]=\Pi_X(s_1)$\;
+  ${L}_S[1]=\Pi_X(s_2)$\;
+  $k=2$ , $l=3$\;
+  \While{$l\leq N_i$}{
+    $w = \Pi_X(s_l)$\;
+    \While{$k\geq 2$ and \textsc{HiddenBy}(${L}_S[k-1],{L}_S[k],w, S$)}
+          {
+         $ k--$\;
+        }
+        $k++$ , $l++$\;
+        ${L}_S[k]=w$\;
+  }
+}
+  \ForEach{point  $s$ in $S$ by increasing $i^{th}$ component}
+  {
+    \While{($k < |L_S|$) and not(\textsc{Closest}($s$, $L_S[k]$, $L_S[k+1]$))}
+          {
+            $k++$\;
+          }
+    $\Pi_X[s] = L_S[k]$\;
+  }
+
+  \caption{Voronoi map pruning along 1D segment $S$ along the $i^{th}$
+    dimension.\label{alg:voro}}
+\end{algorithm}
+
+\begin{figure}
+  \begin{center}
+     \begin{overpic}[draft=false,width=12cm]{figs/edt_dcoeurjo}
+       \put(30,5){$Candidates_S$}
+       \put(57,0){$S$}
+     \end{overpic}
+  \end{center}
+  \caption{Voronoi Map construction in dimension 2.\label{fig:2Dbreu}}
+\end{figure}
+
+
+Algorithm \ref{alg:voro} describe the 1D processes to perform on each
+row, columns and higher dimension spans. In this process, metric
+information are embedded in the following two predicates:
+\begin{itemize}
+  \item \textsc{Closest}$(a, b, c)$: given three points $a,b,c\in\Z^n$
+    this predicate returns true if $d(a,b) < d(a,c)$ ;
+  \item \textsc{HiddenBy}$(a, b, c, S)$: given three points
+    $a,b,c\in\Z^n$ such that $a_i<b_i<c_i$ and a 1D image span $S^i$, this predicates returns
+    true if there is no  $s\in S$ such that
+    \begin{equation}
+      d(b,s) < d(a,s)\text{ and }  d(b,s) < d(c,s)\,.
+    \end{equation}
+\end{itemize}
+In other words, \textsc{HiddenBy} returns true if and only if the
+Voronoi cell of sites $a$ and $c$ \emph{hide} the Voronoi cell of $b$
+along $S$ (\emph{e.g.} $A$ and $E$ \emph{hide} $C$ and $B$ on $S$ in
+Fig.~\ref{fig:2Dbreu}).  For $L_1$, $L_2$ and $L_\infty$ metrics,
+\textsc{Closest} and \textsc{HiddenBy} predicates can be computed in
+$O(1)$ \cite{Breu1995,Hirata1996,Meijster2000}. Hence, Algorithm
+\ref{alg:voro} is in $O(N_i)$ for dimension $i$, leading to an overall
+computational time for the Voronoi map and distance transformation
+problem in $O(n\cdot N^n)$ (if we assume that $\forall i\in[1\ldots
+  n], N_i=N$).
+
+In \cite{Hirata1996} or \cite{maurer_pami}, authors discussed about
+conditions on the metric $d$ to ensure that Algorithm \ref{alg:voro}
+is correct. The key property can be informally describe as follows:
+given two points $a,b\in\Z^n$ such that $a_i<b_i$ and a straight line
+$l$ along the $i^{th}$ direction and if we denote by $v_l(a)$
+(resp. $v_l(b)$) the intersection between the Voronoi cell of $a$
+(resp. $b$) and l, then $v_l(a)$ and $v_l(b)$ are simply connected
+Euclidean segments and $v_l(a)$ appears \emph{before} $v_l(b)$ on
+$l$ (so called \emph{monotonicity property} in \cite{Maurer2003} and is
+related to \emph{quadrangle inequality} in \cite{Hirata1996}).
+
+To sum up these contributions, we use the following proposition
+adapted from \cite{Hirata1996}.
+\begin{proposition}[Metric conditions \cite{Hirata1996}]
+\label{prop:voronoi-map-from-1}
+  If $d$ is a metric induced by a norm and if distance comparison
+  predicate $d(a,b)<d(c,d)$ is exact (for $a,b,c,d\in\Z^n$), Algorithm
+  1 is correct and returns a Voronoi map $\Pi_X$.
+\end{proposition}
+
+For example, Algorithm \ref{alg:voro} provides exact Voronoi map
+computation for $L_p$ norms. In such case, distance comparison
+predicate can be implemented error-free form integer number comparison
+considering the $p$ power of the distance function $\left
+(d_{L_p}\right)^p$.
+
+Proposition \ref{prop:voronoi-map-from-1} also implies that Chamfer
+norms, neighborhood sequences based norms can also be considered in
+separable Algorithm \ref{alg:voro}. We just need algorithmic tools to
+implement efficiently both \textsc{Closest} and \textsc{HiddenBy}
+predicates.
+
 \subsection{A First Generic Adapter}
 \label{sec:first-gener-adapt}
 
-In
+Let suppose that $(\Z^n,F,d)$ is a metric space induced by a norm. We
+can first detail the overall computational cost of Algorithm
+\ref{alg:voro}:
+
+\begin{lemma}
+\label{lem:generic}
+   Let $(\Z^n, F, d)$ be a metric space induced by a norm. If $C$
+  denotes the computational cost of \textsc{Closest} predicate and $H$
+  is the computational cost of the \textsc{HiddenBy} predicate, then
+  Algorithm \ref{alg:voro} is in
+  \begin{equation}
+    O(n\cdot N^n\cdot (C+H))\;.
+  \end{equation}
+\end{lemma}
+
+
+A first improvement is given by Algorithms~\ref{alg:genclosest},
+\ref{alg:genedge} and \ref{alg:genhidden}: we only require the metric
+to be known and \textsc{HiddenBy} predicate is obtained by a binary
+search on the 1D image span $S$ to localize the abscissa of Voronoi
+edges of sites $(a,b)$ and $(b,c)$ (see Fig.XXXXXX). Please note that
+from \cite{Breu1995,roerdnik}, $C=H=O(1)$ for $L_1,L_2$ and $L_\infty$
+norms.
+
+
+
+\begin{algorithm}[H]
+  \Return $d(a,b) < d(a,c)$\;
+  \caption{Generic \textsc{Closest}($a,b,c\in\Z^n$).\label{alg:genclosest}}
+\end{algorithm}
+
+
+\begin{algorithm}[H]
+  \If{$(j-i=1)$}
+     {
+       \Return  i
+     }
+     $mid  = i + (j-i)/2$\;
+     \eIf{\textsc{Closest}$(s_{mid},a,b)$}
+       {
+         \tcp{$s_{mid}$ closer to $a$}
+         \Return \textsc{VoronoiEdge}($a,b,s_{mid},s_j$)
+}
+ {
+         \tcp{$s_{mid}$ closer to $b$}
+         \Return \textsc{VoronoiEdge}($a,b,s_{i},s_{mid}$)
+}
+
+  \caption{Generic \textsc{VoronoiEdge}($a,b,s_i,s_j\in\Z^n$).\label{alg:genedge}}
+\end{algorithm}
+
+\begin{algorithm}[H]
+  $v_{ab}$ = \textsc{VoronoiEdge}$(a,b,s_1, s_{N_i})$\;
+  $v_{bc}$ = \textsc{VoronoiEdge}$(b,c,s_1, s_{N_i})$\;
+  \Return $(v_{ab}> v_{bc})$\;
+  \caption{Generic \textsc{HiddenBy}($a,b,c\in\Z^n; S$ in the $i^{th}$
+    direction).\label{alg:genhidden}}
+\end{algorithm}
+
+Hence, we obtain a first generic metric adapter to transform it into
+separable predicates:
+
+\begin{lemma}
+\label{lem:generic}
+   Let $(\Z^n, F, d)$ be a metric space induced by a norm. If $C$
+   denotes the computational cost of \textsc{Closest} predicate
+   Algorithm \ref{alg:voro},  with predicates from Algorithms
+   \ref{alg:genclosest} and \ref{alg:genhidden}, is in
+  \begin{equation}
+    O(n\cdot N^n\cdot C\cdot \log{N}))\;.
+  \end{equation}
+\end{lemma}
+
+If we consider a chamfer norm with $l$ facet unit ball, Eq.~(\ref{eq:1})
+suggests that $C=O(l)$. Hence, we have the following corollary
+\begin{corollary}
+  Let $\M$ be a chamfer norm whose rational ball has $l$ facets,
+  separable exact Voronoi map $\Pi_X$ can be obtained in
+ \begin{equation}
+    O(n\cdot N^n\cdot l \cdot \log{N}))\;.
+  \end{equation}
+\end{corollary}
+
+Please remember that naive implementation of chamfer mask distance
+transformation using raster scan approach would lead to a $O(l\cdot
+N^d)$ computational cost. In the following sections, we use the convex
+structure of $\B$ to design a first subquadratic algorithm for chamfer
+norms.
 
 \subsection{Subquadratic Algorithm in Dimension 2}
 \label{sec:subq-algor-dimens}
 
+Let us consider a 2D chamfer norm $\M$ with $m$ weighted vectors (note
+that $l\EqDef|\B| = m$ in 2D). We suppose that vectors
+$\{v_k\}_{k=1\ldots m}$ are sorted counterclockwise. We define a wedge
+as a pair $(\vec{v_k},\vec{v_{k+1}})$ of vectors. To each wedge is
+associated a row $A_k$ in the minimal H-representation of $A$ ($A_k$
+can also be seen as a non-unit normal vectors to $\B$
+facets\cite{DBLP:journals/pr/NormandE09})
+
+Using these notations, \cite{Thiel_hdr,Strand2008} demonstrate that
+the distance evaluation of point $a$ can be obtained in two steps:
+First, we compute the wedge $(\vec{v_k},\vec{v_{k+1}})$, $a$ belongs
+to. Then,
+\begin{equation}
+\label{eq:2}
+  d_\M(O,a) = A_k\cdot a^T
+\end{equation}
+
+\begin{lemma}
+\label{lem:log}
+  Given a chamfer norm $\M$ in dimension 2 with $m$ vectors, the distance computation
+  and thus the \textsc{Closest} predicate are in $O(\log{m})$.
+\end{lemma}
+\begin{proof}
+  Since vectors are sorted counter-clockwise,
+  $(\vec{v_k},\vec{v_{k+1}})$ wedge can be obtained by a dichotomic
+  search with $\O(\log{m}$ steps. At each step, we compute the local
+  orientation of point $a$ w.r.t. a direction which is in $O(1)$. Once
+  the wedge has been obtained, Eq.~(\ref{eq:2}) returns the distance
+  value in $O(1)$.$\Box$
+\end{proof}
+
+Please note that in practical implementations, we can use symmetries
+in $\M$ vectors to only work on restrictions of chamfer mask
+directions.
+
+To optimize the \textsc{HiddenBy} predicate, we focus on the
+\textsc{VoronoiEdge} function. Given two points $a$ and $b$
+($a_i<b_i$) and a 1D image span $S$ along the $i^{th}$ dimension, we
+can to find the lowest abscissa $e_i$ of the point $e$ on $S$ such
+that $d(a,e) < d(b,e)$ and $d(a,e')\geq d(b, e')$ for any $e'$ with
+$e'_i>e_i$.
+
+Let us first suppose that we don't have $e$ but we know the wedges
+$(v_{k},v_{k+1})$ (resp. $(v_j,v_{j+1})$) such that the vector
+$(e-a)^T$ (resp. $(e-b)^T$) should belong to (see Fig.XXXXX). In this
+situation, we know that $e$ is the solution of
+\begin{equation}
+\label{eq:3}
+  A_k\cdot  (e-a)^T = A_j\cdot (e -b)^T\;.
+\end{equation}
+(since $e\in S$, we have one linear equation for one unknown
+$e_i$). As a consequence, if we know the wedges the Voronoi edge
+belongs to, we have the abscissa in $O(1)$ (see Algorithm \ref{alg:chamedge}).
+
+
+
+
+\begin{algorithm}[H]
+  $(v_k,v_{k+1})$ = \textsc{VoronoiEdgeWedge}$(a,b,\vec{v}_1,\vec{v}_m, S)$\;
+  $(v_j,v_{j+1})$ = \textsc{VoronoiEdgeWedge}$(b,a,\vec{v}_1,\vec{v}_m, S)$\;
+
+  Compute the abscissa $e_i$ of the point $e$ such that $A_k\cdot
+  (e-a)^T = A_j\cdot (e -b)^T$\;
+
+  \Return $e_i$\;
+  \caption{2D chamfer norm \textsc{VoronoiEdge}($a,b,s_i,s_j\in\Z^2$).\label{alg:chamedge}}
+\end{algorithm}
+
+To obtain both wedges, we use a dichotomic search similar to
+Algorithm~\ref{alg:genedge}: Algorithm~\ref{alg:chamedgew} returns the
+wedge associated to $a$ containing the Voronoi edge with respect to
+$b$. Applying this algorithm to obtain the $b$ wedge with respect to
+$a$ gives exactly  Algorithm \ref{alg:chamedge}.
+
+The dichotomic search shrinks the set of vectors
+$\{\vec{v}_i,\ldots,\vec{v}_j\}$ to end up is a wedge $(v_k,v_{k+1})$
+such that the intersection point between the straight line $(a +
+\vec{v}_k)$ and $S$ is in the Voronoi cell of $a$ and such that the
+intersection between $(a + \vec{v}_k)$ and $S$ is in the Voronoi cell
+of $b$. Algorithm~\ref{alg:chamedgew} thus first compute the
+intersection points associated with a wedge $(\vec{v}_{i+(j-i)/2},
+\vec{v}_{i+(j-i)/2+1})$ (lines $5-6$); Evaluates the distances at
+these points (lines $7-8$) and then decides which set
+$\{\vec{v}_i,\ldots,\vec{v}_{i+(j-i)/2}\}$ or
+$\{\vec{v}_{i+(j-i)/2},\ldots,\vec{v}_j\}$ has to be considered for
+the recursive call (lines $14-25$).
+
+\begin{algorithm}[H]
+  \eIf{ $(j-i =1)$}{
+    \Return $(\vec{v}_k,\vec{v}_{k+1})$\;}
+{
+   $mid  = i + (j-i)/2$\;
+   Let $p_{mid}$  be the intersection point between $(a +
+   \vec{v}_{mid})$ and $S$\;
+  Let $p_{mid+1}$  be the intersection point between $(a +
+   \vec{v}_{mid+1})$ and $S$\;
+
+
+   \tcp*[f]{$O(1)$ evaluation of distances w.r.t. $a$}
+   $d^a_{p_{mid}} = A_{mid}\cdot (p_{mid}-e)^T$\;
+   $d^a_{p_{mid+1}} = A_{mid+1}\cdot (p_{mid+1}-e)^T$\;
+
+
+   \tcp*[f]{$O(\log{m})$ evaluation of distances w.r.t. $b$}
+   $d^b_{p_{mid}} = d_\M(b, p_{mid})$\;
+   $d^b_{p_{mid+1}} = d_\M(b,p_{mid+1})$\;
+
+   Let $b_{mid}$ be true if $d^a_{p_{mid}} < d^b_{p_{mid}}$; false otherwise\;
+   Let $b_{mid+1}$ be true if $d^a_{p_{mid+1}} < d^b_{p_{mid+1}}$; false otherwise\;
+
+
+   \If{ $b_{mid}\neq b_{mid+1}$ \tcp*[r]{we have the Voronoi edge
+       wedge}} { \Return $(\vec{v}_{mid},\vec{v}_{mid+1})$\; }
+
+    \If{ $b_{mid}=b_{mid+1}=true$ \tcp*[r]{Both points are in $a$'s cell}}
+{
+    \eIf{$a_i < b_i$}
+{
+  \Return \textsc{VoronoiEdgeWedge}$(a,b,\vec{v}_{mid}, \vec{v}_{j}, S)$\;
+}
+{
+  \Return \textsc{VoronoiEdgeWedge}$(a,b,\vec{v}_{i}, \vec{v}_{mid}, S)$\;
+}
+
+}
+    \If{ $b_{mid}= b_{mid+1}=false$\tcp*[r]{Both points are in $b$'s cell}}
+{
+    \eIf{$a_i < b_i$}
+{
+  \Return \textsc{VoronoiEdgeWedge}$(a,b,\vec{v}_{i}, \vec{v}_{mid}, S)$\;
+}
+{
+  \Return \textsc{VoronoiEdgeWedge}$(a,b,\vec{v}_{mid}, \vec{v}_{j}, S)$\;
+}
+
+}
+
+}
+  \caption{\textsc{VoronoiEdgeWedge}($a,b\in\Z^2; \vec{v}_i,\vec{v}_j$
+    in $\M$; $S$ along the $i^{th}$ direction).\label{alg:chamedgew}}
+\end{algorithm}
+
+
+\begin{theorem}
+  Let $\M$ be a 2D chamfer norm with $m$ weighted vectors, then we
+  have
+  \begin{enumerate}[(i)]
+  \item Algorithm     \ref{alg:chamedge} is   $O(\log^2{m})$\;;
+  \item Algorithm \ref{alg:voro} (with predicates from Algorithms
+    \ref{alg:chamedge} and Lemma \ref{lem:log}), computes a Voronoi
+    map $\Pi_X$ and thus the distance transformation of $X$ for metric
+    $d_{M}$ in
+  \begin{equation}
+    O( \log^2{m}\cdot N^2)\;.
+  \end{equation}
+  \end{enumerate}
+\end{theorem}
+\begin{proof}
+Let us first consider statement $(i)$. As described above, Algorithm
+\ref{alg:chamedgew} performs $\log{m}$ recursive calls and each step
+is in $O(\log{m})$. Indeed, $p_{mid}$ and $p_{mid+1}$ are given by the
+intersections between two rational slope straight lines plus a
+rounding operation on fractions, which are assumed to be $O(1)$. Then,
+line 8 requires two $O(\log{m})$ computations by
+Lemma~\ref{lem:log}. Hence, Eq.~(\ref{eq:3}) leads to $O(1)$
+computations, $O(\log^2{m})$ is required for
+Algorithm~\ref{alg:chamedge}.
+
+Statement $(ii)$ is a direct consequence of statement $(i)$ and
+$O(1)$ and Lemma~\ref{lem:generic} with $n=2$.$\Box$
+\end{proof}
+
 
 \subsection{Subquadratic Algorithms in Higher Dimension}
 \label{sec:subq-algor-high}
+In this section, we consider a general chamfer norm in arbitrary
+dimension $n$.  First, let us discuss about distance evaluation:
+\begin{lemma}
+   Let $\M$ be a chamfer norm with $m$ weighted vectors in dimension
+  $n$, then distance computation and thus \textsc{Closest} predicate
+  are in (amortized) $O(\log{m})$.
+\end{lemma}
+\begin{proof}
+ Similarly to the 2D case, the distance $d_\M(O,a)$ for $a\in\Z^n$ is
+ given by first solving a ray-shooting problem on convex polytopes
+ which consists in first computing the $(n-1)$-facet of $\B$ pierced by the
+ ray $(O,a)$. Once the facet is obtained, the associated $A_k$ row is
+ obtained to evaluate
+ \begin{displaymath}
+   d_\M(O,a) = A_k\cdot a^T\;.
+ \end{displaymath}
+Following \cite{DBLP:journals/dcg/MatousekS93}, such ray-shooting
+requests on convex polytopes can be solved in $O(\log{m})$ thanks to a
+preprocessing in $O()$
+  $\Box$
+\end{proof}
+
+\begin{theorem}
+  Let $\M$ be a chamfer norm with $m$ weighted vectors in dimes ion
+  $n$, Voronoi map $\Pi_X$ and thus the distance transformation of $X$
+  for metric $d_{M}$ can be obtained in
+  \begin{equation}
+    O(n\log^2{m}\cdot N^n)
+  \end{equation}
+  \end{enumerate}
+\end{theorem}
 
 
 \section{Experimental Analysis}
@@ -148,7 +657,6 @@ In
 
 \subsection{Voronoi Maps in dimension 2}
 \label{sec:impl-2D}
-
 
 
 \section{Discussion}
