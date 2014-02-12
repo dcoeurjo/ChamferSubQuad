@@ -22,10 +22,10 @@
     mainly funded by ANR-11-BS02-009 and ANR-11-IDEX-0007-02
     PALSE/2013/21 research grants.}}
 
-\author{David Coeurjolly\inst{1}}
+\author{David Coeurjolly}
 
  \institute{ CNRS,  LIRIS, UMR5205, F-69621, France\\
-   \email{david.coeurjolly@liris.cnrs.fr}
+   %\email{david.coeurjolly@liris.cnrs.fr}
 }
 \graphicspath{{./Figs/}}
 \input{macros}
@@ -33,7 +33,7 @@
 \maketitle
 
 
-\begin{abstract}
+\begin{abstract}\sloppy
 In many applications, separable algorithms have demonstrated their
 efficiency to perform high performance volumetric computations, such
 as distance transformation or medial axis extraction. In the
@@ -43,9 +43,9 @@ present generic separable algorithms to efficiently compute Voronoi
 maps and distance transformations for a large class of
 metrics. Focusing to path based norms (chamfer masks, neighborhood
 sequences, ...), we detail a subquadratic algorithm to compute such
-volumetric transformations. More precisely, we describe a
-$O(N\log^2(m))$ algorithm in dimension 2 for shapes with $N$ grid
-points and for example a chamfer mask of size $m$.
+volumetric transformations. For example, we describe a
+$O(\log^2{m}\cdot N^2)$ algorithm in dimension 2 for shapes in
+$N\times N$ domain with chamfer norm with size $m$.
 
 \keywords{Digital Geometry, Distance Transformation, Chamfer Norms}
 \end{abstract}
@@ -101,7 +101,7 @@ Euclidean distance \cite{SaitTori:94,Hirata,roerdnik}.
       nD Chamfer norm &  $O(n\cdot\log{f})$ &$O(n\cdot log^2{f}\cdot\log{N})$
       & $O(n^2\cdot N^n\cdot \log{f}\cdot\log{N})$& Corollary \ref{coro2}\\
       2D Neig. sequence norm  & $O(\log{f})$&
-      $O(\log^2{f})$& $O(\log^2{f}\cdot N^2)$& Theorem \ref{them} and  \cite{DBLP:conf/dgci/NormandSE13}\\
+      $O(\log^2{f})$& $O(\log^2{}f\cdot N^2)$& Theorem \ref{them} and  \cite{DBLP:conf/dgci/NormandSE13}\\
       \hline
     \end{tabular}
   \end{center}
@@ -109,7 +109,6 @@ Euclidean distance \cite{SaitTori:94,Hirata,roerdnik}.
 
 \section{Preliminaries}
 \label{sec:preliminaries}
-
 Let us first define some elementary concepts and objects.
 \begin{definition}[Metrics and Metric Space]
   \label{def:distance}
@@ -126,7 +125,7 @@ $(E, F, d)$ is called a metric space.
 \end{definition}
 If property $(4)$ is omitted, we are defining a distance function
 instead of a metric. Note that in the following, we will only consider
-metric spaces with properties $(1-4)$. Furthermore, we may have to
+metric spaces with properties $(1-4)$. Furthermore, we
 consider  metrics induced by a vector space norm:
 \begin{definition}[Norm and metric induced by a norm]
   \label{def:distance}
@@ -236,20 +235,14 @@ expression to (\ref{eq:1}):
 ($f_i$ being and integer sequence characterizing the neighborhood
 sequence metric).
 
-
  In the following and for the sake of simplicity, we describe our
  algorithms focusing to chamfer norms but similar results can be
  obtained for more generic path-based metric such neighborhood
  sequences.
-
 \section{Separable Distance Transformation}
 \label{sec:separ-dist-transf}
-
-
-
 \subsection{Voronoi Map from Separable Approach and Metric Conditions}
 \label{sec:voronoi-map-from}
-
 In \cite{Hirata1996,SaitTori:94,Breu1995,Meijster2000,Maurer2003},
 several authors have described optimal in time and separable
 techniques to compute error-free Voronoi maps or distance
@@ -269,7 +262,7 @@ partial Voronoi map $\Pi_X$ is updated using one dimensional
 independent processes on image spans along the $i^{th}$
 dimension.
 
-\begin{algorithm}[H]\small
+\begin{algorithm}[H]\footnotesize
   \KwData{Input binary map $I_X$ if $i=1$ or  partial Voronoi map $\Pi_X$ obtained for
     dimension $1<j<i$, and a 1D segment $S$ with points
     $\{s_1,\ldots,s_{N_i}\}$ sorted by their $i^{th}$ coordinate.}
@@ -298,7 +291,7 @@ dimension.
         ${L}_S[k]=w$\;
   }
 }
-  \ForEach{point  $s$ in $S$ by increasing $i^{th}$ component}
+  \ForEach{point  $s$ in $S$ by increasing $i^{th}$ coordinate}
   {
     \While{($k < |L_S|$) and not(\textsc{Closest}($s$, $L_S[k]$, $L_S[k+1]$))}
           {
@@ -311,46 +304,44 @@ dimension.
     dimension.\label{alg:voro}}
 \end{algorithm}
 
-\begin{figure}
-  \begin{center}
-     \begin{overpic}[draft=false,width=10cm]{figs/edt_dcoeurjo}
-       \put(30,5){$Candidates_S$}
-       \put(57,0){$S$}
-     \end{overpic}
-  \end{center}
-  \caption{Voronoi Map construction in dimension 2.\label{fig:2Dbreu}}
-\end{figure}
+%% \begin{figure}
+%%   \begin{center}
+%%      \begin{overpic}[draft=false,width=10cm]{figs/edt_dcoeurjo}
+%%        \put(30,5){$Candidates_S$}
+%%        \put(57,0){$S$}
+%%      \end{overpic}
+%%   \end{center}
+%%   \caption{Voronoi Map construction in dimension 2.\label{fig:2Dbreu}}
+%% \end{figure}
 
 
 Algorithm \ref{alg:voro} describe the 1D processes to perform on each
 row, columns and higher dimension spans. In this process, metric
-information are embedded in the following two predicates:
-\begin{itemize}
-  \item \textsc{Closest}$(a, b, c)$: given three points $a,b,c\in\Z^n$
-    this predicate returns true if $d(a,b) < d(a,c)$ ;
-  \item \textsc{HiddenBy}$(a, b, c, S)$: given three points
-    $a,b,c\in\Z^n$ such that $a_i<b_i<c_i$ and a 1D image span $S^i$, this predicates returns
-    true if there is no  $s\in S$ such that
+information are embedded in the following two predicates (see Fig.~\ref{fig:predicates}):
+\textsc{Closest}$(a, b, c)$: given three points $a,b,c\in\Z^n$ this
+predicate returns true if $d(a,b) < d(a,c)$. \textsc{HiddenBy}$(a, b,
+c, S)$: given three points $a,b,c\in\Z^n$ such that $a_i<b_i<c_i$ and
+a 1D image span $S^i$, this predicates returns true if there is no
+$s\in S$ such that
     \begin{equation}
       d(b,s) < d(a,s)\text{ and }  d(b,s) < d(c,s)\,.
     \end{equation}
-\end{itemize}
 
 \begin{figure}
   \begin{center}
-    \subfigure[]{ \begin{overpic}[width=4cm]{figs/hiddenByTrue}
+    \subfigure[]{ \begin{overpic}[width=3cm]{figs/hiddenByTrue}
     \put(32,5){$a$}
     \put(5,35){$b$}
     \put(25,75){$c$}
     \put(60,-10){$S$}
     \end{overpic}}
-    \subfigure[]{\begin{overpic}[width=4cm]{figs/hiddenByFalse}
+    \subfigure[]{\begin{overpic}[width=3cm]{figs/hiddenByFalse}
     \put(37,8){$a$}
     \put(23,37){$b$}
     \put(35,72){$c$}
     \put(60,-10){$S$}
       \end{overpic}}~~~~~~~~~~
-    \subfigure[]{\begin{overpic}[width=2.1cm]{figs/closest}
+    \subfigure[]{\begin{overpic}[width=1.68cm]{figs/closest}
     \put(-5,52){$a$}
     \put(2,78){$b$}
     \put(47,55){$c$}
@@ -365,7 +356,7 @@ information are embedded in the following two predicates:
 In other words, \textsc{HiddenBy} returns true if and only if the
 Voronoi cell of sites $a$ and $c$ \emph{hide} the Voronoi cell of $b$
 along $S$ (\emph{e.g.} $A$ and $E$ \emph{hide} $C$ and $B$ on $S$ in
-Fig.~\ref{fig:2Dbreu}).  For $L_1$, $L_2$ and $L_\infty$ metrics,
+Fig.~\ref{fig:predicates}).  For $L_1$, $L_2$ and $L_\infty$ metrics,
 \textsc{Closest} and \textsc{HiddenBy} predicates can be computed in
 $O(1)$ \cite{Breu1995,Hirata1996,Meijster2000}. Hence, Algorithm
 \ref{alg:voro} is in $O(N_i)$ for dimension $i$, leading to an overall
@@ -413,10 +404,7 @@ can first detail the overall computational cost of Algorithm
    Let $(\Z^n, F, d)$ be a metric space induced by a norm. If $C$
   denotes the computational cost of \textsc{Closest} predicate and $H$
   is the computational cost of the \textsc{HiddenBy} predicate, then
-  Algorithm \ref{alg:voro} is in
-  \begin{equation}
-    O(n\cdot N^n\cdot (C+H))\;.
-  \end{equation}
+  Algorithm \ref{alg:voro} is in   $O(n\cdot N^n\cdot (C+H))$.
 \end{lemma}
 A first improvement is given by Algorithms~\ref{alg:genclosest},
 \ref{alg:genedge} and \ref{alg:genhidden}: we only require the metric
@@ -428,13 +416,13 @@ norms.
 
 
 
-\begin{algorithm}[H]\small
+\begin{algorithm}[H]\footnotesize
   \Return $d(a,b) < d(a,c)$\;
   \caption{Generic \textsc{Closest}($a,b,c\in\Z^n$).\label{alg:genclosest}}
 \end{algorithm}
 
 
-\begin{algorithm}[H]\small
+\begin{algorithm}[H]\footnotesize
   \If{$(j-i=1)$}
      {
        \Return  i
@@ -453,7 +441,7 @@ norms.
   \caption{Generic \textsc{VoronoiEdge}($a,b,s_i,s_j\in\Z^n$).\label{alg:genedge}}
 \end{algorithm}
 
-\begin{algorithm}[H]\small
+\begin{algorithm}[H]\footnotesize
   $v_{ab}$ = \textsc{VoronoiEdge}$(a,b,s_1, s_{N_i})$\;
   $v_{bc}$ = \textsc{VoronoiEdge}$(b,c,s_1, s_{N_i})$\;
   \Return $(v_{ab}> v_{bc})$\;
@@ -461,28 +449,23 @@ norms.
     direction).\label{alg:genhidden}}
 \end{algorithm}
 
-Hence, we obtain a first generic metric adapter to transform it into
-separable predicates:
+Hence, we obtain a first generic adapter to transform any metric
+induced by a norm into separable predicates:
 
 \begin{lemma}
 \label{lem:generic}
    Let $(\Z^n, F, d)$ be a metric space induced by a norm. If $C$
    denotes the computational cost of \textsc{Closest} predicate
    Algorithm \ref{alg:voro},  with predicates from Algorithms
-   \ref{alg:genclosest} and \ref{alg:genhidden}, is in
-  \begin{equation}
-    O(n\cdot N^n\cdot C\cdot \log{N}))\;.
-  \end{equation}
+   \ref{alg:genclosest} and \ref{alg:genhidden}, is in $O(n\cdot N^n\cdot C\cdot \log{N}))$.
 \end{lemma}
 
-If we consider a chamfer norm with $f$ facet unit ball, Eq.~(\ref{eq:1})
+If we consider a chamfer norm with $f$ facet rational ball, Eq.~(\ref{eq:1})
 suggests that $C=O(f)$. Hence, we have the following corollary
 \begin{corollary}
   Let $\M$ be a chamfer norm whose rational ball has $f$ facets,
   separable exact Voronoi map $\Pi_X$ can be obtained in
- \begin{equation}
-    O(n\cdot N^n\cdot f \cdot \log{N}))\;.
-  \end{equation}
+    $O(n\cdot N^n\cdot f \cdot \log{N})$.
 \end{corollary}
 
 Please remember that naive implementation of chamfer mask distance
@@ -525,10 +508,8 @@ $(\vec{v_k},\vec{v_{k+1}})$, $a$ belongs to. Then,
 
 Please note that in practical implementations, we can use symmetries
 in $\M$ vectors to only work on restrictions of chamfer mask
-directions.
-
-To optimize the \textsc{HiddenBy} predicate, we focus on the
-\textsc{VoronoiEdge} function. Given two points $a$ and $b$
+directions.  To optimize the \textsc{HiddenBy} predicate, we focus on
+the \textsc{VoronoiEdge} function. Given two points $a$ and $b$
 ($a_i<b_i$) and a 1D image span $S$ along the $i^{th}$ dimension, we
 can to find the lowest abscissa $e_i$ of the point $e$ on $S$ such
 that $d(a,e) < d(b,e)$ and $d(a,e')\geq d(b, e')$ for any $e'$ with
@@ -545,7 +526,7 @@ situation, we know that $e$ is the solution of
 (since $e\in S$, we have one linear equation for one unknown
 $e_i$). As a consequence, if we know the wedges the Voronoi edge
 belongs to, we have the abscissa in $O(1)$ (see Algorithm \ref{alg:chamedge}).
-\begin{algorithm}[h]\small
+\begin{algorithm}[h]\footnotesize
   $(v_k,v_{k+1})$ = \textsc{VoronoiEdgeWedge}$(a,b,\vec{v}_1,\vec{v}_m, S)$\;
   $(v_j,v_{j+1})$ = \textsc{VoronoiEdgeWedge}$(b,a,\vec{v}_1,\vec{v}_m, S)$\;
 
@@ -575,7 +556,7 @@ $\{\vec{v}_{i+(j-i)/2},\ldots,\vec{v}_j\}$ has to be considered for
 the recursive call (lines $14-25$).
 
 \begin{algorithm}
-\small
+\footnotesize
   \eIf{ $(j-i =1)$}{
     \Return $(\vec{v}_k,\vec{v}_{k+1})$\;}
 {
@@ -640,10 +621,7 @@ the recursive call (lines $14-25$).
   \item Algorithm \ref{alg:voro} (with predicates from Algorithms
     \ref{alg:chamedge} and Lemma \ref{lem:log}), computes a Voronoi
     map $\Pi_X$ and thus the distance transformation of $X$ for metric
-    $d_{M}$ in
-  \begin{equation}
-    O( \log^2{m}\cdot N^2)\;.
-  \end{equation}
+    $d_{M}$ in   $ O( \log^2{m}\cdot N^2)$.
   \end{enumerate}
 \end{theorem}
 \begin{proof}
@@ -656,7 +634,6 @@ line 8 requires two $O(\log{m})$ computations by
 Lemma~\ref{lem:log}. Hence, Eq.~(\ref{eq:3}) leads to $O(1)$
 computations, $O(\log^2{m})$ is required for
 Algorithm~\ref{alg:chamedge}.
-
 Statement $(ii)$ is a direct consequence of statement $(i)$ and
 $O(1)$ and Lemma~\ref{lem:generic} with $n=2$.$\Box$
 \end{proof}
@@ -681,7 +658,7 @@ following distance evaluation result:
    \textsc{Closest} predicate are in (amortized) $O(n\cdot\log{f})$ with
    $O\left (\frac{f^{\lfloor \frac{n}{2}\rfloor}}{(\log{ f})^{\lfloor
        \frac{n}{2}\rfloor-\delta}}\right)$ space and preprocessing
-   time ($\delta$ is arbitrarily small positive constant).
+   time\footnote{$\delta$ is arbitrarily small positive constant.}.
 \end{lemma}
 \begin{proof}
  Similarly to the 2D case, the distance $d_\M(O,a)$ for $a\in\Z^n$ is
@@ -689,9 +666,7 @@ following distance evaluation result:
  which consists in first computing the $(n-1)$-facet of $\B$ pierced by the
  ray $(O,a)$. Once the facet is obtained, the associated $A_k$ row is
  used to evaluate
- \begin{displaymath}
-   d_\M(O,a) = A_k\cdot a^T\;,
- \end{displaymath}
+   $d_\M(O,a) = A_k\cdot a^T$
 in $O(n)$.  Following \cite{DBLP:journals/dcg/MatousekS93}, such
 ray-shooting requests on convex polytopes can be solved in
 $O(\log{f})$ thanks to a preprocessing in $O\left (\frac{f^{\lfloor
@@ -709,10 +684,8 @@ From Lemmas~\ref{lem:generic} and~\ref{lem:distnD}, we first have:
 \label{coro2}
    Let $\M$ be a chamfer norm whose rational ball $\B$ has $f$
    $(n-1)-$facets in dimension $n$, separable exact Voronoi Map
-   $\Pi_X$ can be obtained in
-   \begin{equation}
-     O(n^2\cdot N^n\cdot \log{f}\cdot\log{N})
-   \end{equation}
+   $\Pi_X$ can be obtained in     $O(n^2\cdot N^n\cdot
+   \log{f}\cdot\log{N})$,
 thanks to a preprocessing in $O\left (\frac{f^{\lfloor
     \frac{n}{2}\rfloor}}{(\log{ f})^{\lfloor
     \frac{n}{2}\rfloor-\delta}}\right)$.
