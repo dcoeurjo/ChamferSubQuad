@@ -1,5 +1,6 @@
 \documentclass{llncs}
 \usepackage{amsmath,amssymb}
+\usepackage{url}
 \usepackage{overpic}
 \usepackage{enumerate}
 \usepackage{graphicx}        % standard LaTeX graphics tool
@@ -69,10 +70,42 @@ sequences of chamfer masks
 the vector displacement based Euclidean distance
 \cite{danielson,ragnemalm,MULL_92,Cuisenaire1999_268}; the Voronoi
 diagram based Euclidean distance
-\cite{BreuEtAl95,GotLin95,Guan,maurer_pami} or the square of the
+\cite{BreuEtAl95,maurer_pami} or the square of the
 Euclidean distance \cite{SaitTori:94,Hirata,roerdnik}.
 
 \paragraph{Contributions} In this article,
+
+
+
+\begin{table}
+  \caption{Complexity summary.}
+  \label{tab:final}
+  \begin{center}
+    \begin{tabular}{|c|c|c|c|c|}
+      \hline
+      Metric &\textsc{Closest}& \textsc{HiddenBy} & Sep. Voronoi Map & Reference\\
+      \hline
+      $L_2$ & $O(1)$ &  $O(1)$ & $\Theta(n\cdot N^n)$ & \cite{Hirata1996}\\
+      $L_\infty$ & $O(1)$ & $O(1)$ &  $\Theta(n\cdot N^n)$ & \cite{roerdnik}\\
+      $L_1$ & $O(1)$ &   $O(1)$ &$\Theta(n\cdot N^n)$& \cite{roerdnik}\\
+      $L_p$  (exact pred.) & $O(\log{p})$ &
+      $O(\log{p}\cdot\log{N})$ & $O(n\cdot
+      N^n\cdot\log{p}\cdot\log{N})$& here and  \cite{dgtal}\\
+      $L_p$  (inexact pred.) & $O(1)$ &
+      $O(\log{N})$ & $O(n\cdot
+      N^n\cdot\log{N})$& here and  \cite{dgtal}\\
+      2D Chamfer norm &  $O(\log{m})$ &$O(\log^2{m})$
+      &$O(\log^2{m}\cdot N^2)$& Theorem \ref{them}\\
+      3D Chamfer norm &  $O(\log{m})$ &$O(\log^2{m})$
+      &$O(\log^2{m}\cdot N^3)$& Theorem \ref{them2}\\
+      nD Chamfer norm &  $O(n\cdot\log{f})$ &$O(n\cdot log^2{f}\cdot\log{N})$
+      & $O(n^2\cdot N^n\cdot \log{f}\cdot\log{N})$& Corollary \ref{coro2}\\
+      2D Neig. sequence norm  & $O(\log{m})$&
+      $O(\log^2{m})$& $O(\log^2{m}\cdot N^2)$& Theorem \ref{them} and  \cite{DBLP:conf/dgci/NormandSE13}\\
+      \hline
+    \end{tabular}
+  \end{center}
+\end{table}
 
 \section{Preliminaries}
 \label{sec:preliminaries}
@@ -164,6 +197,7 @@ simple geometrical interpretation:
   Given a Chamfer mask $\M$ inducing a norm, the rational ball
   associated with $\M$ is the polytope
   \begin{equation}
+\label{eq:4}
     \B = conv\left\{ \frac{\vec{v}_i}{w_i};\; (\vec{v}_i,w_i)\in\M \right \}\,.
   \end{equation}
 Rational ball $\B$ can also be described in a H-representation of
@@ -236,7 +270,7 @@ partial Voronoi map $\Pi_X$ is updated using one dimensional
 independent processes on image spans along the $i^{th}$
 dimension.
 
-\begin{algorithm}[H]
+\begin{algorithm}[H]\small
   \KwData{Input binary map $I_X$ if $i=1$ or  partial Voronoi map $\Pi_X$ obtained for
     dimension $1<j<i$, and a 1D segment $S$ with points
     $\{s_1,\ldots,s_{N_i}\}$ sorted by their $i^{th}$ coordinate.}
@@ -280,7 +314,7 @@ dimension.
 
 \begin{figure}
   \begin{center}
-     \begin{overpic}[draft=false,width=12cm]{figs/edt_dcoeurjo}
+     \begin{overpic}[draft=false,width=10cm]{figs/edt_dcoeurjo}
        \put(30,5){$Candidates_S$}
        \put(57,0){$S$}
      \end{overpic}
@@ -320,30 +354,27 @@ given two points $a,b\in\Z^n$ such that $a_i<b_i$ and a straight line
 $l$ along the $i^{th}$ direction and if we denote by $v_l(a)$
 (resp. $v_l(b)$) the intersection between the Voronoi cell of $a$
 (resp. $b$) and l, then $v_l(a)$ and $v_l(b)$ are simply connected
-Euclidean segments and $v_l(a)$ appears \emph{before} $v_l(b)$ on
-$l$ (so called \emph{monotonicity property} in \cite{Maurer2003} and is
-related to \emph{quadrangle inequality} in \cite{Hirata1996}).
-
-To sum up these contributions, we use the following proposition
-adapted from \cite{Hirata1996}.
+Euclidean segments and $v_l(a)$ appears \emph{before} $v_l(b)$ on $l$
+(so called \emph{monotonicity property} in \cite{Maurer2003} and is
+related to \emph{quadrangle inequality} in \cite{Hirata1996}).  To sum
+up these contributions, we use the following proposition:
 \begin{proposition}[Metric conditions \cite{Hirata1996}]
 \label{prop:voronoi-map-from-1}
-  If $d$ is a metric induced by a norm and if distance comparison
-  predicate $d(a,b)<d(c,d)$ is exact (for $a,b,c,d\in\Z^n$), Algorithm
-  1 is correct and returns a Voronoi map $\Pi_X$.
+  Let $d$ be a metric induced by a norm whose unit ball is symmetric
+  with respect to grid axis. If distance comparison predicate
+  $d(a,b)<d(c,d)$ is exact (for $a,b,c,d\in\Z^n$), Algorithm 1 is
+  correct and returns a Voronoi map $\Pi_X$.
 \end{proposition}
 
 For example, Algorithm \ref{alg:voro} provides exact Voronoi map
 computation for $L_p$ norms. In such case, distance comparison
 predicate can be implemented error-free form integer number comparison
 considering the $p$ power of the distance function $\left
-(d_{L_p}\right)^p$.
-
-Proposition \ref{prop:voronoi-map-from-1} also implies that Chamfer
-norms, neighborhood sequences based norms can also be considered in
-separable Algorithm \ref{alg:voro}. We just need algorithmic tools to
-implement efficiently both \textsc{Closest} and \textsc{HiddenBy}
-predicates.
+(d_{L_p}\right)^p$.  Proposition \ref{prop:voronoi-map-from-1} also
+implies that Chamfer norms, neighborhood sequences based norms can
+also be considered in separable Algorithm \ref{alg:voro}. We just need
+algorithmic tools to implement efficiently both \textsc{Closest} and
+\textsc{HiddenBy} predicates.
 
 \subsection{A First Generic Adapter}
 \label{sec:first-gener-adapt}
@@ -374,13 +405,13 @@ norms.
 
 
 
-\begin{algorithm}[H]
+\begin{algorithm}[H]\small
   \Return $d(a,b) < d(a,c)$\;
   \caption{Generic \textsc{Closest}($a,b,c\in\Z^n$).\label{alg:genclosest}}
 \end{algorithm}
 
 
-\begin{algorithm}[H]
+\begin{algorithm}[H]\small
   \If{$(j-i=1)$}
      {
        \Return  i
@@ -399,7 +430,7 @@ norms.
   \caption{Generic \textsc{VoronoiEdge}($a,b,s_i,s_j\in\Z^n$).\label{alg:genedge}}
 \end{algorithm}
 
-\begin{algorithm}[H]
+\begin{algorithm}[H]\small
   $v_{ab}$ = \textsc{VoronoiEdge}$(a,b,s_1, s_{N_i})$\;
   $v_{bc}$ = \textsc{VoronoiEdge}$(b,c,s_1, s_{N_i})$\;
   \Return $(v_{ab}> v_{bc})$\;
@@ -465,7 +496,7 @@ to. Then,
 \begin{proof}
   Since vectors are sorted counter-clockwise,
   $(\vec{v_k},\vec{v_{k+1}})$ wedge can be obtained by a dichotomic
-  search with $\O(\log{m}$ steps. At each step, we compute the local
+  search with $O(\log{m})$ steps. At each step, we compute the local
   orientation of point $a$ w.r.t. a direction which is in $O(1)$. Once
   the wedge has been obtained, Eq.~(\ref{eq:2}) returns the distance
   value in $O(1)$.$\Box$
@@ -493,11 +524,7 @@ situation, we know that $e$ is the solution of
 (since $e\in S$, we have one linear equation for one unknown
 $e_i$). As a consequence, if we know the wedges the Voronoi edge
 belongs to, we have the abscissa in $O(1)$ (see Algorithm \ref{alg:chamedge}).
-
-
-
-
-\begin{algorithm}[H]
+\begin{algorithm}[h]\small
   $(v_k,v_{k+1})$ = \textsc{VoronoiEdgeWedge}$(a,b,\vec{v}_1,\vec{v}_m, S)$\;
   $(v_j,v_{j+1})$ = \textsc{VoronoiEdgeWedge}$(b,a,\vec{v}_1,\vec{v}_m, S)$\;
 
@@ -507,7 +534,6 @@ belongs to, we have the abscissa in $O(1)$ (see Algorithm \ref{alg:chamedge}).
   \Return $e_i$\;
   \caption{2D chamfer norm \textsc{VoronoiEdge}($a,b,s_i,s_j\in\Z^2$).\label{alg:chamedge}}
 \end{algorithm}
-
 To obtain both wedges, we use a dichotomic search similar to
 Algorithm~\ref{alg:genedge}: Algorithm~\ref{alg:chamedgew} returns the
 wedge associated to $a$ containing the Voronoi edge with respect to
@@ -527,7 +553,8 @@ $\{\vec{v}_i,\ldots,\vec{v}_{i+(j-i)/2}\}$ or
 $\{\vec{v}_{i+(j-i)/2},\ldots,\vec{v}_j\}$ has to be considered for
 the recursive call (lines $14-25$).
 
-\begin{algorithm}[H]
+\begin{algorithm}
+\small
   \eIf{ $(j-i =1)$}{
     \Return $(\vec{v}_k,\vec{v}_{k+1})$\;}
 {
@@ -584,6 +611,7 @@ the recursive call (lines $14-25$).
 
 
 \begin{theorem}
+\label{them}
   Let $\M$ be a 2D chamfer norm with $m$ weighted vectors, then we
   have
   \begin{enumerate}[(i)]
@@ -616,53 +644,202 @@ $O(1)$ and Lemma~\ref{lem:generic} with $n=2$.$\Box$
 \subsection{Subquadratic Algorithms in Higher Dimension}
 \label{sec:subq-algor-high}
 In this section, we consider a general chamfer norm in arbitrary
-dimension $n$.  First, let us discuss about distance evaluation:
+dimension $n$.  First, let us discuss about chamfer mask
+combinatorics. If $m$ denotes the number of weighted vectors of $\M$,
+its rational ball $\B$ has $O(m^{\lfloor \frac{n}{2}\rfloor})$
+$i-$facets ($0 \leq i \leq d$) \cite{deberg}. If we denote by $f$ the
+number of $(n-1)-$facets of $\B$ (\emph{i.e.} number of row in the
+H-representation of $\B$), we have by duality the result that $|\B| =
+O(f^{\lfloor \frac{n}{2}\rfloor})$. As a consequence, we have the
+following distance evaluation result:
+
 \begin{lemma}
-   Let $\M$ be a chamfer norm with $m$ weighted vectors in dimension
-  $n$, then distance computation and thus \textsc{Closest} predicate
-  are in (amortized) $O(\log{m})$.
+\label{lem:distnD}
+   Let $\M$ be a chamfer norm whose rational ball $\B$ has $f$
+   $(n-1)-$facets in dimension $n$, then distance computation and thus
+   \textsc{Closest} predicate are in (amortized) $O(n\cdot\log{f})$ with
+   $O\left (\frac{f^{\lfloor \frac{n}{2}\rfloor}}{(\log{ f})^{\lfloor
+       \frac{n}{2}\rfloor-\delta}}\right)$ space and preprocessing
+   time ($\delta$ is arbitrarily small positive constant).
 \end{lemma}
 \begin{proof}
  Similarly to the 2D case, the distance $d_\M(O,a)$ for $a\in\Z^n$ is
  given by first solving a ray-shooting problem on convex polytopes
  which consists in first computing the $(n-1)$-facet of $\B$ pierced by the
  ray $(O,a)$. Once the facet is obtained, the associated $A_k$ row is
- obtained to evaluate
+ used to evaluate
  \begin{displaymath}
-   d_\M(O,a) = A_k\cdot a^T\;.
+   d_\M(O,a) = A_k\cdot a^T\;,
  \end{displaymath}
-Following \cite{DBLP:journals/dcg/MatousekS93}, such ray-shooting
-requests on convex polytopes can be solved in $O(\log{m})$ thanks to a
-preprocessing in $O()$
-  $\Box$
+in $O(n)$.  Following \cite{DBLP:journals/dcg/MatousekS93}, such
+ray-shooting requests on convex polytopes can be solved in
+$O(\log{f})$ thanks to a preprocessing in $O\left (\frac{f^{\lfloor
+    \frac{n}{2}\rfloor}}{(\log{ f})^{\lfloor
+    \frac{n}{2}\rfloor-\delta}}\right)$. Please note that this
+preprocessing time is roughly equivalent to the convex hull
+computation in higher dimension which is in $O(f^{\lfloor
+  \frac{n}{2}\rfloor})$. Hence, preprocessing for ray-shooting can be
+done while computing the $\B$ rational ball using
+Eq.~(\ref{eq:4}).$\Box$
 \end{proof}
 
+From Lemmas~\ref{lem:generic} and~\ref{lem:distnD}, we first have:
+\begin{corollary}
+\label{coro2}
+   Let $\M$ be a chamfer norm whose rational ball $\B$ has $f$
+   $(n-1)-$facets in dimension $n$, separable exact Voronoi Map
+   $\Pi_X$ can be obtained in
+   \begin{equation}
+     O(n^2\cdot N^n\cdot \log{f}\cdot\log{N})
+   \end{equation}
+thanks to a preprocessing in $O\left (\frac{f^{\lfloor
+    \frac{n}{2}\rfloor}}{(\log{ f})^{\lfloor
+    \frac{n}{2}\rfloor-\delta}}\right)$.
+\end{corollary}
+
+
+In higher dimension, we can still expect fast
+\textsc{VoronoiEdgeWedge} function. Let us consider the 3D case
+$n=3$ (and thus $f=O(m)$). In this situation, it turns out that the problem can be turned
+into a simple, 2D one: Given two points $a,b\in\Z^3$ and an isothetic
+line $l$, we need to compute the intersection between the Voronoi
+$2-$facet defined by $a$ and $b$ and $l$. Let us suppose that this the
+intersection point exists and that $a$, $b$ and $l$ are in
+\emph{general position} ($a\not\subset l$, $b\not\subset l$).  Then,
+the intersection point belongs to the two Euclidean planes $P_a$ and
+$P_b$, $P_a$ being respectively the Euclidean plane containing $a$ and
+$l$ (resp. $P_b$ defined by $b$ and $l$), see Fig.\ref{fig:3D}.
+
+To construct a variant of \textsc{VoronoiEdgeWedge} in 3D, we just
+have to replace the line 4 of Algorithm~\ref{alg:chamedgew} by the
+following steps: First, we construct $\vec{v} = (\vec{v}_i +
+\vec{v}_j)/2$. If we suppose that $\vec{v}_i$ and $\vec{v}_j$ belongs
+to $P_a$, $\vec{v}$ also belongs to $P_a$. Then, we perform a 3D
+ray-shooting to get the facet $F$ of $\B$ pierced by vector
+$\vec{v}$. From this facet $F$, we construct the 2D
+$(\vec{v}_{mid},\vec{v}_{mid+1})$ wedge on $P_a$ defined by the
+intersection of $F$ and $P_a$. Once $(\vec{v}_{mid},\vec{v}_{mid+1})$
+is obtained, we proceed with the rest of the \textsc{VoronoiEdgeWedge}
+function (point intersection construction, distance evaluations and
+recursive calls). Please note that the 3D ray shooting can be obtained
+in $O(\log{m})$. Hence, we have:
+
+\begin{lemma}
+\label{lem:wedge3D}
+  Let $\M$ be a chamfer norm with $m$ weighted vectors in dimension
+  3. We assume that the $m$ vectors span uniformly the set of
+  directions in $\R^3$, the 3D version of \textsc{VoronoiEdgeWedge} is
+  in
+  \begin{equation}
+    O(\log^2{m})\,.
+  \end{equation}
+\end{lemma}
+
+\begin{proof}
+  As in dimension 2, each step can be done in $O(\log{m})$
+  computations. Please note that ray-shooting, and intersection
+  computation between a (rational slope) facet $F$ and the (rational)
+  plane $P_a$ can be obtained in $O(1)$.  If we denote by $\M_{P_a}$
+  be the 2D chamfer norm induced by $\B\cap P_a$. The hypothesis that
+  the vectors uniformly span the sphere of directions is here to
+  ensure that if we split $\M_{P_a}$ along the mid direction
+  $\vec{v} =(\vec{v}_i + \vec{v}_j)/2$, both subsets of vectors have the same
+  size. If so, $O(\log{m})$ recursive calls is required. The stop
+  criterion of the recurrence could be that $\vec{v}$ belong to the
+  same facet as both $\vec{v}_i$ and $\vec{v}_j$.$\Box$
+\end{proof}
+
+From Lemma~\ref{lem:wedge3D} and proof of Theorem~\ref{them}, we
+conclude with the following result:
+
 \begin{theorem}
-  Let $\M$ be a chamfer norm with $m$ weighted vectors in dimes ion
-  $n$, Voronoi map $\Pi_X$ and thus the distance transformation of $X$
+\label{them2}
+  Let $\M$ be a chamfer norm with $m$ weighted vectors in dimension 3,
+  the Voronoi map $\Pi_X$ and thus the distance transformation of $X$
   for metric $d_{M}$ can be obtained in
   \begin{equation}
-    O(n\log^2{m}\cdot N^n)
+    O(\log^2{m}\cdot N^3)\;.
   \end{equation}
-  \end{enumerate}
 \end{theorem}
 
 
-\section{Experimental Analysis}
+\section{Implementation Details and Experimental Analysis}
 \label{sec:exper-analys}
 
-\subsection{Implementation details}
-\label{sec:impl-deta}
+In this section, we present some implementation details and
+experimental results for chamfer norm DT in dimension 2.
 
+First of all, since release 0.7, most algorithms presented here are
+available in the \textsc{DGtal} library \cite{dgtal}. For $L_p$
+metrics, several \textsc{Closest} and \textsc{HiddenBy} predicates are
+available:
+\begin{itemize}
+\item If $p=\{1,2,\infty\}$, exact computations are proposed and all
+  predicates are in $O(1)$ with only integer number computations
+  \cite{Hirata1996,Maurer2003,roerdnik};
+\item If $p\in \R$,  $p\geq 1$, we have approximated computations
+  on real numbers (\emph{double}) and we consider the Generic
+  \textsc{HiddenBy} predicate in $O(\log N)$
+  (Alg.~\ref{alg:genhidden})\;
+\item if $p\in \Z$, $p\geq 3$, we use exact integer number based
+  computations of distances  storing sum of power $p$ quantities (which can be
+  computed in $O(\log{p})$ thanks to exponentiation by squaring). The
+  \textsc{HiddenBy} predicate is also based on Algorithm~\ref{alg:genhidden}.
+\end{itemize}
 
-\subsection{Voronoi Maps in dimension 2}
-\label{sec:impl-2D}
+Beside these predicates for $L_p$ metrics, \textsc{DGtal} also
+contains a generic metric adapter: if the user specifies a distance
+function (taking two points and returning a value) corresponding to a
+norm, generic \textsc{Closest} and \textsc{HiddenBy} predicates can be
+automatically constructed. Please note that since all algorithms are
+separable, generic framework provided in \textsc{DGtal} allow us to
+have a free multi-thread implementation \cite{dcoeurjo_ChapDTWADGMM}.
+
+To implement efficient predicates leading to subquadratic algorithm in
+dimension 2 (Alg.~\ref{alg:chamedge} and \ref{alg:chamedgew}), we
+store the chamfer norm weighted vectors $\M$ in a random access
+container sorted counterclockwise to be able to get the mid-vector
+$\vec{v}_{mid}$ in $O(1)$.
+
+To be able to evaluate experimentally the
+computational cost given in Theorem~\ref{them}, we use the following
+setting: given a mask size $m$, we generate $m$ distinct random
+vectors $(x,y)^T$ with $gcd(x,y)=1$ (extracted from Farey series for
+instance). For a general mask of size $m$, we do not try to optimize
+the weights to approximate as best as possible the Euclidean metric
+(\emph{e.g.}  \cite{borgefors}). Weights do not play any role in the
+computational analysis, we just use here trivial weights that ensure
+that $\M$ is a norm.
+\begin{figure}[H]
+  \includegraphics[width=\textwidth]{data/result}
+  \caption{Experimental evaluation of subquadratic chamfer norm
+    Voronoi map computation.}
+  \label{fig:graph}
+\end{figure}
+In Fig.\ref{fig:graph}, we have considered a 2D domain $2048^2$ with
+$2048$ random sites (and chamfer norm with increasing size
+$m$). First, we observe that fixing $N$, the $\log^2{m}$ term is
+clearly visible in the computational cost of the Voronoi map (single
+thread curve). Bumps in the single thread curve may be due to memory
+cache issues. Please note that if we consider classical chamfer norm
+DT from raster scan (and half-masks), the computational cost would
+have been in $O(m\cdot N^2)$ and thus would have a linear behavior in
+Fig.~\ref{fig:graph}.
+
+Since we have a separable algorithm, we can trivially implement it in
+a multi-thread environment. Hence, on a bi-processor and quad-core
+(hyperthreading) Intel(R) Xeon(R) cpu (16 threads can run in
+parallel), we observe a speed-up by a factor 10 (multi-thread) curve
+in Fig.~\ref{fig:graph}).
+
+Please note that on this $2048^2$ domain with 2048 sites, Euclidean
+Voronoi Map ($L_2$) is obtained in  954.837 milliseconds on a single
+core and 723.196 msec on 16 cores.
+
 
 
 \section{Discussion}
 \label{sec:discussion}
-
-
 
 \bibliographystyle{splncs}
 \bibliography{library,mybiblio,dtbib}
