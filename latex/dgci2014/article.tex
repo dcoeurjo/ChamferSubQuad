@@ -100,8 +100,8 @@ Euclidean distance \cite{SaitTori:94,Hirata,roerdnik}.
       &$O(\log^2{m}\cdot N^3)$& Theorem \ref{them2}\\
       nD Chamfer norm &  $O(n\cdot\log{f})$ &$O(n\cdot log^2{f}\cdot\log{N})$
       & $O(n^2\cdot N^n\cdot \log{f}\cdot\log{N})$& Corollary \ref{coro2}\\
-      2D Neig. sequence norm  & $O(\log{m})$&
-      $O(\log^2{m})$& $O(\log^2{m}\cdot N^2)$& Theorem \ref{them} and  \cite{DBLP:conf/dgci/NormandSE13}\\
+      2D Neig. sequence norm  & $O(\log{f})$&
+      $O(\log^2{f})$& $O(\log^2{f}\cdot N^2)$& Theorem \ref{them} and  \cite{DBLP:conf/dgci/NormandSE13}\\
       \hline
     \end{tabular}
   \end{center}
@@ -147,27 +147,26 @@ $d(a,b) \EqDef g(b-a)$ is the metric induced by the
 Note that the above definition can be extended from vector spaces to
 \emph{modules} on a commutative ring ($\Z^n$ being a module on $\Z$
 but not a vector space) \cite{Thiel_hdr}.
-
-From the literature, path-based approaches (Chamfer masks, (weighted)
+From the literature, path-based approaches (Chamfer masks, -weighted-
 neighborhood sequences...)  aim at defining metrics induced by norms
 in metric spaces $(\Z^n, \Z , d)$.  Note that (weighed, with $w_i\geq 0$) $L_p$ norms inducing
 metrics
 \begin{equation}
-    d_{\ell_p} (a,b) = \left ( \sum_{i=0}^n w_i|a_i-b_i |^p \right )^{\frac{1}{p}}\,
+    d_{L_p} (a,b) = \left ( \sum_{i=0}^n w_i|a_i-b_i |^p \right )^{\frac{1}{p}}\;,
   \end{equation}
-characterize metric spaces $(\Z^n, \R , d_{\ell_p})$. However,
-rounding the metric $(\Z^n,\Z, \lceil d_{\ell_p}\rceil)$ implies a
+characterize metric spaces $(\Z^n, \R , d_{L_p})$. However,
+rounding the distance function $(\Z^n,\Z, \lceil d_{L_p}\rceil)$ implies a
 metric space \cite{klette_book}.
 
 \begin{definition}[Distance Transformation and Voronoi Map]
   The distance transform $DT_X$ associated with a digital metric space
   $(\Z^n,\Z,d)$ is a map  $X\rightarrow\Z$ such that
   \begin{equation}
-    DT_X(a) = \min_{b\in \Z^n\setminus X} \{d(a,b)\}
+    DT_X(a) = \min_{b\in \Z^n\setminus X} \{d(a,b)\}\;.
   \end{equation}
 The Voronoi map is the map $X\rightarrow\Z^n$:
   \begin{equation}
-    \Pi_X(a) = \argmin_{b\in \Z^n\setminus X} \{d(a,b)\}
+    \Pi_X(a) = \argmin_{b\in \Z^n\setminus X} \{d(a,b)\}\;.
   \end{equation}
 \end{definition}
 Voronoi map $\Pi_X$ corresponds to the intersection between the
@@ -201,13 +200,13 @@ simple geometrical interpretation:
     \B = conv\left\{ \frac{\vec{v}_i}{w_i};\; (\vec{v}_i,w_i)\in\M \right \}\,.
   \end{equation}
 Rational ball $\B$ can also be described in a H-representation of
-polytope with minimal parameter \cite{DBLP:conf/dgci/NormandSE13}
+polytope with minimal parameter \cite{DBLP:conf/dgci/NormandSE13}:
 \begin{equation}
   P = \{ x\in\Z^n; Ax \leq y\;\}\quad \text{ such that }  \forall
-  i\in[1\ldots l], \exists x\in P\quad A_ix=y_i\,.\footnote{$A_i$
+  i\in[1\ldots f], \exists x\in P\quad A_ix=y_i\,.\footnote{$A_i$
     being the $i^{th}$ row of $A$.}
 \end{equation}
-$l$ being the number of row in $A$ and the number of facets in $\B$,   and is thus related to $|\M|$.
+$f$ being the number of row in $A$ and the number of facets in $\B$,   and is thus related to $|\M|$.
 \end{definition}
 
 An important result for distance computation can be formalized as follows:
@@ -336,6 +335,33 @@ information are embedded in the following two predicates:
       d(b,s) < d(a,s)\text{ and }  d(b,s) < d(c,s)\,.
     \end{equation}
 \end{itemize}
+
+\begin{figure}
+  \begin{center}
+    \subfigure[]{ \begin{overpic}[width=4cm]{figs/hiddenByTrue}
+    \put(32,5){$a$}
+    \put(5,35){$b$}
+    \put(25,75){$c$}
+    \put(60,-10){$S$}
+    \end{overpic}}
+    \subfigure[]{\begin{overpic}[width=4cm]{figs/hiddenByFalse}
+    \put(37,8){$a$}
+    \put(23,37){$b$}
+    \put(35,72){$c$}
+    \put(60,-10){$S$}
+      \end{overpic}}~~~~~~~~~~
+    \subfigure[]{\begin{overpic}[width=2.1cm]{figs/closest}
+    \put(-5,52){$a$}
+    \put(2,78){$b$}
+    \put(47,55){$c$}
+    \put(38,-10){$S$}
+      \end{overpic}
+    }
+  \end{center}
+  \caption{xxxxxxxxxxx}
+  \label{fig:predicates}
+\end{figure}
+
 In other words, \textsc{HiddenBy} returns true if and only if the
 Voronoi cell of sites $a$ and $c$ \emph{hide} the Voronoi cell of $b$
 along $S$ (\emph{e.g.} $A$ and $E$ \emph{hide} $C$ and $B$ on $S$ in
@@ -382,7 +408,6 @@ algorithmic tools to implement efficiently both \textsc{Closest} and
 Let suppose that $(\Z^n,F,d)$ is a metric space induced by a norm. We
 can first detail the overall computational cost of Algorithm
 \ref{alg:voro}:
-
 \begin{lemma}
 \label{lem:generic}
    Let $(\Z^n, F, d)$ be a metric space induced by a norm. If $C$
@@ -393,8 +418,6 @@ can first detail the overall computational cost of Algorithm
     O(n\cdot N^n\cdot (C+H))\;.
   \end{equation}
 \end{lemma}
-
-
 A first improvement is given by Algorithms~\ref{alg:genclosest},
 \ref{alg:genedge} and \ref{alg:genhidden}: we only require the metric
 to be known and \textsc{HiddenBy} predicate is obtained by a binary
@@ -452,18 +475,18 @@ separable predicates:
   \end{equation}
 \end{lemma}
 
-If we consider a chamfer norm with $l$ facet unit ball, Eq.~(\ref{eq:1})
-suggests that $C=O(l)$. Hence, we have the following corollary
+If we consider a chamfer norm with $f$ facet unit ball, Eq.~(\ref{eq:1})
+suggests that $C=O(f)$. Hence, we have the following corollary
 \begin{corollary}
-  Let $\M$ be a chamfer norm whose rational ball has $l$ facets,
+  Let $\M$ be a chamfer norm whose rational ball has $f$ facets,
   separable exact Voronoi map $\Pi_X$ can be obtained in
  \begin{equation}
-    O(n\cdot N^n\cdot l \cdot \log{N}))\;.
+    O(n\cdot N^n\cdot f \cdot \log{N}))\;.
   \end{equation}
 \end{corollary}
 
 Please remember that naive implementation of chamfer mask distance
-transformation using raster scan approach would lead to a $O(l\cdot
+transformation using raster scan approach would lead to a $O(f\cdot
 N^d)$ computational cost. In the following sections, we use the convex
 structure of $\B$ to design a first subquadratic algorithm for chamfer
 norms.
@@ -476,13 +499,11 @@ that $l\EqDef|\B| = m$ in 2D). We suppose that vectors
 $\{v_k\}_{k=1\ldots m}$ are sorted counterclockwise. We define a wedge
 as a pair $(\vec{v_k},\vec{v_{k+1}})$ of vectors. To each wedge is
 associated a row $A_k$ in the minimal H-representation of $A$ ($A_k$
-can also be seen as a non-unit normal vectors to $\B$
-facets\cite{DBLP:journals/pr/NormandE09})
-
-Using these notations, \cite{Thiel_hdr,Strand2008} demonstrate that
-the distance evaluation of point $a$ can be obtained in two steps:
-First, we compute the wedge $(\vec{v_k},\vec{v_{k+1}})$, $a$ belongs
-to. Then,
+can also be seen as a non-unit normal vectors to $\B$ facets
+\cite{DBLP:journals/pr/NormandE09}). Using similar notations,
+\cite{Thiel_hdr,Strand2008} demonstrate that the distance evaluation
+of point $a$ can be obtained in two steps: First, we compute the wedge
+$(\vec{v_k},\vec{v_{k+1}})$, $a$ belongs to. Then,
 \begin{equation}
 \label{eq:2}
   d_\M(O,a) = A_k\cdot a^T
@@ -810,8 +831,10 @@ the weights to approximate as best as possible the Euclidean metric
 (\emph{e.g.}  \cite{borgefors}). Weights do not play any role in the
 computational analysis, we just use here trivial weights that ensure
 that $\M$ is a norm.
-\begin{figure}[H]
-  \includegraphics[width=\textwidth]{data/result}
+\begin{figure}[htbp]
+  \begin{center}
+    \includegraphics[width=10cm]{data/result}
+  \end{center}
   \caption{Experimental evaluation of subquadratic chamfer norm
     Voronoi map computation.}
   \label{fig:graph}
