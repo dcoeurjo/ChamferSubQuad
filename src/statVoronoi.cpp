@@ -41,8 +41,8 @@ void constructPredicate(Predicate &mySet, const unsigned int nbSeeds, const unsi
 
 int main(int argc, char **argv)
 {
-  unsigned int maxN = 500;
-  unsigned int domSize = 2048;
+  unsigned int maxN = 3;
+  unsigned int domSize = 64;
   unsigned int nbSeeds = domSize;
   
   
@@ -68,6 +68,7 @@ int main(int argc, char **argv)
     
     N++;
     
+#define SVG_EXPORT
     
 #ifdef SVG_EXPORT
     Board2D board;
@@ -92,6 +93,8 @@ int main(int argc, char **argv)
     board.saveCairo(title.c_str(), Board2D::CairoPNG );
     trace.info()<<"Exporting CAIRO"<<std::endl;
 
+        
+    
 #endif
     
   }
