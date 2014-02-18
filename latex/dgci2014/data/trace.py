@@ -24,9 +24,9 @@ plt.xlabel( "$m$" )
 plt.ylabel( 'Time in sec' )
 
 p1,=plt.plot( datalist[:,0],datalist[:,1]/1000, 'g',label="Voronoi Map (single thread)",alpha=1 )
-p2,=plt.plot( datalist2[:,0],datalist2[:,1]/1000, 'b',label="Voronoi Map (multi-thread)",alpha=1 )
+p2,=plt.plot( datalist2[:,0],datalist2[:,1]/1000, 'r',label="Voronoi Map (multi-thread)",alpha=1 )
 p3,=plt.plot( myx, 0.04*mylog2, '.r',label="$0.04\log^2{m}$",alpha=0.5 )
-p4,=plt.plot( myx, 0.4*mylog2, '.',label="$4\log^2{m}$",alpha=0.5 )
+p4,=plt.plot( myx, 0.4*mylog2, '.g',label="$0.4\log^2{m}$",alpha=0.5 )
 
 lines=[p1,p2,p3,p4]
 ##plt.legend( loc=2 )
