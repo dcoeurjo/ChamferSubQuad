@@ -11,7 +11,6 @@
 \usepackage{todonotes}
 \usepackage[ruled,vlined,linesnumbered]{algorithm2e}
 
-
 %\title{A Subquadratic and Separable Algorithm for Chamfer Norm
   %Distance Transformation \thanks{This work has been mainly funded
   %  by  ANR-11-BS02-009 and  ANR-11-IDEX-0007-02 PALSE/2013/21 research grants.}}
@@ -71,10 +70,10 @@ performances and the \emph{accuracy} of the digital distance function
 with respect to the Euclidean one.  Hence, authors have considered
 distances based on chamfer masks
 \cite{Rosenfeld1968,borgefors,fouard:ivc:2005} or sequences of chamfer
-masks \cite{ROSEN_66,mukherjee,Strand2008,DBLP:conf/dgci/NormandSE13};
+masks \cite{Rosenfeld1966,mukherjee,Strand2008,DBLP:conf/dgci/NormandSE13};
 the vector displacement based Euclidean distance
 \cite{danielson,ragnemalm}; the Voronoi diagram based Euclidean
-distance \cite{BreuEtAl95,maurer_pami} or the square of the Euclidean
+distance \cite{BreuEtAl95,Maurer2003} or the square of the Euclidean
 distance \cite{Hirata,roerdnik}.  For Euclidean or $L_p$ metrics,
 separable volumetric computations have demonstrated to be very
 efficient: optimal $O(n\cdot N^n)$ time algorithms for shapes in $N^n$
@@ -91,7 +90,7 @@ the domain: first the chamfer mask is decomposed into two disjoint
 sub-masks. Then the domain grid points are scanned in a given order
 (consistent with the sub-masks construction) and a local minimum
 computation is performed and then propagated
-\cite{ROSEN_66,borgefors}. Scanning the domain twice for each
+\cite{Rosenfeld1966,borgefors}. Scanning the domain twice for each
 sub-masks leads to the distance transformation. Again, we end up with
 a $O(m\cdot N^n)$ computational cost. This complexity is said to be
 quadratic in $m$ and $N$ since for arbitrary large image $N$, even if
@@ -119,7 +118,7 @@ metrics. Overall computational costs can be summarized as follows:
       \hline
       Metric &\textsc{Closest}& \textsc{HiddenBy} & Sep. Voronoi Map & Reference\\
       \hline
-      $L_2$ & $O(1)$ &  $O(1)$ & $\Theta(n\cdot N^n)$ & \cite{Hirata1996}\\
+      $L_2$ & $O(1)$ &  $O(1)$ & $\Theta(n\cdot N^n)$ & \cite{Hirata}\\
       $L_\infty$ & $O(1)$ & $O(1)$ &  $\Theta(n\cdot N^n)$ & \cite{roerdnik}\\
       $L_1$ & $O(1)$ &   $O(1)$ &$\Theta(n\cdot N^n)$& \cite{roerdnik}\\
       $L_p$  (exact pred.) & $O(\log{p})$ &
@@ -140,7 +139,6 @@ metrics. Overall computational costs can be summarized as follows:
     \end{tabular}
   \end{center}
 %\end{table}
-
 \section{Preliminaries}
 \label{sec:preliminaries}
 %% Let us first define some elementary concepts and objects.
@@ -242,7 +240,7 @@ An important result for distance computation can be formalized as follows:
 \end{proposition}
 Among path-based digital metric, we can also introduce (weighted)
 neighborhood sequences
-\cite{ROSEN_66,mukherjee,Strand2008,DBLP:conf/dgci/NormandSE13}
+\cite{Rosenfeld1966,mukherjee,Strand2008,DBLP:conf/dgci/NormandSE13}
 whose objective is to have better approximation of the Euclidean
 metric from sequences of elementary chamfer masks.  A key result have
 been demonstrated in \cite{DBLP:conf/dgci/NormandSE13} stating that
@@ -261,7 +259,7 @@ neighborhood sequences.
 \label{sec:separ-dist-transf}
 \subsection{Voronoi Map from Separable Approach and Metric Conditions}
 \label{sec:voronoi-map-from}
-In \cite{Hirata1996,Breu1995,Meijster2000,Maurer2003},
+In \cite{Hirata,BreuEtAl95,roerdnik,Maurer2003},
 several authors have described optimal in time and separable
 techniques to compute error-free Voronoi maps or distance
 transformations for $L_2$ and $L_p$ metrics. Separability means that
@@ -270,7 +268,7 @@ computations are performed dimension by dimension
 %computations and multithread implementations (see
 %\cite{dcoeurjo_ChapDT} for an overview).
 In the following, we
-consider Voronoi map approach as defined in \cite{Breu1995}: Let us
+consider Voronoi map approach as defined in \cite{BreuEtAl95}: Let us
 first define hyper-rectangular image $I_X:
 [1..N_1]\times\ldots\times[1..N_n] \rightarrow \{0,1\}$ such that $X\subset
 I_X$ and $I_X(a)= 1$ for $a\in [1..N_1]\times\ldots\times[1..N_n]$ iff $a\in
@@ -379,13 +377,13 @@ In other words, \textsc{HiddenBy} returns true if and only if the
 Voronoi cell of sites $a$ and $c$ \emph{hide} the Voronoi cell of $b$
 along $S$.  For $L_1$, $L_2$ and $L_\infty$ metrics,
 \textsc{Closest} and \textsc{HiddenBy} predicates can be computed in
-$O(1)$ \cite{Breu1995,Hirata1996,Meijster2000}. Hence, Algorithm
+$O(1)$ \cite{BreuEtAl95,Hirata,roerdnik}. Hence, Algorithm
 \ref{alg:voro} is in $O(N_i)$ for dimension $i$, leading to an overall
 computational time for the Voronoi map and distance transformation
 problem in $\Theta(n\cdot N^n)$ (if we assume that $\forall i\in[1\ldots
   n], N_i=N$).
 
-In \cite{Hirata1996} or \cite{maurer_pami}, authors discussed about
+In \cite{Hirata} or \cite{Maurer2003}, authors discussed about
 conditions on the metric $d$ to ensure that Algorithm \ref{alg:voro}
 is correct. The key property can be informally describe as follows:
 given two points $a,b\in\Z^n$ such that $a_i<b_i$ and a straight line
@@ -394,9 +392,9 @@ $l$ along the $i^{th}$ direction and if we denote by $v_l(a)$
 (resp. $b$) and l, then $v_l(a)$ and $v_l(b)$ are simply connected
 Euclidean segments and $v_l(a)$ appears \emph{before} $v_l(b)$ on $l$
 (so called \emph{monotonicity property} in \cite{Maurer2003} and is
-related to \emph{quadrangle inequality} in \cite{Hirata1996}).  To sum
+related to \emph{quadrangle inequality} in \cite{Hirata}).  To sum
 up these contributions, we have the following proposition:
-\begin{proposition}[Metric conditions \cite{Hirata1996}]
+\begin{proposition}[Metric conditions \cite{Hirata}]
 \label{prop:voronoi-map-from-1}
   Let $d$ be a metric induced by a \textbf{norm whose unit ball is
     symmetric with respect to grid axes} and if distance comparison
@@ -442,7 +440,7 @@ symmetric unit ball. If $C$ denotes the computational cost of
 \textsc{HiddenBy} predicate, then Algorithm \ref{alg:voro} is in
 $O(n\cdot N^n\cdot (C+H))$.
 \end{lemma}
-From \cite{Breu1995,roerdnik}, $C=H=O(1)$ for $L_1,L_2$ and $L_\infty$
+From \cite{BreuEtAl95,roerdnik}, $C=H=O(1)$ for $L_1,L_2$ and $L_\infty$
 norms.  For prescribed norm $d$, we first define generic
 Algorithms~\ref{alg:genclosest}, \ref{alg:genedge} and
 \ref{alg:genhidden}: from some evaluations of $d$, \textsc{HiddenBy}
@@ -840,7 +838,6 @@ $n=2$.$\Box$
 %%   \end{equation}
 %% \end{theorem}
 
-
 \section{Implementation Details and Experimental Analysis}
 \label{sec:exper-analys}
 
@@ -851,7 +848,7 @@ library \cite{dgtal}. For $L_p$ metrics, we have implemented several
 \textsc{Closest} and \textsc{HiddenBy} predicates: If $p=\{1,2\}$,
 exact computations are proposed and all predicates are in $O(1)$ with
 only integer number computations
-\cite{Hirata1996,Maurer2003,roerdnik}; If $p\in \R$, $p\geq 1$, we
+\cite{Hirata,Maurer2003,roerdnik}; If $p\in \R$, $p\geq 1$, we
 have approximated computations on real numbers (\emph{double}) and we
 consider the Generic \textsc{HiddenBy} predicate in $O(\log N)$
 (Alg.~\ref{alg:genhidden}). Since predicates are based on floating
