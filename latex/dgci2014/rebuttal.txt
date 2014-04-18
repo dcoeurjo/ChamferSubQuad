@@ -1,0 +1,57 @@
+        First of all, we would like to thank the reviewers for their
+comments. In the following, We will comment some of major remarks
+(please note that all remaining remarks, typos and suggestions will be
+considered in the camera ready version if the paper is finally
+accepted).
+
+
+**Path based vs. Euclidean Metrics and quadratic complexity**
+
+The first objective of the paper is to propose an algorithmic solution
+to efficiently compute distance transformation for some path based
+norms which mimics the parallel and separable approach used for
+Euclidean and $L_p$ metrics. We will double-check the introduction to
+make it clear that the paper focuses on that point.
+
+Concerning the discussion about path based metric vs. Euclidean one,
+we are convinced that path based norms are very interesting
+mathematical objects and crucial in some applications (non-convex
+domains, streaming DT, when the anisotropic nature of their unit ball
+is consistent with the application, e.g. in crystallography...).
+
+However, the huge literature about path-based metric optimization to
+minimize the rotational dependency tends to illustrate that the
+approximation quality (w.r.t. Euclidean distance) also matters. In this
+context, the size of the mask is an important parameter (together with
+optimized weights). Introduction will be rephrased to clarify this
+context.
+
+It is out of the scope of the paper (and won't be added in the
+introduction) but please note that for medial axis extraction purposes
+(defined as centers of maximal balls), linear  time algorithms
+exists for the Euclidean metric [Coeurjolly-PAMI 2007, Hesselink PAMI
+2008..]. For path based norms, pre-computations and look-up tables are
+usually considered. As far as we know, it is still an active open
+problem to prove that distances on shortest paths can be used to
+extract the set of (or a subset of) maximal ball centers for the
+metric [Strand, DGCI 2011].
+
+**Experiments**
+
+ - Graph size: we agree that graphs labels are quite small. We will
+   correct this for the final version if the paper is accepted.
+
+ - Scale-up w.r.t. to number of threads:  definitely
+   doable. Experiments will be done and could be included in the final
+   version (depending on the final version page limit).
+
+ - Timings for low-size mask: zoom-in to the left-part of the graph
+   can be added.
+
+ - Comparison w.r.t. double-scan approach: doable too. However, we may
+   end-up with issues with respect to page limit.
+
+**Spelling, Grammar, Paper structure**
+
+All apologizes for the bad English. The text will be double-checked
+for the final version.
