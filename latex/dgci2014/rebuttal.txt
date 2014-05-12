@@ -1,4 +1,4 @@
-        First of all, we would like to thank the reviewers for their
+First of all, we would like to thank the reviewers for their
 comments. In the following, We will comment some of major remarks
 (please note that all remaining remarks, typos and suggestions will be
 considered in the camera ready version if the paper is finally
