@@ -60,7 +60,7 @@ ImageContainerBySTLVector< Domain, int> rasterScan(const  Domain &aDomain,
       it != itend; ++it)
   {
     int myMin = image( *it );
-    for (typename Metric::ConstIterator itm = aMask. rbegin(), itmend = aMask.rend();
+    for (typename Metric::ConstIterator itm = aMask. begin(), itmend = aMask.end();
          itm != itmend;
          itm++)
     {
@@ -72,7 +72,7 @@ ImageContainerBySTLVector< Domain, int> rasterScan(const  Domain &aDomain,
  
   
   //downtop
-  for(typename Domain::ReverseConstIterator it = aDomain.begin(), itend = aDomain.end();
+  for(typename Domain::ConstReverseIterator it = aDomain.rbegin(), itend = aDomain.rend();
       it != itend; ++it)
   {
     int myMin = image( *it );
