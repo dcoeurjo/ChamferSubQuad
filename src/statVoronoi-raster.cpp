@@ -91,7 +91,7 @@ ImageContainerBySTLVector< Domain, int> rasterScan(const  Domain &aDomain,
 
 int main(int argc, char **argv)
 {
-  unsigned int maxN = 5;
+  unsigned int maxN = 50;
   unsigned int domSize = 2048;
   unsigned int nbSeeds = domSize;
   
@@ -114,7 +114,7 @@ int main(int argc, char **argv)
     ImageContainerBySTLVector<Z2i::Domain, int> result = rasterScan(domain, mySet,mask);
     double duration = trace.endBlock();
     
-    std::cout <<mask.size()<<" "<<duration<<std::endl;
+    std::cout <<mask.size()<<" "<<duration / 2.0<<std::endl;
     
     N++;
     
