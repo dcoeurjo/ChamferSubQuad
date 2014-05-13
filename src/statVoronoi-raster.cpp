@@ -60,7 +60,7 @@ ImageContainerBySTLVector< Domain, int> rasterScan(const  Domain &aDomain,
       it != itend; ++it)
   {
     int myMin = image( *it );
-    for (typename Metric::ConstIterator itm = aMask. begin(), itmend = aMask.end();
+    for (typename Metric::ConstIterator itm = aMask. rbegin(), itmend = aMask.rend();
          itm != itmend;
          itm++)
     {
