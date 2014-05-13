@@ -43,17 +43,18 @@ void constructPredicate(Predicate &mySet, const unsigned int nbSeeds, const unsi
 
 template <typename Domain, typename Predicate, typename Metric>
 ImageContainerBySTLVector< Domain, int> rasterScan(const  Domain &aDomain,
-                                                  const  Predicate &aPred,
-                                                  const  Metric &aMask)
+                                                   const  Predicate &aPred,
+                                                   Metric &aMask)
 {
   //Init image
-  ImageContainerBySTLVector<Domain, int> image;
+  ImageContainerBySTLVector<Domain, int> image(aDomain);
   for(typename Domain::ConstIterator it = aDomain.begin(), itend = aDomain.end();
       it != itend; ++it)
     if (aPred (*it))
       image.setValue(*it, 0);
     else
       image.setValue(*it, 10001);
+  
   
   //top down
   for(typename Domain::ConstIterator it = aDomain.begin(), itend = aDomain.end();
@@ -69,7 +70,6 @@ ImageContainerBySTLVector< Domain, int> rasterScan(const  Domain &aDomain,
     }
     image.setValue( *it , myMin);
   }
- 
   
   //downtop
   for(typename Domain::ConstReverseIterator it = aDomain.rbegin(), itend = aDomain.rend();
@@ -111,7 +111,7 @@ int main(int argc, char **argv)
     trace.beginBlock("DT distances");
   
     typedef VoronoiMap<Z2i::Space, Z2i::DigitalSet, ChamferNorm2D<Z2i::Space> > VoroChamf;
-    ImageContainerBySTLVector<Z2i::Domain, int> result = rasterScan(&domain, &mySet,&mask);
+    ImageContainerBySTLVector<Z2i::Domain, int> result = rasterScan(domain, mySet,mask);
     double duration = trace.endBlock();
     
     std::cout <<mask.size()<<" "<<duration<<std::endl;
