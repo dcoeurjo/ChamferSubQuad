@@ -1,0 +1,31 @@
+# mask size= 8
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (4645.08 ms)##
+8 4645.08
+# mask size= 16
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (6561.47 ms)##
+16 6561.47
+# mask size= 24
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (7791.14 ms)##
+24 7791.14
+# mask size= 40
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (9626.88 ms)##
+40 9626.88
+# mask size= 48
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (9606.88 ms)##
+48 9606.88
+# mask size= 72
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (11979.5 ms)##
+72 11979.5
+# mask size= 88
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (12365.1 ms)##
+88 12365.1
+# mask size= 112
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (12774.2 ms)##

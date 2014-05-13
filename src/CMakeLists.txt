@@ -33,6 +33,7 @@ SET(DGTAL_TOOLS_SRC
   statDistances
   statVoronoi
   statVoronoil2
+  statVoronoi-raster
 )
 
 

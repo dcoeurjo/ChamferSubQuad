@@ -5,7 +5,7 @@ import glob
 import os
 
 from matplotlib import rc
-##rc('font',**{'family':'sans-serif','sans-serif':['Helvetica']})
+rc('font',**{'size': 18})
 rc('text', usetex=True)
 
 current_path=os.getcwd()
@@ -20,7 +20,7 @@ datalist = pylab.loadtxt( "statVoronoi-mono.txt" )
 datalist2 = pylab.loadtxt( "statVoronoi-openmp.txt" )
 
 #plt.legend( loc=2 )
-plt.xlabel( "$m$" )
+plt.xlabel( "Mask size $m$" )
 plt.ylabel( 'Time in sec' )
 
 p1,=plt.plot( datalist[:,0],datalist[:,1]/1000, 'g',label="Voronoi Map (single thread)",alpha=1 )
@@ -35,6 +35,35 @@ plt.legend(lines, [l.get_label() for l in lines], loc=7,frameon=False)
 
 ##plt.show()
 plt.savefig( 'result.pdf', format='PDF' )
+
+
+datalistt = pylab.loadtxt( "statVoronoi-mono-short.txt" )
+datalistt2 = pylab.loadtxt( "statVoronoi-openmp-short.txt" )
+
+
+myxx = np.linspace(0.01, 90)
+myylog2 = np.log(myxx)*np.log(myxx)
+
+fig2 = plt.figure()
+axes2 = fig2.add_subplot( 1, 1, 1 )
+
+plt.xlabel( "Mask size $m$" )
+plt.ylabel( 'Time in sec' )
+
+p1,=plt.plot( datalistt[:,0],datalistt[:,1]/1000, 'g',label="Voronoi Map (single thread)",alpha=1 )
+p2,=plt.plot( datalistt2[:,0],datalistt2[:,1]/1000, 'r',label="Voronoi Map (multi-thread)",alpha=1 )
+p3,=plt.plot( myxx, 0.04*myylog2, '.r',label="$0.04\log^2{m}$",alpha=0.5 )
+p4,=plt.plot( myxx, 0.4*myylog2, '.g',label="$0.4\log^2{m}$",alpha=0.5 )
+
+liness=[p1,p2,p3,p4]
+##plt.legend( loc=2 )
+plt.legend(liness, [l.get_label() for l in lines], loc=2,frameon=False)
+
+
+##plt.show()
+plt.savefig( 'result-zoom.pdf', format='PDF' )
+
+
 
 
 
