@@ -45,7 +45,7 @@ extraction. In the literature, several authors have discussed about
 conditions on the metric to be considered in a separable approach.  In
 this article, we present generic separable algorithms to efficiently
 compute Voronoi maps and distance transformations for a large class of
-metrics. Focusing to path based norms (chamfer masks, neighborhood
+metrics. Focusing on path based norms (chamfer masks, neighborhood
 sequences, ...), we detail a subquadratic algorithm to compute such
 volumetric transformation in dimension 2. More precisely, we describe
 a $O(\log^2{m}\cdot N^2)$ algorithm for shapes in a $N\times N$ domain
@@ -57,7 +57,8 @@ with chamfer norm of size $m$.
 \section{Introduction}
 \label{sec:introduction}
 
-Since early works on digital geometry, distance transformation plays
+Since early works on digital geometry, distance transformation has
+been playing
 an important role in many applications
 \cite{Rosenfeld1966,Rosenfeld1968}. Given a finite input shape
 $X\subset \Z^n$, the distance transformation labels each point in $X$
@@ -95,10 +96,10 @@ per sub-mask) leads to the distance transformation values. Again, we
 end up with a $O(m\cdot N^n)$ computational cost.
 
 Beside specific applications which use the anisotropic nature of the
-chamfer mask, rotational dependency is usually ensured with increasing
-mask size $m$ together with weight optimization. In this context and
-for arbitrarily large image $N$, both Dijsktra-like and raster scan
-approach have computational cost which is quadratic with respect to
+chamfer mask, rotational dependency is usually ensured  increasing
+the mask size $m$ together with optimizing weights. In this context and
+for arbitrarily large  $N$, both Dijsktra-like and raster scan
+approaches have a quadratic computational cost   with respect to
 $N$ and $m$. In practical situations, $m \ll N$ but $m$ still needs to
 be in $O(N^n)$ to have accurate asymptotic DT.
 
@@ -114,7 +115,8 @@ framework for separable distance transformation and metric conditions
 to be consistent with this model. Then, we describe subquadratic and
 parallel algorithms in dimension 2 to compute error-free distance
 transformation and Voronoi map for chamfer norms and other path-based
-metrics. Overall computational costs can be summarized as follows:
+metrics. Overall computational costs can be summarized as follows (see
+\ref{sec:first-gener-adapt} for predicate definitions):
 %\begin{table}
 %  \caption{Computational cost summary for separable Voronoi map
 %    computation on $N^n$ domains ($m$ being the size of the chamfer
@@ -187,11 +189,11 @@ but not a vector space) \cite{Thiel_hdr}. Path-based approaches
 (chamfer masks, -weighted- neighborhood sequences...)  aim at defining
 \emph{digital}
 metrics induced by norms in metric spaces $(\Z^n, \Z , d)$.  Note that
-(weighed, with $w_i\geq 0$) $L_p$ metrics
+(weighted, with $w_i\geq 0$) $L_p$ metrics
 \begin{equation}
     d_{L_p} (a,b) = \left ( \sum_{k=1}^n w_k|a_k-b_k |^p \right )^{\frac{1}{p}}\;,
   \end{equation}
-defines metric spaces $(\Z^n, \R , d_{L_p})$ which are not
+define metric spaces $(\Z^n, \R , d_{L_p})$ which are not
 \emph{digital}. However, rounding up the \sloppy distance function
 $(\Z^n,\Z, \lceil d_{L_p}\rceil)$ is a digital metric space
 \cite{klette_book}.
@@ -219,7 +221,7 @@ $\Pi_X(a)$ this choice has no influence on $DT_X$.
 \end{definition}
 Many authors have proposed algorithmic and/or analytic approaches to
 construct chamfer masks approximating the Euclidean metric. In the following, we focus on such \emph{chamfer
-  norms} which are chamfer metric induced by a norm).  To evaluate distances between two digital points for a
+  norms} which are chamfer metric induced by a norm.  To evaluate distances between two digital points for a
 given chamfer metric, direct formulations have been proposed with
 simple geometrical interpretation:
 \begin{definition}[Rational ball, minimal H-representation \cite{Thiel_hdr,DBLP:journals/pr/NormandE09}]
@@ -233,7 +235,7 @@ Rational ball $\B$ can also be described as the H-representation of
 polytope with minimal parameter \cite{DBLP:conf/dgci/NormandSE13}: $ P
 = \{ x\in\Z^n; Ax \leq y\;\}$ such that $\forall k\in[1\ldots f],
 ~\exists x\in P\quad A_kx=y_k.\footnote{$A_k$ being the $k^{th}$ row
-  of $A$.}$ $f$ being the number of rows in $A$ and the number of
+  of $A$.}$ $f$ is the number of rows in $A$ and the number of
 facets in $\B$, and is thus related to $|\M|$.
 \end{definition}
 An important result for distance computation can be formalized as follows:
@@ -253,7 +255,7 @@ metric from sequences of elementary chamfer masks
 A key result have been demonstrated in
 \cite{DBLP:conf/dgci/NormandSE13} stating that for such distance
 functions, a minimal parameter polytope representation exists and that
-distances can be obtained from similar expression to (\ref{eq:1}):
+distances can be obtained from a expression similar to (\ref{eq:1}):
 \begin{equation}
   d(O,a)  =\max_{1\leq k \leq f} \{ f_k(A_k a^T)\}\,,
 \end{equation}
@@ -270,12 +272,12 @@ In \cite{Hirata,BreuEtAl95,roerdnik,Maurer2003},
 several authors have described optimal in time and separable
 techniques to compute error-free Voronoi maps or distance
 transformations for $L_2$ and $L_p$ metrics. Separability means that
-computations are performed dimension by dimension
+computations are performed dimension by dimension.
 %, allowing fast
 %computations and multithread implementations (see
 %\cite{dcoeurjo_ChapDT} for an overview).
-In the following, we consider Voronoi map approach as defined in
-\cite{BreuEtAl95}: Let us first define hyper-rectangular image $I_X:
+In the following, we consider \emph{Voronoi Map} approach as defined in
+\cite{BreuEtAl95}: Let us first define an hyper-rectangular image $I_X:
      [1..N_1]\times\ldots\times[1..N_n] \rightarrow \{0,1\}$ such that
      $I_X(a)= 1$ for $a\in [1..N_1]\times\ldots\times[1..N_n]$ iff
      $a\in X$ ($I_X(a)=0$ otherwise). In dimension 2, each row of the
@@ -296,14 +298,14 @@ In the following, we consider Voronoi map approach as defined in
 Algorithm \ref{alg:voro} describes the 1D processes to perform on each
 row, column and higher dimensional image span\footnote{An image span
   $S$ along the $i^{th}$ direction is a vector of $N_i$ points with
-  same coordinates except at $i$.}. In this process, metric information
+  same coordinates except at their $i^{th}$ one.}. In this process, metric information
 are embedded in the following  predicates (see
 Fig.~\ref{fig:predicates}): \textsc{Closest}$(a, b, c)$, given three
 points $a,b,c\in\Z^n$ this predicate returns true if $d(a,b) <
 d(a,c)$. \textsc{HiddenBy}$(a, b, c, S)$, given three points
-$a,b,c\in\Z^n$ such that $a_i<b_i<c_i$ and a 1D image span
-$S$\footnote{Subscript $a_i$ denotes the $i^{th}$ coordinate of point
-  $a\in\Z^n$.}, this
+$a,b,c\in\Z^n$ such that $a_i<b_i<c_i$\footnote{Subscript $a_i$ denotes the $i^{th}$ coordinate of point
+  $a\in\Z^n$.} and a 1D image span
+$S$, this
 predicates returns true if there is no $s\in S$ such that
     \begin{equation}
       d(b,s) < d(a,s)\text{ and }  d(b,s) < d(c,s)\,.
@@ -372,7 +374,7 @@ predicates returns true if there is no $s\in S$ such that
     }
   \end{center}
   \caption{\small Geometrical predicates for Voronoi map construction:
-    \textsc{HiddenBy}($a,b,c,S)$ returns false in $(a)$ and true in
+    \textsc{HiddenBy}($a,b,c,S)$ returns true in $(a)$ and false in
     $(b)$ (straight segments correspond to Voronoi diagram
     edges). $(c)$ illustrates the \textsc{Closest}($a,b,c$) predicate
     for $c\in S$.}
@@ -414,8 +416,8 @@ predicate is exact if we can compare two distances, \emph{e.g.}
 \textsc{Closest} predicate, without error.
 
 For $L_p$ norms Algorithm \ref{alg:voro} provides exact Voronoi map
-computation. Indeed, distance comparison predicate can be implemented
-error-free from integer number comparisons considering the $p$ power of
+computation. Indeed, distance comparison predicate can be error-free implemented
+ from integer number comparisons considering the $p$ power of
 the distance function $\left (d_{L_p}\right)^p$.
 
 Proposition
@@ -452,7 +454,7 @@ symmetric unit ball. If $C$ denotes the computational cost of
 $O(n\cdot N^n\cdot (C+H))$.
 \end{lemma}
 From \cite{BreuEtAl95,roerdnik}, $C=H=O(1)$ for $L_1,L_2$ and $L_\infty$
-norms.  For prescribed norm $d$, we first define generic
+norms.  For given norm $d$, we first define generic
 Algorithms~\ref{alg:genclosest}, \ref{alg:genedge} and
 \ref{alg:genhidden}: From some evaluations of $d$, \textsc{HiddenBy}
 predicate is obtained by a dichotomic search on the 1D image span $S$
@@ -500,17 +502,17 @@ $\{b,c\}$ (see Fig.~\ref{fig:algo}).
 \end{lemma}
 \begin{proof}
   First, the generic \textsc{VoronoiEdge} is dichotomic with
-  $O(\log{N})$ steps and $O(C)$ for each one. \textsc{VoronoiEdge} is
+  $O(\log{N})$ steps and each step is in  $O(C)$. \textsc{VoronoiEdge} is
   in $O(C\cdot\log{N})$.  To prove the correctness of
   \textsc{VoronoiEdge} (and thus Alg.~\ref{alg:voro}), we use the
   convexity of the metric and the quadrangle property: since
   $a_i<b_i$, all grid points closer to $a$ than $b$ in $S$ (if exist)
   are \emph{lower} than all pixels on $S$ closer to $b$ than to $a$
-  (if exist too). Thanks to test in line $4$, recursive call maintain
-  this invariant. Note that tests $2-5$ handle the fact that the edge
+  (if exist too). Thanks to the test in line $8$, recursive call maintain
+  this invariant. Note that tests on lines $2-5$ handle the fact that the edge
   may not belong to $S$.$\Box$
 \end{proof}
-If we consider a chamfer norm with $f$ facet rational ball, Eq.~(\ref{eq:1})
+If we consider a chamfer norm with a rational ball of $f$ facets, Eq.~(\ref{eq:1})
 suggests that $C=O(f)$. Hence, we have the following corollary:
 \begin{corollary}
   Let $\M$ be a chamfer norm whose rational ball has $f$ facets,
@@ -535,7 +537,7 @@ can also be seen as a  --non-unitary-- normal vector to $\B$ facets
 \cite{DBLP:journals/pr/NormandE09}). Using similar notations,
 \cite{Thiel_hdr,Strand2008} demonstrate that the distance evaluation
 of point $a$ can be obtained in two steps: First, we compute the wedge
-$(\vec{v}^k,\vec{v}^{k+1})$, $a$ belongs to. Then,
+$(\vec{v}^k,\vec{v}^{k+1})$ $a$ belongs to. Then,
 \begin{equation}
 \label{eq:2}
   d_\M(O,a) = A_k\cdot a^T
@@ -563,10 +565,9 @@ the \textsc{VoronoiEdge} function. Given two points $a$ and $b$
 have to find the lowest abscissa $e_i$ of the point $e$ on $S$ such
 that $d(a,e) < d(b,e)$ and $d(a,e')\geq d(b, e')$ for any $e'$ with
 $e'_i>e_i$.
-Let us first suppose that we do not have $e$ but we know the two wedges
-$(\vec{v}^{k},\vec{v}^{k+1})$ (resp. $(\vec{v}^j,\vec{v}^{j+1})$) such
-that the vector $(e-a)^T$ (resp. $(e-b)^T$) belongs to (see
-Fig.~\ref{fig:algo}). In this situation, we know that $e$ is the
+Let us first suppose that we do not know $e$ but we know the  wedge
+$(\vec{v}^{k},\vec{v}^{k+1})$ (resp. $(\vec{v}^j,\vec{v}^{j+1})$) to which the vector $(e-a)^T$ (resp. $(e-b)^T$) belongs to (see
+Fig.~\ref{fig:algo}$-(c)$). In this situation, we know that $e$ is the
 solution of
 \begin{equation}
 \label{eq:3}
@@ -641,15 +642,15 @@ The dichotomic search shrinks the set of vectors
 $\{\vec{v}^i,\ldots,\vec{v}^j\}$ to end up with a wedge
 $(\vec{v}^k,\vec{v}^{k+1})$ such that the intersection point between
 the straight line $(a + \vec{v}^k)$ and $S$ is in the Voronoi cell of
-$a$ and such that the intersection between $(a + \vec{v}^k)$ and $S$
+$a$ and such that the intersection between $(a + \vec{v}^{k+1})$ and $S$
 is in the Voronoi cell of $b$ (see
 Fig.~\ref{fig:algo}$-(c)$). Algorithm~\ref{alg:chamedgew} thus first
-compute the intersection points associated with a wedge
+computes the intersection points associated with a wedge
 $(\vec{v}^{i+(j-i)/2}, \vec{v}^{i+(j-i)/2+1})$ (lines $5-6$);
-Evaluates the distances at these points (lines $7-8$) and then decides
+evaluates the distances at these points (lines $7-8$) and then decides
 which set $\{\vec{v}^i,\ldots,\vec{v}^{i+(j-i)/2}\}$ or
 $\{\vec{v}^{i+(j-i)/2},\ldots,\vec{v}^j\}$ has to be considered for
-the recursive call (lines $14-25$ and Fig.~\ref{fig:algo}$-(b)$).
+the recursive call (lines $14-20$ and Fig.~\ref{fig:algo}$-(b)$).
 
 \begin{algorithm}[t]
 \footnotesize
@@ -712,7 +713,7 @@ the recursive call (lines $14-25$ and Fig.~\ref{fig:algo}$-(b)$).
   Let $\M$ be a 2D chamfer norm with axis symmetric unit ball and  $m$ weighted vectors, then we
   have:
   $(i)$ Algorithm     \ref{alg:chamedge} is in  $O(\log^2{m})$;
-  $(ii)$ Algorithm \ref{alg:voro} (with predicates from Algorithms
+  $(ii)$ Algorithm \ref{alg:voro} (with predicates from Algorithm
     \ref{alg:chamedge} and Lemma \ref{lem:log}), computes a Voronoi
     map $\Pi_X$ and thus the distance transformation of $X$ for metric
     $d_{M}$ in   $ O( \log^2{m}\cdot N^2)$.
@@ -874,7 +875,7 @@ contains a generic metric adapter: if the user specifies a distance
 function (taking two points and returning a value) corresponding to a
 norm with axis symmetric unit ball, generic \textsc{Closest} and \textsc{HiddenBy} predicates can be
 automatically constructed. Please note that since all algorithms are
-separable, generic framework provided in \textsc{DGtal} allow us to
+separable, the generic framework provided in \textsc{DGtal} allow us to
 have a free multi-thread implementation \cite{dcoeurjo_ChapDTWADGMM}.
 
 To implement efficient predicates leading to subquadratic algorithm in
@@ -910,7 +911,7 @@ domain.
   \caption{$(a)$ Separable Voronoi map and distance transformation for $\M_{5-7-11}$
     and $L_2$: on a $256^2$ domain with $256$ and $2$ random seeds,
     the first row corresponds to $\M_{5-7-11}$ and the second one to
-    $L_2$. $(b)$ Experimental evaluation of subquadratic chamfer norm
+    $L_2$. $(b)$ and zoom in $(c)$: Experimental evaluation of subquadratic chamfer norm
     Voronoi map computation.  \label{fig:2Dvoro}}
 \end{figure}
 
@@ -921,22 +922,22 @@ $gcd(x,y)=1$ (extracted from Farey series for instance). For a general
 mask of size $m$, we do not optimize the weights to approximate as
 best as possible the Euclidean metric. Indeed, weights do not play any
 role in the computational analysis, we just use trivial ones that
-ensure that $\M$ is a norm with axis symmetric unit ball.
-In Fig.\ref{fig:2Dvoro}-$(b)$, we have considered a 2D domain $2048^2$
+ensure that $\M$ is a norm with axis symmetric unit ball.  In
+Fig.\ref{fig:2Dvoro}-$(b-c)$, we have considered a 2D domain $2048^2$
 with $2048$ random sites. First, we observe that fixing $N$, the
 $\log^2{m}$ term is clearly visible in the computational cost of the
 Voronoi map (single thread curve). Bumps in the single thread curve
 may be due to memory cache issues. Please note that if we consider
 classical chamfer norm DT from raster scan (and sub-masks), the
-computational cost would have been in $O(m\cdot N^2)$ and thus would
-have a linear behavior in Fig.~\ref{fig:2Dvoro}-$(b)$. Since we have a
-separable algorithm, we can trivially implement it in a multi-thread
+computational cost is in $O(m\cdot N^2)$ and thus has a linear
+behavior in Fig.~\ref{fig:2Dvoro}-$(c)$. Since we have a separable
+algorithm, we can trivially implement it in a multi-thread
 environment. Hence, on a bi-processor and quad-core (hyper-threading)
 Intel(R) Xeon(R) cpu (16 threads can run in parallel), we observe a
-speed-up by a factor 10 (blue curve in Fig.~\ref{fig:2Dvoro}-$(b)$).  Please
-note that on this $2048^2$ domain with 2048 sites, Euclidean Voronoi
-Map ($L_2$) is obtained in 954.837 milliseconds on a single core and
-723.196 msec on 16 cores.
+speed-up by a factor 10 (blue curve in Fig.~\ref{fig:2Dvoro}-$(b)$).
+Please note that on this $2048^2$ domain with 2048 sites, Euclidean
+Voronoi Map ($L_2$) is obtained in 954.837 milliseconds on a single
+core and 723.196 msec on 16 cores.
 
 \section{Conclusion and Discussion}
 \label{sec:discussion}
@@ -947,7 +948,7 @@ volumetric analysis. In this article, we have proposed several
 algorithms to efficiently solve the Voronoi map and distance
 transformation: given a user-specified distance function (induced by a
 norm with some properties) a first generic separable algorithm can be
-used. Focusing to chamfer norms, geometrical interpretation of this
+used. Focusing on chamfer norms, geometrical interpretation of this
 generic approach allows us to design a first subquadratic algorithm in
 dimension 2 to compute the Voronoi map. Thanks to separability,
 parallel implementation of the distance transformation leads to
