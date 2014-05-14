@@ -1,276 +1,276 @@
-[ChamferNorm2D] mask size= 8
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (974.884 ms)[0m
+##[ChamferNorm2D] mask size= 8
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (974.884 ms)##[0m
 8 487.442
-[ChamferNorm2D] mask size= 16
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (1247.72 ms)[0m
+##[ChamferNorm2D] mask size= 16
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (1247.72 ms)##[0m
 16 623.86
-[ChamferNorm2D] mask size= 24
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (1463.54 ms)[0m
+##[ChamferNorm2D] mask size= 24
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (1463.54 ms)##[0m
 24 731.77
-[ChamferNorm2D] mask size= 40
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (1959.41 ms)[0m
+##[ChamferNorm2D] mask size= 40
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (1959.41 ms)##[0m
 40 979.704
-[ChamferNorm2D] mask size= 48
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (2237.12 ms)[0m
+##[ChamferNorm2D] mask size= 48
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (2237.12 ms)##[0m
 48 1118.56
-[ChamferNorm2D] mask size= 72
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (3108.16 ms)[0m
+##[ChamferNorm2D] mask size= 72
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (3108.16 ms)##[0m
 72 1554.08
-[ChamferNorm2D] mask size= 88
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (3564.84 ms)[0m
+##[ChamferNorm2D] mask size= 88
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (3564.84 ms)##[0m
 88 1782.42
-[ChamferNorm2D] mask size= 112
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (4367.07 ms)[0m
+##[ChamferNorm2D] mask size= 112
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (4367.07 ms)##[0m
 112 2183.54
-[ChamferNorm2D] mask size= 128
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (4902.03 ms)[0m
+##[ChamferNorm2D] mask size= 128
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (4902.03 ms)##[0m
 128 2451.02
-[ChamferNorm2D] mask size= 168
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (6161.27 ms)[0m
+##[ChamferNorm2D] mask size= 168
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (6161.27 ms)##[0m
 168 3080.63
-[ChamferNorm2D] mask size= 184
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (6630.03 ms)[0m
+##[ChamferNorm2D] mask size= 184
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (6630.03 ms)##[0m
 184 3315.01
-[ChamferNorm2D] mask size= 232
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (8181.6 ms)[0m
+##[ChamferNorm2D] mask size= 232
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (8181.6 ms)##[0m
 232 4090.8
-[ChamferNorm2D] mask size= 256
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (9659.21 ms)[0m
+##[ChamferNorm2D] mask size= 256
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (9659.21 ms)##[0m
 256 4829.61
-[ChamferNorm2D] mask size= 288
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (10328.4 ms)[0m
+##[ChamferNorm2D] mask size= 288
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (10328.4 ms)##[0m
 288 5164.21
-[ChamferNorm2D] mask size= 320
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (11700.5 ms)[0m
+##[ChamferNorm2D] mask size= 320
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (11700.5 ms)##[0m
 320 5850.23
-[ChamferNorm2D] mask size= 384
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (13995.9 ms)[0m
+##[ChamferNorm2D] mask size= 384
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (13995.9 ms)##[0m
 384 6997.94
-[ChamferNorm2D] mask size= 408
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (14852.4 ms)[0m
+##[ChamferNorm2D] mask size= 408
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (14852.4 ms)##[0m
 408 7426.19
-[ChamferNorm2D] mask size= 480
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (17207.7 ms)[0m
+##[ChamferNorm2D] mask size= 480
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (17207.7 ms)##[0m
 480 8603.86
-[ChamferNorm2D] mask size= 512
-[0m[1mNew Block [DT distances][0m
-[ChamferNorm2D] mask size= 8
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (965.335 ms)[0m
+##[ChamferNorm2D] mask size= 512
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[ChamferNorm2D] mask size= 8
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (965.335 ms)##[0m
 8 482.667
-[ChamferNorm2D] mask size= 16
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (1234.59 ms)[0m
+##[ChamferNorm2D] mask size= 16
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (1234.59 ms)##[0m
 16 617.297
-[ChamferNorm2D] mask size= 24
-[0m[1mNew Block [DT distances][0m
-[ChamferNorm2D] mask size= 8
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (1035.69 ms)[0m
+##[ChamferNorm2D] mask size= 24
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[ChamferNorm2D] mask size= 8
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (1035.69 ms)##[0m
 8 517.844
-[ChamferNorm2D] mask size= 16
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (1322.42 ms)[0m
+##[ChamferNorm2D] mask size= 16
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (1322.42 ms)##[0m
 16 661.21
-[ChamferNorm2D] mask size= 24
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (1571.38 ms)[0m
+##[ChamferNorm2D] mask size= 24
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (1571.38 ms)##[0m
 24 785.691
-[ChamferNorm2D] mask size= 40
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (2066.39 ms)[0m
+##[ChamferNorm2D] mask size= 40
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (2066.39 ms)##[0m
 40 1033.19
-[ChamferNorm2D] mask size= 48
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (2348.72 ms)[0m
+##[ChamferNorm2D] mask size= 48
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (2348.72 ms)##[0m
 48 1174.36
-[ChamferNorm2D] mask size= 72
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (3289.43 ms)[0m
+##[ChamferNorm2D] mask size= 72
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (3289.43 ms)##[0m
 72 1644.72
-[ChamferNorm2D] mask size= 88
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (3839.74 ms)[0m
+##[ChamferNorm2D] mask size= 88
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (3839.74 ms)##[0m
 88 1919.87
-[ChamferNorm2D] mask size= 112
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (4631.11 ms)[0m
+##[ChamferNorm2D] mask size= 112
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (4631.11 ms)##[0m
 112 2315.55
-[ChamferNorm2D] mask size= 128
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (5033.82 ms)[0m
+##[ChamferNorm2D] mask size= 128
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (5033.82 ms)##[0m
 128 2516.91
-[ChamferNorm2D] mask size= 168
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (6513.94 ms)[0m
+##[ChamferNorm2D] mask size= 168
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (6513.94 ms)##[0m
 168 3256.97
-[ChamferNorm2D] mask size= 184
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (6894.57 ms)[0m
+##[ChamferNorm2D] mask size= 184
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (6894.57 ms)##[0m
 184 3447.29
-[ChamferNorm2D] mask size= 232
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (8575.67 ms)[0m
+##[ChamferNorm2D] mask size= 232
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (8575.67 ms)##[0m
 232 4287.83
-[ChamferNorm2D] mask size= 256
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (9401.48 ms)[0m
+##[ChamferNorm2D] mask size= 256
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (9401.48 ms)##[0m
 256 4700.74
-[ChamferNorm2D] mask size= 288
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (10607.3 ms)[0m
+##[ChamferNorm2D] mask size= 288
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (10607.3 ms)##[0m
 288 5303.67
-[ChamferNorm2D] mask size= 320
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (11580.1 ms)[0m
+##[ChamferNorm2D] mask size= 320
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (11580.1 ms)##[0m
 320 5790.05
-[ChamferNorm2D] mask size= 384
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (13174.3 ms)[0m
+##[ChamferNorm2D] mask size= 384
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (13174.3 ms)##[0m
 384 6587.15
-[ChamferNorm2D] mask size= 408
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (13890.5 ms)[0m
+##[ChamferNorm2D] mask size= 408
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (13890.5 ms)##[0m
 408 6945.24
-[ChamferNorm2D] mask size= 480
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (16316.8 ms)[0m
+##[ChamferNorm2D] mask size= 480
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (16316.8 ms)##[0m
 480 8158.4
-[ChamferNorm2D] mask size= 512
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (17361.4 ms)[0m
+##[ChamferNorm2D] mask size= 512
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (17361.4 ms)##[0m
 512 8680.72
-[ChamferNorm2D] mask size= 560
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (21243.9 ms)[0m
+##[ChamferNorm2D] mask size= 560
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (21243.9 ms)##[0m
 560 10621.9
-[ChamferNorm2D] mask size= 600
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (38632.7 ms)[0m
+##[ChamferNorm2D] mask size= 600
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (38632.7 ms)##[0m
 600 19316.3
-[ChamferNorm2D] mask size= 688
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (44380.4 ms)[0m
+##[ChamferNorm2D] mask size= 688
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (44380.4 ms)##[0m
 688 22190.2
-[ChamferNorm2D] mask size= 720
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (28367 ms)[0m
+##[ChamferNorm2D] mask size= 720
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (28367 ms)##[0m
 720 14183.5
-[ChamferNorm2D] mask size= 800
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (27198.6 ms)[0m
+##[ChamferNorm2D] mask size= 800
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (27198.6 ms)##[0m
 800 13599.3
-[ChamferNorm2D] mask size= 848
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (29004.2 ms)[0m
+##[ChamferNorm2D] mask size= 848
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (29004.2 ms)##[0m
 848 14502.1
-[ChamferNorm2D] mask size= 920
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (32563.4 ms)[0m
+##[ChamferNorm2D] mask size= 920
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (32563.4 ms)##[0m
 920 16281.7
-[ChamferNorm2D] mask size= 968
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (33806.8 ms)[0m
+##[ChamferNorm2D] mask size= 968
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (33806.8 ms)##[0m
 968 16903.4
-[ChamferNorm2D] mask size= 1080
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (38732.4 ms)[0m
+##[ChamferNorm2D] mask size= 1080
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (38732.4 ms)##[0m
 1080 19366.2
-[ChamferNorm2D] mask size= 1112
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (39567.6 ms)[0m
+##[ChamferNorm2D] mask size= 1112
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (39567.6 ms)##[0m
 1112 19783.8
-[ChamferNorm2D] mask size= 1232
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (42464.4 ms)[0m
+##[ChamferNorm2D] mask size= 1232
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (42464.4 ms)##[0m
 1232 21232.2
-[ChamferNorm2D] mask size= 1296
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (44194 ms)[0m
+##[ChamferNorm2D] mask size= 1296
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (44194 ms)##[0m
 1296 22097
-[ChamferNorm2D] mask size= 1376
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (51194.9 ms)[0m
+##[ChamferNorm2D] mask size= 1376
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (51194.9 ms)##[0m
 1376 25597.4
-[ChamferNorm2D] mask size= 1440
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (49482.8 ms)[0m
+##[ChamferNorm2D] mask size= 1440
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (49482.8 ms)##[0m
 1440 24741.4
-[ChamferNorm2D] mask size= 1536
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (52822 ms)[0m
+##[ChamferNorm2D] mask size= 1536
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (52822 ms)##[0m
 1536 26411
-[ChamferNorm2D] mask size= 1584
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (54409.8 ms)[0m
+##[ChamferNorm2D] mask size= 1584
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (54409.8 ms)##[0m
 1584 27204.9
-[ChamferNorm2D] mask size= 1728
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (60611.5 ms)[0m
+##[ChamferNorm2D] mask size= 1728
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (60611.5 ms)##[0m
 1728 30305.7
-[ChamferNorm2D] mask size= 1800
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (68428 ms)[0m
+##[ChamferNorm2D] mask size= 1800
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (68428 ms)##[0m
 1800 34214
-[ChamferNorm2D] mask size= 1896
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (67470.4 ms)[0m
+##[ChamferNorm2D] mask size= 1896
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (67470.4 ms)##[0m
 1896 33735.2
-[ChamferNorm2D] mask size= 1960
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (67765.8 ms)[0m
+##[ChamferNorm2D] mask size= 1960
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (67765.8 ms)##[0m
 1960 33882.9
-[ChamferNorm2D] mask size= 2120
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (72990.2 ms)[0m
+##[ChamferNorm2D] mask size= 2120
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (72990.2 ms)##[0m
 2120 36495.1
-[ChamferNorm2D] mask size= 2168
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (83282.7 ms)[0m
+##[ChamferNorm2D] mask size= 2168
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (83282.7 ms)##[0m
 2168 41641.4
-[ChamferNorm2D] mask size= 2336
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (81918.5 ms)[0m
+##[ChamferNorm2D] mask size= 2336
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (81918.5 ms)##[0m
 2336 40959.2
-[ChamferNorm2D] mask size= 2416
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (86429.5 ms)[0m
+##[ChamferNorm2D] mask size= 2416
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (86429.5 ms)##[0m
 2416 43214.8
-[ChamferNorm2D] mask size= 2512
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (89639.1 ms)[0m
+##[ChamferNorm2D] mask size= 2512
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (89639.1 ms)##[0m
 2512 44819.5
-[ChamferNorm2D] mask size= 2600
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (89722.9 ms)[0m
+##[ChamferNorm2D] mask size= 2600
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (89722.9 ms)##[0m
 2600 44861.5
-[ChamferNorm2D] mask size= 2784
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (102177 ms)[0m
+##[ChamferNorm2D] mask size= 2784
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (102177 ms)##[0m
 2784 51088.4
-[ChamferNorm2D] mask size= 2848
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (98754.4 ms)[0m
+##[ChamferNorm2D] mask size= 2848
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (98754.4 ms)##[0m
 2848 49377.2
-[ChamferNorm2D] mask size= 3016
-[0m[1mNew Block [DT distances][0m
-[0m[1mEndBlock [DT distances] (112864 ms)[0m
+##[ChamferNorm2D] mask size= 3016
+##[0m##[1mNew Block ##[DT distances]##[0m
+##[0m##[1mEndBlock ##[DT distances] (112864 ms)##[0m
 3016 56432.2
