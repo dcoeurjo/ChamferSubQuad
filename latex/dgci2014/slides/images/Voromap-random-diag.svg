@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="170mm" height="170mm" 
+     viewBox="0 0 481.89 481.89" 
+     xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<desc>output.svg, created with the Board library (Copyleft) 2007 Sebastien Fourey</desc>
+<line x1="14.17" y1="481.89" x2="14.17" y2="0" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="42.52" y1="481.89" x2="42.52" y2="0" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="70.87" y1="481.89" x2="70.87" y2="0" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="99.21" y1="481.89" x2="99.21" y2="0" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="127.56" y1="481.89" x2="127.56" y2="0" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="155.91" y1="481.89" x2="155.91" y2="0" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="184.25" y1="481.89" x2="184.25" y2="0" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="212.6" y1="481.89" x2="212.6" y2="0" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="240.94" y1="481.89" x2="240.94" y2="0" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="269.29" y1="481.89" x2="269.29" y2="0" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="297.64" y1="481.89" x2="297.64" y2="0" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="325.98" y1="481.89" x2="325.98" y2="0" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="354.33" y1="481.89" x2="354.33" y2="0" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="382.68" y1="481.89" x2="382.68" y2="0" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="411.02" y1="481.89" x2="411.02" y2="0" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="439.37" y1="481.89" x2="439.37" y2="0" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="467.72" y1="481.89" x2="467.72" y2="0" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="0" y1="467.72" x2="481.89" y2="467.72" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="0" y1="439.37" x2="481.89" y2="439.37" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="0" y1="411.02" x2="481.89" y2="411.02" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="0" y1="382.68" x2="481.89" y2="382.68" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="0" y1="354.33" x2="481.89" y2="354.33" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="0" y1="325.98" x2="481.89" y2="325.98" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="0" y1="297.64" x2="481.89" y2="297.64" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="0" y1="269.29" x2="481.89" y2="269.29" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="0" y1="240.94" x2="481.89" y2="240.94" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="0" y1="212.6" x2="481.89" y2="212.6" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="0" y1="184.25" x2="481.89" y2="184.25" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="0" y1="155.91" x2="481.89" y2="155.91" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="0" y1="127.56" x2="481.89" y2="127.56" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="0" y1="99.21" x2="481.89" y2="99.21" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="0" y1="70.87" x2="481.89" y2="70.87" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="0" y1="42.52" x2="481.89" y2="42.52" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<line x1="0" y1="14.17" x2="481.89" y2="14.17" fill="none" stroke="rgb(160,160,160)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1,1;stroke-dashoffset:0" />
+<circle cx="14.17" cy="467.72" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="14.17" cy="439.37" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="14.17" cy="411.02" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="14.17" cy="382.68" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="14.17" cy="354.33" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="14.17" cy="325.98" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="14.17" cy="297.64" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="14.17" cy="269.29" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="14.17" cy="240.94" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="14.17" cy="212.6" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="14.17" cy="184.25" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="14.17" cy="155.91" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="14.17" cy="127.56" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="14.17" cy="99.21" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="14.17" cy="70.87" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="14.17" cy="42.52" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="14.17" cy="14.17" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="42.52" cy="467.72" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="42.52" cy="439.37" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="42.52" cy="411.02" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="42.52" cy="382.68" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="42.52" cy="354.33" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="42.52" cy="325.98" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="42.52" cy="297.64" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="42.52" cy="269.29" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="42.52" cy="240.94" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="42.52" cy="212.6" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="42.52" cy="184.25" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="42.52" cy="155.91" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="42.52" cy="127.56" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="42.52" cy="99.21" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="42.52" cy="70.87" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="42.52" cy="42.52" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="42.52" cy="14.17" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="70.87" cy="467.72" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="70.87" cy="439.37" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="70.87" cy="411.02" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="70.87" cy="382.68" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="70.87" cy="354.33" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="70.87" cy="325.98" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="70.87" cy="297.64" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="70.87" cy="269.29" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="70.87" cy="240.94" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="70.87" cy="212.6" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="70.87" cy="184.25" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="70.87" cy="155.91" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="70.87" cy="127.56" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="70.87" cy="99.21" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="70.87" cy="70.87" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="70.87" cy="42.52" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="70.87" cy="14.17" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="99.21" cy="467.72" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="99.21" cy="439.37" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="99.21" cy="411.02" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="99.21" cy="382.68" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="99.21" cy="354.33" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="99.21" cy="325.98" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="99.21" cy="297.64" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="99.21" cy="269.29" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="99.21" cy="240.94" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="99.21" cy="212.6" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="99.21" cy="184.25" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="99.21" cy="155.91" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="99.21" cy="127.56" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="99.21" cy="99.21" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="99.21" cy="70.87" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="99.21" cy="42.52" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="99.21" cy="14.17" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="127.56" cy="467.72" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="127.56" cy="439.37" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="127.56" cy="411.02" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="127.56" cy="382.68" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="127.56" cy="354.33" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="127.56" cy="325.98" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="127.56" cy="297.64" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="127.56" cy="269.29" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="127.56" cy="240.94" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="127.56" cy="212.6" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="127.56" cy="184.25" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="127.56" cy="155.91" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="127.56" cy="127.56" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="127.56" cy="99.21" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="127.56" cy="70.87" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="127.56" cy="42.52" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="127.56" cy="14.17" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="155.91" cy="467.72" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="155.91" cy="439.37" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="155.91" cy="411.02" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="155.91" cy="382.68" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="155.91" cy="354.33" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="155.91" cy="325.98" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="155.91" cy="297.64" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="155.91" cy="269.29" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="155.91" cy="240.94" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="155.91" cy="212.6" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="155.91" cy="184.25" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="155.91" cy="155.91" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="155.91" cy="127.56" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="155.91" cy="99.21" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="155.91" cy="70.87" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="155.91" cy="42.52" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="155.91" cy="14.17" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="184.25" cy="467.72" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="184.25" cy="439.37" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="184.25" cy="411.02" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="184.25" cy="382.68" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="184.25" cy="354.33" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="184.25" cy="325.98" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="184.25" cy="297.64" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="184.25" cy="269.29" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="184.25" cy="240.94" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="184.25" cy="212.6" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="184.25" cy="184.25" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="184.25" cy="155.91" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="184.25" cy="127.56" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="184.25" cy="99.21" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="184.25" cy="70.87" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="184.25" cy="42.52" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="184.25" cy="14.17" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="212.6" cy="467.72" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="212.6" cy="439.37" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="212.6" cy="411.02" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="212.6" cy="382.68" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="212.6" cy="354.33" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="212.6" cy="325.98" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="212.6" cy="297.64" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="212.6" cy="269.29" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="212.6" cy="240.94" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="212.6" cy="212.6" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="212.6" cy="184.25" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="212.6" cy="155.91" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="212.6" cy="127.56" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="212.6" cy="99.21" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="212.6" cy="70.87" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="212.6" cy="42.52" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="212.6" cy="14.17" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="240.94" cy="467.72" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="240.94" cy="439.37" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="240.94" cy="411.02" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="240.94" cy="382.68" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="240.94" cy="354.33" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="240.94" cy="325.98" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="240.94" cy="297.64" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="240.94" cy="269.29" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="240.94" cy="240.94" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="240.94" cy="212.6" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="240.94" cy="184.25" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="240.94" cy="155.91" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="240.94" cy="127.56" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="240.94" cy="99.21" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="240.94" cy="70.87" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="240.94" cy="42.52" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="240.94" cy="14.17" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="269.29" cy="467.72" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="269.29" cy="439.37" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="269.29" cy="411.02" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="269.29" cy="382.68" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="269.29" cy="354.33" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="269.29" cy="325.98" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="269.29" cy="297.64" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="269.29" cy="269.29" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="269.29" cy="240.94" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="269.29" cy="212.6" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="269.29" cy="184.25" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="269.29" cy="155.91" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="269.29" cy="127.56" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="269.29" cy="99.21" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="269.29" cy="70.87" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="269.29" cy="42.52" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="269.29" cy="14.17" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="297.64" cy="467.72" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="297.64" cy="439.37" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="297.64" cy="411.02" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="297.64" cy="382.68" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="297.64" cy="354.33" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="297.64" cy="325.98" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="297.64" cy="297.64" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="297.64" cy="269.29" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="297.64" cy="240.94" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="297.64" cy="212.6" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="297.64" cy="184.25" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="297.64" cy="155.91" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="297.64" cy="127.56" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="297.64" cy="99.21" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="297.64" cy="70.87" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="297.64" cy="42.52" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="297.64" cy="14.17" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="325.98" cy="467.72" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="325.98" cy="439.37" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="325.98" cy="411.02" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="325.98" cy="382.68" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="325.98" cy="354.33" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="325.98" cy="325.98" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="325.98" cy="297.64" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="325.98" cy="269.29" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="325.98" cy="240.94" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="325.98" cy="212.6" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="325.98" cy="184.25" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="325.98" cy="155.91" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="325.98" cy="127.56" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="325.98" cy="99.21" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="325.98" cy="70.87" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="325.98" cy="42.52" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="325.98" cy="14.17" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="354.33" cy="467.72" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="354.33" cy="439.37" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="354.33" cy="411.02" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="354.33" cy="382.68" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="354.33" cy="354.33" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="354.33" cy="325.98" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="354.33" cy="297.64" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="354.33" cy="269.29" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="354.33" cy="240.94" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="354.33" cy="212.6" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="354.33" cy="184.25" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="354.33" cy="155.91" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="354.33" cy="127.56" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="354.33" cy="99.21" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="354.33" cy="70.87" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="354.33" cy="42.52" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="354.33" cy="14.17" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="382.68" cy="467.72" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="382.68" cy="439.37" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="382.68" cy="411.02" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="382.68" cy="382.68" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="382.68" cy="354.33" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="382.68" cy="325.98" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="382.68" cy="297.64" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="382.68" cy="269.29" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="382.68" cy="240.94" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="382.68" cy="212.6" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="382.68" cy="184.25" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="382.68" cy="155.91" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="382.68" cy="127.56" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="382.68" cy="99.21" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="382.68" cy="70.87" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="382.68" cy="42.52" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="382.68" cy="14.17" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="411.02" cy="467.72" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="411.02" cy="439.37" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="411.02" cy="411.02" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="411.02" cy="382.68" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="411.02" cy="354.33" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="411.02" cy="325.98" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="411.02" cy="297.64" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="411.02" cy="269.29" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="411.02" cy="240.94" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="411.02" cy="212.6" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="411.02" cy="184.25" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="411.02" cy="155.91" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="411.02" cy="127.56" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="411.02" cy="99.21" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="411.02" cy="70.87" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="411.02" cy="42.52" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="411.02" cy="14.17" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="439.37" cy="467.72" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="439.37" cy="439.37" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="439.37" cy="411.02" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="439.37" cy="382.68" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="439.37" cy="354.33" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="439.37" cy="325.98" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="439.37" cy="297.64" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="439.37" cy="269.29" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="439.37" cy="240.94" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="439.37" cy="212.6" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="439.37" cy="184.25" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="439.37" cy="155.91" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="439.37" cy="127.56" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="439.37" cy="99.21" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="439.37" cy="70.87" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="439.37" cy="42.52" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="439.37" cy="14.17" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="467.72" cy="467.72" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="467.72" cy="439.37" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="467.72" cy="411.02" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="467.72" cy="382.68" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="467.72" cy="354.33" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="467.72" cy="325.98" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="467.72" cy="297.64" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="467.72" cy="269.29" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="467.72" cy="240.94" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="467.72" cy="212.6" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="467.72" cy="184.25" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="467.72" cy="155.91" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="467.72" cy="127.56" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="467.72" cy="99.21" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="467.72" cy="70.87" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="467.72" cy="42.52" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<circle cx="467.72" cy="14.17" r="2.83" fill="rgb(160,160,160)" stroke="none" stroke-width="0" style="stroke-linecap:round;stroke-linejoin:round;" />
+<g>
+ <path d="M 14.17 467.72 L 203.14 440.72 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="203.56,443.65 212.6,439.37 202.72,437.8 203.56,443.65" />
+</g>
+<g>
+ <path d="M 42.52 467.72 L 203.18 440.94 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="203.66,443.86 212.6,439.37 202.69,438.03 203.66,443.86" />
+</g>
+<g>
+ <path d="M 70.87 467.72 L 203.23 441.24 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="203.81,444.14 212.6,439.37 202.65,438.35 203.81,444.14" />
+</g>
+<g>
+ <path d="M 99.21 467.72 L 203.33 441.69 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="204.05,444.55 212.6,439.37 202.62,438.82 204.05,444.55" />
+</g>
+<g>
+ <path d="M 127.56 467.72 L 203.54 442.39 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="204.47,445.19 212.6,439.37 202.6,439.59 204.47,445.19" />
+</g>
+<g>
+ <path d="M 155.91 467.72 L 204.05 443.64 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="205.38,446.29 212.6,439.37 202.73,441 205.38,446.29" />
+</g>
+<g>
+ <path d="M 184.25 467.72 L 205.84 446.13 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="207.93,448.21 212.6,439.37 203.76,444.04 207.93,448.21" />
+</g>
+<g>
+ <path d="M 212.6 467.72 L 212.6 448.92 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="215.56,448.92 212.6,439.37 209.64,448.92 215.56,448.92" />
+</g>
+<g>
+ <path d="M 240.94 467.72 L 219.35 446.13 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="221.44,444.04 212.6,439.37 217.27,448.21 221.44,444.04" />
+</g>
+<g>
+ <path d="M 269.29 467.72 L 269.29 420.58 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="272.25,420.57 269.29,411.02 266.33,420.57 272.25,420.57" />
+</g>
+<g>
+ <path d="M 297.64 467.72 L 273.56 419.57 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="276.21,418.24 269.29,411.02 270.92,420.89 276.21,418.24" />
+</g>
+<g>
+ <path d="M 325.98 467.72 L 350.06 419.57 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="352.7,420.89 354.33,411.02 347.41,418.24 352.7,420.89" />
+</g>
+<g>
+ <path d="M 354.33 467.72 L 354.33 420.58 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="357.29,420.57 354.33,411.02 351.37,420.57 357.29,420.57" />
+</g>
+<g>
+ <path d="M 382.68 467.72 L 358.6 419.57 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="361.25,418.24 354.33,411.02 355.96,420.89 361.25,418.24" />
+</g>
+<g>
+ <path d="M 411.02 467.72 L 432.61 446.13 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="434.7,448.21 439.37,439.37 430.53,444.04 434.7,448.21" />
+</g>
+<g>
+ <path d="M 439.37 467.72 L 439.37 448.92 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="442.33,448.92 439.37,439.37 436.41,448.92 442.33,448.92" />
+</g>
+<g>
+ <path d="M 467.72 467.72 L 446.13 446.13 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="448.21,444.04 439.37,439.37 444.04,448.21 448.21,444.04" />
+</g>
+<g>
+ <path d="M 14.17 439.37 L 94.94 277.84 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="97.58,279.16 99.21,269.29 92.29,276.51 97.58,279.16" />
+</g>
+<g>
+ <path d="M 42.52 439.37 L 203.05 439.37 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="203.05,442.33 212.6,439.37 203.05,436.41 203.05,442.33" />
+</g>
+<g>
+ <path d="M 70.87 439.37 L 203.05 439.37 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="203.05,442.33 212.6,439.37 203.05,436.41 203.05,442.33" />
+</g>
+<g>
+ <path d="M 99.21 439.37 L 203.05 439.37 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="203.05,442.33 212.6,439.37 203.05,436.41 203.05,442.33" />
+</g>
+<g>
+ <path d="M 127.56 439.37 L 203.05 439.37 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="203.05,442.33 212.6,439.37 203.05,436.41 203.05,442.33" />
+</g>
+<g>
+ <path d="M 155.91 439.37 L 203.05 439.37 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="203.05,442.33 212.6,439.37 203.05,436.41 203.05,442.33" />
+</g>
+<g>
+ <path d="M 184.25 439.37 L 203.05 439.37 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="203.05,442.33 212.6,439.37 203.05,436.41 203.05,442.33" />
+</g>
+<g>
+ <path d="M 240.94 439.37 L 222.15 439.37 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="222.15,436.41 212.6,439.37 222.15,442.33 222.15,436.41" />
+</g>
+<g>
+ <path d="M 269.29 439.37 L 269.29 420.58 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="272.25,420.57 269.29,411.02 266.33,420.57 272.25,420.57" />
+</g>
+<g>
+ <path d="M 297.64 439.37 L 276.05 417.78 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="278.13,415.69 269.29,411.02 273.96,419.86 278.13,415.69" />
+</g>
+<g>
+ <path d="M 325.98 439.37 L 347.58 417.78 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="349.66,419.86 354.33,411.02 345.49,415.69 349.66,419.86" />
+</g>
+<g>
+ <path d="M 354.33 439.37 L 354.33 420.58 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="357.29,420.57 354.33,411.02 351.37,420.57 357.29,420.57" />
+</g>
+<g>
+ <path d="M 382.68 439.37 L 361.09 417.78 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="363.17,415.69 354.33,411.02 359,419.86 363.17,415.69" />
+</g>
+<g>
+ <path d="M 411.02 439.37 L 429.82 439.37 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="429.82,442.33 439.37,439.37 429.82,436.41 429.82,442.33" />
+</g>
+<g>
+ <path d="M 467.72 439.37 L 448.92 439.37 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="448.92,436.41 439.37,439.37 448.92,442.33 448.92,436.41" />
+</g>
+<g>
+ <path d="M 14.17 411.02 L 94.3 277.48 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="96.83,279 99.21,269.29 91.76,275.96 96.83,279" />
+</g>
+<g>
+ <path d="M 42.52 411.02 L 95.66 278.16 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="98.41,279.26 99.21,269.29 92.92,277.06 98.41,279.26" />
+</g>
+<g>
+ <path d="M 70.87 411.02 L 97.34 278.66 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="100.23,279.24 99.21,269.29 94.44,278.08 100.23,279.24" />
+</g>
+<g>
+ <path d="M 99.21 411.02 L 203.33 437.05 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="202.62,439.92 212.6,439.37 204.05,434.19 202.62,439.92" />
+</g>
+<g>
+ <path d="M 127.56 411.02 L 203.54 436.35 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="202.6,439.15 212.6,439.37 204.47,433.55 202.6,439.15" />
+</g>
+<g>
+ <path d="M 155.91 411.02 L 204.05 435.1 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="202.73,437.74 212.6,439.37 205.38,432.45 202.73,437.74" />
+</g>
+<g>
+ <path d="M 184.25 411.02 L 205.84 432.61 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="203.76,434.7 212.6,439.37 207.93,430.53 203.76,434.7" />
+</g>
+<g>
+ <path d="M 212.6 411.02 L 212.6 429.82 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="209.64,429.82 212.6,439.37 215.56,429.82 209.64,429.82" />
+</g>
+<g>
+ <path d="M 240.94 411.02 L 259.74 411.02 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="259.74,413.98 269.29,411.02 259.74,408.06 259.74,413.98" />
+</g>
+<g>
+ <path d="M 297.64 411.02 L 278.84 411.02 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="278.84,408.06 269.29,411.02 278.84,413.98 278.84,408.06" />
+</g>
+<g>
+ <path d="M 325.98 411.02 L 344.78 411.02 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="344.78,413.98 354.33,411.02 344.78,408.06 344.78,413.98" />
+</g>
+<g>
+ <path d="M 382.68 411.02 L 363.88 411.02 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="363.88,408.06 354.33,411.02 363.88,413.98 363.88,408.06" />
+</g>
+<g>
+ <path d="M 411.02 411.02 L 432.61 432.61 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="430.53,434.7 439.37,439.37 434.7,430.53 430.53,434.7" />
+</g>
+<g>
+ <path d="M 439.37 411.02 L 439.37 429.82 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="436.41,429.82 439.37,439.37 442.33,429.82 436.41,429.82" />
+</g>
+<g>
+ <path d="M 467.72 411.02 L 446.13 432.61 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="444.04,430.53 439.37,439.37 448.21,434.7 444.04,430.53" />
+</g>
+<g>
+ <path d="M 14.17 382.68 L 93.48 276.93 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="95.84,278.71 99.21,269.29 91.11,275.16 95.84,278.71" />
+</g>
+<g>
+ <path d="M 42.52 382.68 L 94.94 277.84 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="97.58,279.16 99.21,269.29 92.29,276.51 97.58,279.16" />
+</g>
+<g>
+ <path d="M 70.87 382.68 L 96.9 278.56 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="99.76,279.27 99.21,269.29 94.03,277.84 99.76,279.27" />
+</g>
+<g>
+ <path d="M 99.21 382.68 L 99.21 278.84 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="102.17,278.84 99.21,269.29 96.25,278.84 102.17,278.84" />
+</g>
+<g>
+ <path d="M 127.56 382.68 L 204.65 434.07 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="203.01,436.53 212.6,439.37 206.29,431.61 203.01,436.53" />
+</g>
+<g>
+ <path d="M 155.91 382.68 L 205.84 432.61 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="203.76,434.7 212.6,439.37 207.93,430.53 203.76,434.7" />
+</g>
+<g>
+ <path d="M 184.25 382.68 L 232.4 358.6 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="233.72,361.25 240.94,354.33 231.07,355.96 233.72,361.25" />
+</g>
+<g>
+ <path d="M 212.6 382.68 L 234.19 361.09 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="236.27,363.17 240.94,354.33 232.1,359 236.27,363.17" />
+</g>
+<g>
+ <path d="M 240.94 382.68 L 240.94 363.88 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="243.9,363.88 240.94,354.33 237.98,363.88 243.9,363.88" />
+</g>
+<g>
+ <path d="M 269.29 382.68 L 269.29 401.47 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="266.33,401.47 269.29,411.02 272.25,401.47 266.33,401.47" />
+</g>
+<g>
+ <path d="M 297.64 382.68 L 276.05 404.27 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="273.96,402.18 269.29,411.02 278.13,406.35 273.96,402.18" />
+</g>
+<g>
+ <path d="M 325.98 382.68 L 347.58 404.27 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="345.49,406.35 354.33,411.02 349.66,402.18 345.49,406.35" />
+</g>
+<g>
+ <path d="M 354.33 382.68 L 354.33 401.47 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="351.37,401.47 354.33,411.02 357.29,401.47 351.37,401.47" />
+</g>
+<g>
+ <path d="M 382.68 382.68 L 361.09 404.27 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="359,402.18 354.33,411.02 363.17,406.35 359,402.18" />
+</g>
+<g>
+ <path d="M 411.02 382.68 L 386.95 334.53 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="389.6,333.2 382.68,325.98 384.31,335.85 389.6,333.2" />
+</g>
+<g>
+ <path d="M 439.37 382.68 L 439.37 429.82 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="436.41,429.82 439.37,439.37 442.33,429.82 436.41,429.82" />
+</g>
+<g>
+ <path d="M 467.72 382.68 L 443.64 430.83 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="441,429.5 439.37,439.37 446.29,432.15 441,429.5" />
+</g>
+<g>
+ <path d="M 14.17 354.33 L 92.46 276.05 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="94.54,278.13 99.21,269.29 90.37,273.96 94.54,278.13" />
+</g>
+<g>
+ <path d="M 42.52 354.33 L 93.91 277.24 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="96.37,278.88 99.21,269.29 91.45,275.6 96.37,278.88" />
+</g>
+<g>
+ <path d="M 70.87 354.33 L 96.19 278.35 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="98.99,279.29 99.21,269.29 93.39,277.42 98.99,279.29" />
+</g>
+<g>
+ <path d="M 99.21 354.33 L 99.21 278.84 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="102.17,278.84 99.21,269.29 96.25,278.84 102.17,278.84" />
+</g>
+<g>
+ <path d="M 127.56 354.33 L 102.23 278.35 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="105.03,277.42 99.21,269.29 99.43,279.29 105.03,277.42" />
+</g>
+<g>
+ <path d="M 155.91 354.33 L 231.39 354.33 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="231.39,357.29 240.94,354.33 231.39,351.37 231.39,357.29" />
+</g>
+<g>
+ <path d="M 184.25 354.33 L 231.39 354.33 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="231.39,357.29 240.94,354.33 231.39,351.37 231.39,357.29" />
+</g>
+<g>
+ <path d="M 212.6 354.33 L 231.39 354.33 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="231.39,357.29 240.94,354.33 231.39,351.37 231.39,357.29" />
+</g>
+<g>
+ <path d="M 269.29 354.33 L 250.5 354.33 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="250.49,351.37 240.94,354.33 250.49,357.29 250.49,351.37" />
+</g>
+<g>
+ <path d="M 297.64 354.33 L 250.5 354.33 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="250.49,351.37 240.94,354.33 250.49,357.29 250.49,351.37" />
+</g>
+<g>
+ <path d="M 325.98 354.33 L 325.98 307.19 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="328.94,307.19 325.98,297.64 323.02,307.19 328.94,307.19" />
+</g>
+<g>
+ <path d="M 354.33 354.33 L 375.92 332.74 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="378.01,334.82 382.68,325.98 373.84,330.65 378.01,334.82" />
+</g>
+<g>
+ <path d="M 382.68 354.33 L 382.68 335.54 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="385.64,335.53 382.68,325.98 379.72,335.53 385.64,335.53" />
+</g>
+<g>
+ <path d="M 411.02 354.33 L 389.43 332.74 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="391.52,330.65 382.68,325.98 387.35,334.82 391.52,330.65" />
+</g>
+<g>
+ <path d="M 439.37 354.33 L 391.22 330.26 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="392.55,327.61 382.68,325.98 389.9,332.9 392.55,327.61" />
+</g>
+<g>
+ <path d="M 467.72 354.33 L 391.74 329.01 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="392.68,326.2 382.68,325.98 390.81,331.8 392.68,326.2" />
+</g>
+<g>
+ <path d="M 14.17 325.98 L 65.57 248.89 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="68.03,250.53 70.87,240.94 63.11,247.25 68.03,250.53" />
+</g>
+<g>
+ <path d="M 42.52 325.98 L 92.46 276.05 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="94.54,278.13 99.21,269.29 90.37,273.96 94.54,278.13" />
+</g>
+<g>
+ <path d="M 70.87 325.98 L 94.94 277.84 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="97.58,279.16 99.21,269.29 92.29,276.51 97.58,279.16" />
+</g>
+<g>
+ <path d="M 99.21 325.98 L 99.21 278.84 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="102.17,278.84 99.21,269.29 96.25,278.84 102.17,278.84" />
+</g>
+<g>
+ <path d="M 127.56 325.98 L 103.48 277.84 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="106.13,276.51 99.21,269.29 100.84,279.16 106.13,276.51" />
+</g>
+<g>
+ <path d="M 155.91 325.98 L 105.97 276.05 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="108.05,273.96 99.21,269.29 103.88,278.13 108.05,273.96" />
+</g>
+<g>
+ <path d="M 184.25 325.98 L 231.39 325.98 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="231.39,328.94 240.94,325.98 231.39,323.02 231.39,328.94" />
+</g>
+<g>
+ <path d="M 212.6 325.98 L 231.39 325.98 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="231.39,328.94 240.94,325.98 231.39,323.02 231.39,328.94" />
+</g>
+<g>
+ <path d="M 269.29 325.98 L 250.5 325.98 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="250.49,323.02 240.94,325.98 250.49,328.94 250.49,323.02" />
+</g>
+<g>
+ <path d="M 297.64 325.98 L 319.23 304.39 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="321.31,306.48 325.98,297.64 317.14,302.31 321.31,306.48" />
+</g>
+<g>
+ <path d="M 325.98 325.98 L 325.98 307.19 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="328.94,307.19 325.98,297.64 323.02,307.19 328.94,307.19" />
+</g>
+<g>
+ <path d="M 354.33 325.98 L 373.12 325.98 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="373.13,328.94 382.68,325.98 373.13,323.02 373.13,328.94" />
+</g>
+<g>
+ <path d="M 411.02 325.98 L 392.23 325.98 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="392.23,323.02 382.68,325.98 392.23,328.94 392.23,323.02" />
+</g>
+<g>
+ <path d="M 439.37 325.98 L 392.23 325.98 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="392.23,323.02 382.68,325.98 392.23,328.94 392.23,323.02" />
+</g>
+<g>
+ <path d="M 467.72 325.98 L 392.23 325.98 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="392.23,323.02 382.68,325.98 392.23,328.94 392.23,323.02" />
+</g>
+<g>
+ <path d="M 14.17 297.64 L 64.11 247.7 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="66.2,249.78 70.87,240.94 62.03,245.61 66.2,249.78" />
+</g>
+<g>
+ <path d="M 42.52 297.64 L 66.59 249.49 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="69.24,250.81 70.87,240.94 63.95,248.16 69.24,250.81" />
+</g>
+<g>
+ <path d="M 70.87 297.64 L 92.46 276.05 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="94.54,278.13 99.21,269.29 90.37,273.96 94.54,278.13" />
+</g>
+<g>
+ <path d="M 99.21 297.64 L 99.21 278.84 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="102.17,278.84 99.21,269.29 96.25,278.84 102.17,278.84" />
+</g>
+<g>
+ <path d="M 127.56 297.64 L 105.97 276.05 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="108.05,273.96 99.21,269.29 103.88,278.13 108.05,273.96" />
+</g>
+<g>
+ <path d="M 155.91 297.64 L 107.76 273.56 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="109.08,270.92 99.21,269.29 106.43,276.21 109.08,270.92" />
+</g>
+<g>
+ <path d="M 184.25 297.64 L 232.4 273.56 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="233.72,276.21 240.94,269.29 231.07,270.92 233.72,276.21" />
+</g>
+<g>
+ <path d="M 212.6 297.64 L 234.19 276.05 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="236.27,278.13 240.94,269.29 232.1,273.96 236.27,278.13" />
+</g>
+<g>
+ <path d="M 240.94 297.64 L 240.94 278.84 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="243.9,278.84 240.94,269.29 237.98,278.84 243.9,278.84" />
+</g>
+<g>
+ <path d="M 269.29 297.64 L 247.7 276.05 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="249.78,273.96 240.94,269.29 245.61,278.13 249.78,273.96" />
+</g>
+<g>
+ <path d="M 297.64 297.64 L 316.43 297.64 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="316.43,300.6 325.98,297.64 316.43,294.68 316.43,300.6" />
+</g>
+<g>
+ <path d="M 354.33 297.64 L 335.54 297.64 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="335.53,294.68 325.98,297.64 335.53,300.6 335.53,294.68" />
+</g>
+<g>
+ <path d="M 382.68 297.64 L 382.68 316.43 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="379.72,316.43 382.68,325.98 385.64,316.43 379.72,316.43" />
+</g>
+<g>
+ <path d="M 411.02 297.64 L 389.43 319.23 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="387.35,317.14 382.68,325.98 391.52,321.31 387.35,317.14" />
+</g>
+<g>
+ <path d="M 439.37 297.64 L 391.22 321.71 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="389.9,319.06 382.68,325.98 392.55,324.35 389.9,319.06" />
+</g>
+<g>
+ <path d="M 467.72 297.64 L 391.74 322.96 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="390.81,320.16 382.68,325.98 392.68,325.76 390.81,320.16" />
+</g>
+<g>
+ <path d="M 14.17 269.29 L 62.32 245.22 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="63.65,247.86 70.87,240.94 61,242.57 63.65,247.86" />
+</g>
+<g>
+ <path d="M 42.52 269.29 L 64.11 247.7 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="66.2,249.78 70.87,240.94 62.03,245.61 66.2,249.78" />
+</g>
+<g>
+ <path d="M 70.87 269.29 L 70.87 250.5 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="73.83,250.49 70.87,240.94 67.91,250.49 73.83,250.49" />
+</g>
+<g>
+ <path d="M 127.56 269.29 L 108.77 269.29 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="108.76,266.33 99.21,269.29 108.76,272.25 108.76,266.33" />
+</g>
+<g>
+ <path d="M 155.91 269.29 L 108.77 269.29 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="108.76,266.33 99.21,269.29 108.76,272.25 108.76,266.33" />
+</g>
+<g>
+ <path d="M 184.25 269.29 L 231.39 269.29 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="231.39,272.25 240.94,269.29 231.39,266.33 231.39,272.25" />
+</g>
+<g>
+ <path d="M 212.6 269.29 L 231.39 269.29 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="231.39,272.25 240.94,269.29 231.39,266.33 231.39,272.25" />
+</g>
+<g>
+ <path d="M 269.29 269.29 L 250.5 269.29 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="250.49,266.33 240.94,269.29 250.49,272.25 250.49,266.33" />
+</g>
+<g>
+ <path d="M 297.64 269.29 L 319.23 290.88 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="317.14,292.97 325.98,297.64 321.31,288.8 317.14,292.97" />
+</g>
+<g>
+ <path d="M 325.98 269.29 L 325.98 288.08 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="323.02,288.09 325.98,297.64 328.94,288.09 323.02,288.09" />
+</g>
+<g>
+ <path d="M 354.33 269.29 L 332.74 290.88 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="330.65,288.8 325.98,297.64 334.82,292.97 330.65,288.8" />
+</g>
+<g>
+ <path d="M 382.68 269.29 L 382.68 316.43 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="379.72,316.43 382.68,325.98 385.64,316.43 379.72,316.43" />
+</g>
+<g>
+ <path d="M 411.02 269.29 L 386.95 317.44 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="384.31,316.11 382.68,325.98 389.6,318.76 384.31,316.11" />
+</g>
+<g>
+ <path d="M 439.37 269.29 L 389.43 319.23 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="387.35,317.14 382.68,325.98 391.52,321.31 387.35,317.14" />
+</g>
+<g>
+ <path d="M 467.72 269.29 L 390.63 320.69 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="388.99,318.22 382.68,325.98 392.27,323.14 388.99,318.22" />
+</g>
+<g>
+ <path d="M 14.17 240.94 L 61.31 240.94 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="61.32,243.9 70.87,240.94 61.32,237.98 61.32,243.9" />
+</g>
+<g>
+ <path d="M 42.52 240.94 L 61.31 240.94 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="61.32,243.9 70.87,240.94 61.32,237.98 61.32,243.9" />
+</g>
+<g>
+ <path d="M 99.21 240.94 L 80.42 240.94 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="80.42,237.98 70.87,240.94 80.42,243.9 80.42,237.98" />
+</g>
+<g>
+ <path d="M 127.56 240.94 L 105.97 262.54 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="103.88,260.45 99.21,269.29 108.05,264.62 103.88,260.45" />
+</g>
+<g>
+ <path d="M 155.91 240.94 L 107.76 265.02 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="106.43,262.37 99.21,269.29 109.08,267.66 106.43,262.37" />
+</g>
+<g>
+ <path d="M 184.25 240.94 L 232.4 265.02 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="231.07,267.66 240.94,269.29 233.72,262.37 231.07,267.66" />
+</g>
+<g>
+ <path d="M 212.6 240.94 L 234.19 262.54 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="232.1,264.62 240.94,269.29 236.27,260.45 232.1,264.62" />
+</g>
+<g>
+ <path d="M 240.94 240.94 L 240.94 259.74 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="237.98,259.74 240.94,269.29 243.9,259.74 237.98,259.74" />
+</g>
+<g>
+ <path d="M 269.29 240.94 L 247.7 262.54 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="245.61,260.45 240.94,269.29 249.78,264.62 245.61,260.45" />
+</g>
+<g>
+ <path d="M 297.64 240.94 L 273.56 192.8 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="276.21,191.47 269.29,184.25 270.92,194.12 276.21,191.47" />
+</g>
+<g>
+ <path d="M 325.98 240.94 L 325.98 288.08 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="323.02,288.09 325.98,297.64 328.94,288.09 323.02,288.09" />
+</g>
+<g>
+ <path d="M 354.33 240.94 L 330.26 289.09 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="327.61,287.77 325.98,297.64 332.9,290.42 327.61,287.77" />
+</g>
+<g>
+ <path d="M 382.68 240.94 L 332.74 290.88 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="330.65,288.8 325.98,297.64 334.82,292.97 330.65,288.8" />
+</g>
+<g>
+ <path d="M 411.02 240.94 L 385.7 316.92 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="382.9,315.98 382.68,325.98 388.5,317.85 382.9,315.98" />
+</g>
+<g>
+ <path d="M 439.37 240.94 L 387.98 318.04 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="385.52,316.39 382.68,325.98 390.44,319.67 385.52,316.39" />
+</g>
+<g>
+ <path d="M 467.72 240.94 L 389.43 319.23 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="387.35,317.14 382.68,325.98 391.52,321.31 387.35,317.14" />
+</g>
+<g>
+ <path d="M 14.17 212.6 L 62.32 236.67 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="61,239.31 70.87,240.94 63.65,234.02 61,239.31" />
+</g>
+<g>
+ <path d="M 42.52 212.6 L 64.11 234.19 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="62.03,236.27 70.87,240.94 66.2,232.1 62.03,236.27" />
+</g>
+<g>
+ <path d="M 70.87 212.6 L 70.87 231.39 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="67.91,231.39 70.87,240.94 73.83,231.39 67.91,231.39" />
+</g>
+<g>
+ <path d="M 99.21 212.6 L 77.62 234.19 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="75.54,232.1 70.87,240.94 79.71,236.27 75.54,232.1" />
+</g>
+<g>
+ <path d="M 127.56 212.6 L 79.41 236.67 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="78.09,234.02 70.87,240.94 80.74,239.31 78.09,234.02" />
+</g>
+<g>
+ <path d="M 155.91 212.6 L 105.97 262.54 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="103.88,260.45 99.21,269.29 108.05,264.62 103.88,260.45" />
+</g>
+<g>
+ <path d="M 184.25 212.6 L 234.19 262.54 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="232.1,264.62 240.94,269.29 236.27,260.45 232.1,264.62" />
+</g>
+<g>
+ <path d="M 212.6 212.6 L 260.75 188.52 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="262.07,191.17 269.29,184.25 259.42,185.88 262.07,191.17" />
+</g>
+<g>
+ <path d="M 240.94 212.6 L 262.54 191.01 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="264.62,193.09 269.29,184.25 260.45,188.92 264.62,193.09" />
+</g>
+<g>
+ <path d="M 269.29 212.6 L 269.29 193.81 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="272.25,193.8 269.29,184.25 266.33,193.8 272.25,193.8" />
+</g>
+<g>
+ <path d="M 297.64 212.6 L 276.05 191.01 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="278.13,188.92 269.29,184.25 273.96,193.09 278.13,188.92" />
+</g>
+<g>
+ <path d="M 325.98 212.6 L 277.84 188.52 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="279.16,185.88 269.29,184.25 276.51,191.17 279.16,185.88" />
+</g>
+<g>
+ <path d="M 354.33 212.6 L 278.35 187.27 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="279.29,184.47 269.29,184.25 277.42,190.07 279.29,184.47" />
+</g>
+<g>
+ <path d="M 382.68 212.6 L 331.28 289.69 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="328.82,288.05 325.98,297.64 333.74,291.33 328.82,288.05" />
+</g>
+<g>
+ <path d="M 411.02 212.6 L 384.99 316.72 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="382.13,316 382.68,325.98 387.86,317.43 382.13,316" />
+</g>
+<g>
+ <path d="M 439.37 212.6 L 386.95 317.44 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="384.31,316.11 382.68,325.98 389.6,318.76 384.31,316.11" />
+</g>
+<g>
+ <path d="M 467.72 212.6 L 388.41 318.34 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="386.05,316.56 382.68,325.98 390.78,320.11 386.05,316.56" />
+</g>
+<g>
+ <path d="M 14.17 184.25 L 64.11 234.19 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="62.03,236.27 70.87,240.94 66.2,232.1 62.03,236.27" />
+</g>
+<g>
+ <path d="M 42.52 184.25 L 66.59 232.4 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="63.95,233.72 70.87,240.94 69.24,231.07 63.95,233.72" />
+</g>
+<g>
+ <path d="M 70.87 184.25 L 70.87 231.39 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="67.91,231.39 70.87,240.94 73.83,231.39 67.91,231.39" />
+</g>
+<g>
+ <path d="M 99.21 184.25 L 75.14 232.4 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="72.5,231.07 70.87,240.94 77.79,233.72 72.5,231.07" />
+</g>
+<g>
+ <path d="M 127.56 184.25 L 77.62 234.19 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="75.54,232.1 70.87,240.94 79.71,236.27 75.54,232.1" />
+</g>
+<g>
+ <path d="M 155.91 184.25 L 104.51 107.16 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="106.97,105.52 99.21,99.21 102.05,108.8 106.97,105.52" />
+</g>
+<g>
+ <path d="M 184.25 184.25 L 259.74 184.25 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="259.74,187.21 269.29,184.25 259.74,181.29 259.74,187.21" />
+</g>
+<g>
+ <path d="M 212.6 184.25 L 259.74 184.25 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="259.74,187.21 269.29,184.25 259.74,181.29 259.74,187.21" />
+</g>
+<g>
+ <path d="M 240.94 184.25 L 259.74 184.25 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="259.74,187.21 269.29,184.25 259.74,181.29 259.74,187.21" />
+</g>
+<g>
+ <path d="M 297.64 184.25 L 278.84 184.25 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="278.84,181.29 269.29,184.25 278.84,187.21 278.84,181.29" />
+</g>
+<g>
+ <path d="M 325.98 184.25 L 278.84 184.25 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="278.84,181.29 269.29,184.25 278.84,187.21 278.84,181.29" />
+</g>
+<g>
+ <path d="M 354.33 184.25 L 278.84 184.25 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="278.84,181.29 269.29,184.25 278.84,187.21 278.84,181.29" />
+</g>
+<g>
+ <path d="M 382.68 184.25 L 278.84 184.25 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="278.84,181.29 269.29,184.25 278.84,187.21 278.84,181.29" />
+</g>
+<g>
+ <path d="M 411.02 184.25 L 278.84 184.25 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="278.84,181.29 269.29,184.25 278.84,187.21 278.84,181.29" />
+</g>
+<g>
+ <path d="M 439.37 184.25 L 386.23 317.11 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="383.48,316.01 382.68,325.98 388.97,318.21 383.48,316.01" />
+</g>
+<g>
+ <path d="M 467.72 184.25 L 387.59 317.79 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="385.06,316.27 382.68,325.98 390.13,319.31 385.06,316.27" />
+</g>
+<g>
+ <path d="M 14.17 155.91 L 91.26 104.51 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="92.9,106.97 99.21,99.21 89.62,102.05 92.9,106.97" />
+</g>
+<g>
+ <path d="M 42.52 155.91 L 92.46 105.97 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="94.54,108.05 99.21,99.21 90.37,103.88 94.54,108.05" />
+</g>
+<g>
+ <path d="M 70.87 155.91 L 94.94 107.76 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="97.58,109.08 99.21,99.21 92.29,106.43 97.58,109.08" />
+</g>
+<g>
+ <path d="M 99.21 155.91 L 99.21 108.77 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="102.17,108.76 99.21,99.21 96.25,108.76 102.17,108.76" />
+</g>
+<g>
+ <path d="M 127.56 155.91 L 103.48 107.76 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="106.13,106.43 99.21,99.21 100.84,109.08 106.13,106.43" />
+</g>
+<g>
+ <path d="M 155.91 155.91 L 105.97 105.97 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="108.05,103.88 99.21,99.21 103.88,108.05 108.05,103.88" />
+</g>
+<g>
+ <path d="M 184.25 155.91 L 260.23 181.23 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="259.29,184.03 269.29,184.25 261.16,178.43 259.29,184.03" />
+</g>
+<g>
+ <path d="M 212.6 155.91 L 260.75 179.98 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="259.42,182.62 269.29,184.25 262.07,177.33 259.42,182.62" />
+</g>
+<g>
+ <path d="M 240.94 155.91 L 262.54 177.5 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="260.45,179.58 269.29,184.25 264.62,175.41 260.45,179.58" />
+</g>
+<g>
+ <path d="M 269.29 155.91 L 269.29 174.7 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="266.33,174.7 269.29,184.25 272.25,174.7 266.33,174.7" />
+</g>
+<g>
+ <path d="M 297.64 155.91 L 276.05 177.5 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="273.96,175.41 269.29,184.25 278.13,179.58 273.96,175.41" />
+</g>
+<g>
+ <path d="M 325.98 155.91 L 277.84 179.98 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="276.51,177.33 269.29,184.25 279.16,182.62 276.51,177.33" />
+</g>
+<g>
+ <path d="M 354.33 155.91 L 278.35 181.23 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="277.42,178.43 269.29,184.25 279.29,184.03 277.42,178.43" />
+</g>
+<g>
+ <path d="M 382.68 155.91 L 278.56 181.93 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="277.84,179.07 269.29,184.25 279.27,184.8 277.84,179.07" />
+</g>
+<g>
+ <path d="M 411.02 155.91 L 278.66 182.38 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="278.08,179.48 269.29,184.25 279.24,185.27 278.08,179.48" />
+</g>
+<g>
+ <path d="M 439.37 155.91 L 278.71 182.68 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="278.23,179.76 269.29,184.25 279.2,185.59 278.23,179.76" />
+</g>
+<g>
+ <path d="M 467.72 155.91 L 386.95 317.44 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="384.31,316.11 382.68,325.98 389.6,318.76 384.31,316.11" />
+</g>
+<g>
+ <path d="M 14.17 127.56 L 90.15 102.23 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="91.08,105.03 99.21,99.21 89.21,99.43 91.08,105.03" />
+</g>
+<g>
+ <path d="M 42.52 127.56 L 90.67 103.48 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="91.99,106.13 99.21,99.21 89.34,100.84 91.99,106.13" />
+</g>
+<g>
+ <path d="M 70.87 127.56 L 92.46 105.97 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="94.54,108.05 99.21,99.21 90.37,103.88 94.54,108.05" />
+</g>
+<g>
+ <path d="M 99.21 127.56 L 99.21 108.77 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="102.17,108.76 99.21,99.21 96.25,108.76 102.17,108.76" />
+</g>
+<g>
+ <path d="M 127.56 127.56 L 105.97 105.97 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="108.05,103.88 99.21,99.21 103.88,108.05 108.05,103.88" />
+</g>
+<g>
+ <path d="M 155.91 127.56 L 107.76 103.48 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="109.08,100.84 99.21,99.21 106.43,106.13 109.08,100.84" />
+</g>
+<g>
+ <path d="M 184.25 127.56 L 234.19 77.62 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="236.27,79.71 240.94,70.87 232.1,75.54 236.27,79.71" />
+</g>
+<g>
+ <path d="M 212.6 127.56 L 236.67 79.41 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="239.31,80.74 240.94,70.87 234.02,78.09 239.31,80.74" />
+</g>
+<g>
+ <path d="M 240.94 127.56 L 240.94 80.42 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="243.9,80.42 240.94,70.87 237.98,80.42 243.9,80.42" />
+</g>
+<g>
+ <path d="M 269.29 127.56 L 269.29 174.7 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="266.33,174.7 269.29,184.25 272.25,174.7 266.33,174.7" />
+</g>
+<g>
+ <path d="M 297.64 127.56 L 273.56 175.71 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="270.92,174.38 269.29,184.25 276.21,177.03 270.92,174.38" />
+</g>
+<g>
+ <path d="M 325.98 127.56 L 276.05 177.5 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="273.96,175.41 269.29,184.25 278.13,179.58 273.96,175.41" />
+</g>
+<g>
+ <path d="M 354.33 127.56 L 277.24 178.95 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="275.6,176.49 269.29,184.25 278.88,181.41 275.6,176.49" />
+</g>
+<g>
+ <path d="M 382.68 127.56 L 277.84 179.98 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="276.51,177.33 269.29,184.25 279.16,182.62 276.51,177.33" />
+</g>
+<g>
+ <path d="M 411.02 127.56 L 278.16 180.7 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="277.06,177.96 269.29,184.25 279.26,183.45 277.06,177.96" />
+</g>
+<g>
+ <path d="M 439.37 127.56 L 278.35 181.23 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="277.42,178.43 269.29,184.25 279.29,184.03 277.42,178.43" />
+</g>
+<g>
+ <path d="M 467.72 127.56 L 278.48 181.63 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="277.66,178.78 269.29,184.25 279.29,184.47 277.66,178.78" />
+</g>
+<g>
+ <path d="M 14.17 99.21 L 89.66 99.21 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="89.66,102.17 99.21,99.21 89.66,96.25 89.66,102.17" />
+</g>
+<g>
+ <path d="M 42.52 99.21 L 89.66 99.21 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="89.66,102.17 99.21,99.21 89.66,96.25 89.66,102.17" />
+</g>
+<g>
+ <path d="M 70.87 99.21 L 89.66 99.21 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="89.66,102.17 99.21,99.21 89.66,96.25 89.66,102.17" />
+</g>
+<g>
+ <path d="M 127.56 99.21 L 108.77 99.21 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="108.76,96.25 99.21,99.21 108.76,102.17 108.76,96.25" />
+</g>
+<g>
+ <path d="M 155.91 99.21 L 108.77 99.21 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="108.76,96.25 99.21,99.21 108.76,102.17 108.76,96.25" />
+</g>
+<g>
+ <path d="M 184.25 99.21 L 232.4 75.14 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="233.72,77.79 240.94,70.87 231.07,72.5 233.72,77.79" />
+</g>
+<g>
+ <path d="M 212.6 99.21 L 234.19 77.62 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="236.27,79.71 240.94,70.87 232.1,75.54 236.27,79.71" />
+</g>
+<g>
+ <path d="M 240.94 99.21 L 240.94 80.42 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="243.9,80.42 240.94,70.87 237.98,80.42 243.9,80.42" />
+</g>
+<g>
+ <path d="M 269.29 99.21 L 247.7 77.62 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="249.78,75.54 240.94,70.87 245.61,79.71 249.78,75.54" />
+</g>
+<g>
+ <path d="M 297.64 99.21 L 249.49 75.14 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="250.81,72.5 240.94,70.87 248.16,77.79 250.81,72.5" />
+</g>
+<g>
+ <path d="M 325.98 99.21 L 250.01 73.89 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="250.94,71.09 240.94,70.87 249.07,76.69 250.94,71.09" />
+</g>
+<g>
+ <path d="M 354.33 99.21 L 250.21 73.18 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="250.92,70.32 240.94,70.87 249.49,76.05 250.92,70.32" />
+</g>
+<g>
+ <path d="M 382.68 99.21 L 276.93 178.52 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="275.16,176.15 269.29,184.25 278.71,180.88 275.16,176.15" />
+</g>
+<g>
+ <path d="M 411.02 99.21 L 277.48 179.34 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="275.96,176.8 269.29,184.25 279,181.87 275.96,176.8" />
+</g>
+<g>
+ <path d="M 439.37 99.21 L 277.84 179.98 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="276.51,177.33 269.29,184.25 279.16,182.62 276.51,177.33" />
+</g>
+<g>
+ <path d="M 467.72 99.21 L 278.07 180.49 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="276.91,177.77 269.29,184.25 279.24,183.2 276.91,177.77" />
+</g>
+<g>
+ <path d="M 14.17 70.87 L 90.15 96.19 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="89.21,98.99 99.21,99.21 91.08,93.39 89.21,98.99" />
+</g>
+<g>
+ <path d="M 42.52 70.87 L 90.67 94.94 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="89.34,97.58 99.21,99.21 91.99,92.29 89.34,97.58" />
+</g>
+<g>
+ <path d="M 70.87 70.87 L 92.46 92.46 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="90.37,94.54 99.21,99.21 94.54,90.37 90.37,94.54" />
+</g>
+<g>
+ <path d="M 99.21 70.87 L 99.21 89.66 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="96.25,89.66 99.21,99.21 102.17,89.66 96.25,89.66" />
+</g>
+<g>
+ <path d="M 127.56 70.87 L 105.97 92.46 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="103.88,90.37 99.21,99.21 108.05,94.54 103.88,90.37" />
+</g>
+<g>
+ <path d="M 155.91 70.87 L 107.76 94.94 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="106.43,92.29 99.21,99.21 109.08,97.58 106.43,92.29" />
+</g>
+<g>
+ <path d="M 184.25 70.87 L 231.39 70.87 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="231.39,73.83 240.94,70.87 231.39,67.91 231.39,73.83" />
+</g>
+<g>
+ <path d="M 212.6 70.87 L 231.39 70.87 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="231.39,73.83 240.94,70.87 231.39,67.91 231.39,73.83" />
+</g>
+<g>
+ <path d="M 269.29 70.87 L 250.5 70.87 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="250.49,67.91 240.94,70.87 250.49,73.83 250.49,67.91" />
+</g>
+<g>
+ <path d="M 297.64 70.87 L 250.5 70.87 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="250.49,67.91 240.94,70.87 250.49,73.83 250.49,67.91" />
+</g>
+<g>
+ <path d="M 325.98 70.87 L 250.5 70.87 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="250.49,67.91 240.94,70.87 250.49,73.83 250.49,67.91" />
+</g>
+<g>
+ <path d="M 354.33 70.87 L 250.5 70.87 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="250.49,67.91 240.94,70.87 250.49,73.83 250.49,67.91" />
+</g>
+<g>
+ <path d="M 382.68 70.87 L 250.5 70.87 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="250.49,67.91 240.94,70.87 250.49,73.83 250.49,67.91" />
+</g>
+<g>
+ <path d="M 411.02 70.87 L 250.5 70.87 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="250.49,67.91 240.94,70.87 250.49,73.83 250.49,67.91" />
+</g>
+<g>
+ <path d="M 439.37 70.87 L 250.5 70.87 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="250.49,67.91 240.94,70.87 250.49,73.83 250.49,67.91" />
+</g>
+<g>
+ <path d="M 467.72 70.87 L 250.5 70.87 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="250.49,67.91 240.94,70.87 250.49,73.83 250.49,67.91" />
+</g>
+<g>
+ <path d="M 14.17 42.52 L 91.26 93.91 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="89.62,96.37 99.21,99.21 92.9,91.45 89.62,96.37" />
+</g>
+<g>
+ <path d="M 42.52 42.52 L 92.46 92.46 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="90.37,94.54 99.21,99.21 94.54,90.37 90.37,94.54" />
+</g>
+<g>
+ <path d="M 70.87 42.52 L 94.94 90.67 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="92.29,91.99 99.21,99.21 97.58,89.34 92.29,91.99" />
+</g>
+<g>
+ <path d="M 99.21 42.52 L 99.21 89.66 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="96.25,89.66 99.21,99.21 102.17,89.66 96.25,89.66" />
+</g>
+<g>
+ <path d="M 127.56 42.52 L 103.48 90.67 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="100.84,89.34 99.21,99.21 106.13,91.99 100.84,89.34" />
+</g>
+<g>
+ <path d="M 155.91 42.52 L 105.97 92.46 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="103.88,90.37 99.21,99.21 108.05,94.54 103.88,90.37" />
+</g>
+<g>
+ <path d="M 184.25 42.52 L 232.4 66.59 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="231.07,69.24 240.94,70.87 233.72,63.95 231.07,69.24" />
+</g>
+<g>
+ <path d="M 212.6 42.52 L 234.19 64.11 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="232.1,66.2 240.94,70.87 236.27,62.03 232.1,66.2" />
+</g>
+<g>
+ <path d="M 240.94 42.52 L 240.94 61.31 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="237.98,61.32 240.94,70.87 243.9,61.32 237.98,61.32" />
+</g>
+<g>
+ <path d="M 269.29 42.52 L 247.7 64.11 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="245.61,62.03 240.94,70.87 249.78,66.2 245.61,62.03" />
+</g>
+<g>
+ <path d="M 297.64 42.52 L 249.49 66.59 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="248.16,63.95 240.94,70.87 250.81,69.24 248.16,63.95" />
+</g>
+<g>
+ <path d="M 325.98 42.52 L 250.01 67.85 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="249.07,65.05 240.94,70.87 250.94,70.65 249.07,65.05" />
+</g>
+<g>
+ <path d="M 354.33 42.52 L 250.21 68.55 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="249.49,65.69 240.94,70.87 250.92,71.42 249.49,65.69" />
+</g>
+<g>
+ <path d="M 382.68 42.52 L 250.31 68.99 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="249.73,66.1 240.94,70.87 250.89,71.89 249.73,66.1" />
+</g>
+<g>
+ <path d="M 411.02 42.52 L 250.37 69.3 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="249.88,66.38 240.94,70.87 250.85,72.21 249.88,66.38" />
+</g>
+<g>
+ <path d="M 439.37 42.52 L 250.4 69.52 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="249.98,66.59 240.94,70.87 250.82,72.44 249.98,66.59" />
+</g>
+<g>
+ <path d="M 467.72 42.52 L 250.42 69.68 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="250.05,66.75 240.94,70.87 250.79,72.62 250.05,66.75" />
+</g>
+<g>
+ <path d="M 14.17 14.17 L 92.46 92.46 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="90.37,94.54 99.21,99.21 94.54,90.37 90.37,94.54" />
+</g>
+<g>
+ <path d="M 42.52 14.17 L 93.91 91.26 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="91.45,92.9 99.21,99.21 96.37,89.62 91.45,92.9" />
+</g>
+<g>
+ <path d="M 70.87 14.17 L 96.19 90.15 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="93.39,91.08 99.21,99.21 98.99,89.21 93.39,91.08" />
+</g>
+<g>
+ <path d="M 99.21 14.17 L 99.21 89.66 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="96.25,89.66 99.21,99.21 102.17,89.66 96.25,89.66" />
+</g>
+<g>
+ <path d="M 127.56 14.17 L 102.23 90.15 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="99.43,89.21 99.21,99.21 105.03,91.08 99.43,89.21" />
+</g>
+<g>
+ <path d="M 155.91 14.17 L 233 65.57 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="231.35,68.03 240.94,70.87 234.63,63.11 231.35,68.03" />
+</g>
+<g>
+ <path d="M 184.25 14.17 L 234.19 64.11 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="232.1,66.2 240.94,70.87 236.27,62.03 232.1,66.2" />
+</g>
+<g>
+ <path d="M 212.6 14.17 L 236.67 62.32 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="234.02,63.65 240.94,70.87 239.31,61 234.02,63.65" />
+</g>
+<g>
+ <path d="M 240.94 14.17 L 240.94 61.31 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="237.98,61.32 240.94,70.87 243.9,61.32 237.98,61.32" />
+</g>
+<g>
+ <path d="M 269.29 14.17 L 245.22 62.32 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="242.57,61 240.94,70.87 247.86,63.65 242.57,61" />
+</g>
+<g>
+ <path d="M 297.64 14.17 L 247.7 64.11 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="245.61,62.03 240.94,70.87 249.78,66.2 245.61,62.03" />
+</g>
+<g>
+ <path d="M 325.98 14.17 L 248.89 65.57 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="247.25,63.11 240.94,70.87 250.53,68.03 247.25,63.11" />
+</g>
+<g>
+ <path d="M 354.33 14.17 L 249.49 66.59 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="248.16,63.95 240.94,70.87 250.81,69.24 248.16,63.95" />
+</g>
+<g>
+ <path d="M 382.68 14.17 L 249.81 67.32 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="248.71,64.58 240.94,70.87 250.91,70.07 248.71,64.58" />
+</g>
+<g>
+ <path d="M 411.02 14.17 L 250.01 67.85 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="249.07,65.05 240.94,70.87 250.94,70.65 249.07,65.05" />
+</g>
+<g>
+ <path d="M 439.37 14.17 L 250.13 68.24 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="249.31,65.4 240.94,70.87 250.94,71.09 249.31,65.4" />
+</g>
+<g>
+ <path d="M 467.72 14.17 L 250.21 68.55 z" fill="none" stroke="rgb(0,0,0)" style="stroke-dasharray:1,1;stroke-dashoffset:0" stroke-width="0.353mm" /> <polygon fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-width="0.353mm" style="stroke-linecap:butt;stroke-linejoin:miter" points="249.49,65.69 240.94,70.87 250.92,71.42 249.49,65.69" />
+</g>
+</svg>
