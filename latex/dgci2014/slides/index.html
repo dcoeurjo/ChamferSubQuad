@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>2D Subquadratic Separable Distance Transformation for
+      Path-Based Norms - David Coeurjolly</title>
+
+    <meta name="description" content="2D Subquadratic Separable Distance Transformation for Path-Based Norms">
+    <meta name="author" content="David Coeurjolly">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/default.css" id="theme">
+    <!--MathJax-->
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+      TeX: {
+      extensions: ["color.js","tex2jax.js"],
+      Macros: {
+      Shapes: '\\mathbb{X}',
+      Shape: 'X',
+      R: '\\mathbb{R}',
+      N: '\\mathbb{N}',
+      Z: '\\mathbb{Z}',
+      M: '\\mathcal{M}',
+      T: '\\mathcal{T}',
+      V: '\\mathcal{V}',
+      E: '\\mathcal{E}',
+      B: '\\mathcal{B}_R',
+      Area: '\\mathrm{Area}',
+      Vol: '\\mathrm{Vol}',
+      AreaC: '\\widehat{\\Area}',
+      VolC: '\\widehat{\\Vol}',
+      Dig: '\\mathtt{D}',
+      DigF: ['\\Dig_{#2}(#1)',2],
+      BT: ['\\partial #1',1],
+      Bd: ['\\partial #1',1],
+      dS: '\\BT X',
+      DSh: '\\DigF{\\Shape}{h}',
+      dD: '\\BT \\DSh',
+      EqDef: '\\stackrel{def}{=}',
+      hBd: ['\\partial_{#1}',1],
+      Card: '\\mathrm{Card}',
+      Proj: '\\pi_h^\\Shape',
+      Implies: '\\Rightarrow',
+      Curv: '\\kappa',
+      CurvT: ['\\tilde{\\kappa}_{#1}',1],
+      PCurvHat: ['\\hat{\\Curv}_{#1}',1],
+      DCurvHat: ['\\hat{\\Curv}^D_{#1}',1],
+      PMeanCurvHat: ['\\hat{H}_{#1}',1],
+      PCurvHatStar: '\\hat{\\Curv}^{*}',
+      PMeanCurvHatStar: '\\hat{H}^{*}',
+      Ball: ['B_{#1}(#2)',2],
+      Vect: ['\\overrightarrow{#1}',1],
+      q: '\\kappa',
+      estq: ['\\hat{\\kappa}_{#1}',1],
+      speed: ['\\tau_{#1}',1],
+      eabs: '\\epsilon_{abs}',
+      erel: '\\epsilon_{rel}',
+      eavgabs: '\\overline{\\epsilon}_{abs}',
+      eavgrel: '\\overline{\\epsilon}_{rel}',
+      DFr: ['\\Delta_{#1}',1],
+      BdZ: ['Bd({#1})',1]
+      },
+      tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true
+      }
+      },
+      skipStartupTypeset: true
+      });
+    </script>
+
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = 'css/print/pdf.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+
+
+       </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+	<section>
+	  <h2>2D <strong>Subquadratic Separable</strong> Distance Transformation for <strong>Path-Based Norms</strong></h2>
+	  <h3>David Coeurjolly</h3>
+	  <p>
+	    <small><sup></sup>Université de Lyon, CNRS/INSA-Lyon, LIRIS, UMR5205, F-69621, France</small>
+	  </p>
+          <br><br><br>
+          <center><img width=200  align="center"
+                       src="images/logo_liris.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width=150  align="center"
+                                                                                                        src="logo-cnrs.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img align="center" width=200 src="logoANR.png"></center>
+
+        </section>
+
+        <section>
+          <h1> Introduction</h1>
+        </section>
+
+        <section>
+          <h3>Context</h3>
+
+          <table>
+            <tr><td  width="70%"
+                     style="vertical-align:center;"><p>High-performance <strong>volumetric
+                    analysis</strong>  of digital objects</p>
+                <ul class="fragment">
+	          <li ><em>Distance Transformation/Voronoi Diagram</em></li>
+	          <li ><em>Reverse distance transformatin / Power Diagram</em></li>
+	          <li><em>Medial Axis extraction</em></li>
+	          <li >...</li>
+	        </ul>
+                <br>
+                <p class="fragment"><em>$\Rightarrow$ metric based shape processing</p></em>
+              </td><td style="vertical-align:center;">
+                <img align="middle" src="images/M2DISCO9.png"></td></tr>
+          </table>
+        </section>
+
+        <section>
+          <h3>Context</h3>
+
+          <table>
+            <tr><td width="70%" style="vertical-align:center;"><p><strong>High-performance</strong> volumetric analysis of digital objects</p>
+                <ul class="fragment">
+	          <li><em>Accuracy</em></li>
+	          <li ><em>Asymptotical Complexity</em></li>
+	          <li><em>Efficiency</em></li>
+	          <li><em>Scalability (multithread, out-of-code,...)</li>
+	        </ul>
+              </td><td style="vertical-align:center;">
+                <img align="middle" src="images/M2DISCO9.png"></td></tr>
+          </table>
+        </section>
+
+
+        <section>
+          <h3>Context</h3>
+          <table>
+            <tr><td width="70%"
+                    style="vertical-align:center;"><p>High-performance volumetric analysis of <strong>digital objects</strong></p>
+                <br>
+
+                <p class="fragment">$\Rightarrow$ metric  on $\Z^n$ required</p>
+              </td><td style="vertical-align:center;">
+                <img align="middle" src="images/M2DISCO9.png"></td></tr>
+          </table>
+        </section>
+
+
+        <section>
+          <h3>Requirements on the metric</h3>
+
+          <p>For <strong>shape processing</strong>, we would like the metric to be:</p>
+          <ul>
+            <li>homogeneous (scale invariance through normalization) </li>
+            <li>as isotropic as possible (rotational invariance)</li>
+          </ul>
+          <br>
+          <br>
+          <div class="fragment">
+            <p >For <strong>digital geometry processing</strong>, we
+              would like to have:
+              <ul>
+                <li>$discrete$  $metrics$ $\Z^n\rightarrow\Z$  </li>
+                <li> or $exact$ and $reliable$ representations of the distance values </li>
+                <li>$fast$ $and$ $exact$ volumetric
+                  processing (e.g. DT)</li>
+            </ul></p>
+          </div>
+        </section>
+        
+        
+        <section>
+          <h3>Option 1</h3>
+
+
+          <p align="left"><strong>Path-based metrics</strong> (chamfer masks, -weigthed-  neig. sequences,...)</p>
+          <ul align="left">
+            <li>Discrete distance functions which can induce  metrics/norms</li>
+            <li>Isotropy and quality w.r.t. Euclidean distance is
+              obtained by</li>
+            <ul>
+              <li> Increasing the <em>size of the mask</em> $m$ (or
+                complexity of the N.S)
+              <li> Weigh optimization (analytical/statistical process,...)
+            </ul>
+            <li> Raster-scan/Disjktra-like algorithms in $O(m\cdot
+              N^n)$ / $O(mn\cdot         N^n\log N)$
+            <li>Ok for non-convex domains (instrsinc metric)</li>
+            <li>Hard to parallelize</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Option 2</h3>
+          
+          <p align="left"><strong>p-norms</strong> ($L_2$, $L_p$,...)</p>
+          <ul>
+            <li>not discrete metrics <strong>but</strong> exact
+              representations ( $d(\cdot,\cdot)^p\in\Z$, displacement
+              vector,...)</li>
+            <li>For $L_2$, $L_1$ and
+              $L_\infty$ <strong>error-free</strong> and <strong>separable</strong> volumetric algorithms
+              in $O(n\cdot N^n)$</li>
+            
+            <li>Trivial but optimal parallel implementations (shard memory model)
+          </ul>
+        </section>
+        
+        
+        <section>
+          <h3> Contributions</h3>
+          <ul align="left">
+            <li class="fragment"><strong>Separable approach can be used for Path-based norms </strong></li>
+            <li class="fragment"> $O(\log^2 m\cdot N^2)$<strong> DT/Voronoi
+                Map algorithm </strong> (chamfer mask of size $m$)</li>
+          </ul>
+          <br><br>
+          <p align="left" class="fragment"> Bonus</p>
+          
+          <ul align="left">
+            <li class="fragment">$O(n\cdot
+              N^n\cdot\log{p}\cdot\log{N})$ <strong> DT for any $L_p$
+                metric </strong></li>
+            <li class="fragment"> <strong> Trivial parallel
+                implementation thanks to separability
+            </strong></li>
+            <li class="fragment"> <strong> Extension to higher dimensions
+            </strong></li>
+          </ul>
+        </section>
+        
+        <section>
+          <h1>Preliminaries</h1>
+        </section>
+        
+        
+        <section>
+          <h3>Definitions</h3>
+
+          <p font-size="90%" class="box" data-title="Norm and metric induced by a norm">
+            Given a vector space EV, a norm is a map $g$ from $EV$ to
+            a sub-group $F$ of $\R$ such that $\forall
+            \vec{x},\vec{y}\in EV$, \begin{align}
+            (\text{non-negative})\quad & g(\vec{x})\geq 0\\
+            (\text{identity of indiscernibles}) \quad& g(\vec{x})= 0
+            \Leftrightarrow \vec{x}=\vec{0}\\ (\text{triangular
+            inequality})\quad & g(\vec{x}+\vec{y}) \leq g(\vec{x}) +
+            g(\vec{y})\\ (\text{homogeneity})\quad & \forall
+            \lambda\in\R, \quad g(\lambda\cdot\vec{x}) =
+            |\lambda|\cdot g(\vec{x}) \end{align} $d(a,b) \EqDef
+            g(b-a)$ is the metric induced by the norm $g$.  $(E, F,
+            d)$ is called a <strong>metric space</strong> if $d:~E\rightarrow F$ (with
+            $E$ such that for $a,b\in E$, $(b-a)\in EV$).
+          </p>
+          
+    <p align="left" style="font-size:80%">      E.g. weighted p-norms:
+          $d_{L_p} (a,b) = \left ( \sum_{k=1}^n w_k|a_k-b_k |^p \right )^{\frac{1}{p}}$
+      <br>
+      $(\Z^n,\R,d_{L_p})$ is a metric space
+      <br>
+      $(\Z^n,\Z,\lceil d_{L_p}\rceil)$ is a digital metric space</p>
+
+
+        </section>
+        
+        <section>
+          <h3>Definitions</h3>
+
+          <p class="box" data-title="Distance Transformation and Voronoi Map">
+            The <strong>distance transform</strong> $DT_X$ associated with a digital metric space
+            $(\Z^n,\Z,d)$ is a map  $X\rightarrow\Z$ such that, for $a\in X$
+            $    DT_X(a) = \min_{b\in \Z^n\setminus X} \{d(a,b)\}$.<br>br>
+            The <strong>Voronoi map</strong> is the map $X\rightarrow\Z^n$:
+            $    \Pi_X(a) = \min_{b\in \Z^n\setminus X} \{d(a,b)\}$.
+          </p>
+
+
+          IMMAGGGE
+          
+        </section>
+        
+        <section>
+          <h3>Chamfer mask / Chamfer norms $(\Z^n,\Z,d_\M)$</h3>
+
+          <p class="box" data-title="Chamfer Mask">
+            A <strong>weighted vector</strong> is a pair $(\vec{v},w)$ with $\vec{v}\in\Z^n$ and
+            $w\in\N^*$. <strong>A chamfer mask</strong>  $\M$ is a central-symmetric set of weighted
+            vectors with no null vectors and containing at least a basis of
+            $\Z^n$.
+            
+          <p class="box" data-title="Rational ball, minimal
+                                     H-representation [Thiel, Normand]">
+            Given a Chamfer norm $\M$, the
+            <strong>rational ball</strong> associated with $\M$ is the polytope
+            
+            $$  \B = conv\left\{ \frac{\vec{v}_k}{w_k};\; (\vec{v}_k,w_k)\in\M
+            \right \}$$
+            <br>
+
+            Rational ball $\B$ can also be described as the H-representation of
+          polytope with minimal parameter [Normand]: <br> $$P
+          = \{ x\in\Z^n; Ax \leq y\;\}$$ such that $\forall k\in[1\ldots f],
+          ~\exists x\in P,\quad A_kx=y_k$. <br>$f$ is the number of rows in $A$ and the number of
+          facets in $\B$, and is thus related to $|\M|$.
+          </p>
+          
+          <p align="left" style="font-size:70%"><em>$A_k$ being the $k^{th}$ row
+              of $A$.</em></p>
+          
+        </section>
+
+        <section>
+          <h3>Few things around chamfer mask/path-based norms</h3>
+
+          <ul>
+            <li>Weighted vectors can be optimized to obtain
+              a <strong>digital metric induced by a norm</strong></li>
+            <li>Distance evaluation is related to
+              a <strong>linear problem</strong></li>
+
+            $$    d_\M(O,a) =  \max_{1\leq k \leq f} \{ A_k a^T\}$$
+            
+            <li>-weighted- dNeighborhood sequences  admit similar <strong>rational ball
+              representations</strong> and we also have</li>
+            $$  d(O,a)  =\max_{1\leq k \leq f} \{ f_k(A_k a^T)\}$$
+          </ul>
+          <p align="right" style="font-size:70%; color:#22BB22;" >[Borgefors, Thiel, Strand, Normand,...]
+          </p>
+        </section>
+
+
+         <section>
+          <h3>Separable Voronoi Map Algorithm</h3>
+
+          
+
+          
+        </section>
+
+
+
+        
+        <section>
+          <h2>Subquadratic Separable Algorithm</h2>
+        </section>
+        
+        
+
+        <section>
+          <h1>Experiments</h1>
+        </section>
+        
+
+        <section>
+          <h1>Conclusion</h1>
+        </section>
+
+
+        
+        
+
+
+</div>
+
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+
+<script>
+
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+  controls: true,
+  progress: true,
+  history: true,
+  center: true,
+
+  theme: 'solarized',
+  transition: 'none',
+
+  math: {
+  mathjax: 'http://cdn.mathjax.org/mathjax/latest/MathJax.js',//'/js/MathJax.js', //
+  config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
+  },
+
+  // Parallax scrolling
+  // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+  // parallaxBackgroundSize: '2100px 900px',
+
+  // Optional libraries used to extend on reveal.js
+  dependencies: [
+  { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+  { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+  { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+  { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+  { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+  { src: 'plugin/notes/notes.js', async: true, condition:
+  function() { return !!document.body.classList; } },
+  { src: 'plugin/math/math.js', async: true }
+  ]
+  });
+
+</script>
+
+</body>
+</html>
