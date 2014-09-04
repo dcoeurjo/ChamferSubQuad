@@ -126,7 +126,7 @@
           <h3>Context</h3>
 
           <table>
-            <tr><td  width="70%"
+            <tr><td  width="100%"
                      style="vertical-align:center;"><p>High-performance <strong>volumetric
                     analysis</strong>  of digital objects</p>
                 <ul class="fragment">
@@ -137,8 +137,8 @@
 	        </ul>
                 <br>
                 <p class="fragment"><em>$\Rightarrow$ metric based shape processing</p></em>
-              </td><td style="vertical-align:center;">
-                <img align="middle" src="images/M2DISCO9.png"></td></tr>
+              </td><td   style=" vertical-align:center;">
+                <img align="middle" width=400 src="images/M2DISCO9.png"></td></tr>
           </table>
         </section>
 
@@ -146,7 +146,7 @@
           <h3>Context</h3>
 
           <table>
-            <tr><td width="70%" style="vertical-align:center;"><p><strong>High-performance</strong> volumetric analysis of digital objects</p>
+            <tr><td width="100%" style="vertical-align:center;"><p><strong>High-performance</strong> volumetric analysis of digital objects</p>
                 <ul class="fragment">
 	          <li><em>Accuracy</em></li>
 	          <li ><em>Asymptotical Complexity</em></li>
@@ -154,7 +154,7 @@
 	          <li><em>Scalability (multithread, out-of-code,...)</li>
 	        </ul>
               </td><td style="vertical-align:center;">
-                <img align="middle" src="images/M2DISCO9.png"></td></tr>
+                <img align="middle" width=400 src="images/M2DISCO9.png"></td></tr>
           </table>
         </section>
 
@@ -162,13 +162,13 @@
         <section>
           <h3>Context</h3>
           <table>
-            <tr><td width="70%"
+            <tr><td width="100%"
                     style="vertical-align:center;"><p>High-performance volumetric analysis of <strong>digital objects</strong></p>
                 <br>
 
                 <p class="fragment">$\Rightarrow$ metric  on $\Z^n$ required</p>
               </td><td style="vertical-align:center;">
-                <img align="middle" src="images/M2DISCO9.png"></td></tr>
+                <img align="middle" width=400 src="images/M2DISCO9.png"></td></tr>
           </table>
         </section>
 
@@ -303,20 +303,28 @@
           </p>
 
 
-          IMMAGGGE
+<center>
+  <img width="25%" src="images/neigeDT_508_p.png"> &nbsp; &nbsp; &nbsp; &nbsp;
+  <img  width="25%" src="images/AlCaponeDistanceMap.png">
+</center>
           
         </section>
         
         <section>
           <h3>Chamfer mask / Chamfer norms $(\Z^n,\Z,d_\M)$</h3>
-
-          <p class="box" data-title="Chamfer Mask">
+          
+          <table>
+            <tr>
+              <td width="150%" ><p  class="box"  style="font-size:60%" data-title="Chamfer Mask">
             A <strong>weighted vector</strong> is a pair $(\vec{v},w)$ with $\vec{v}\in\Z^n$ and
             $w\in\N^*$. <strong>A chamfer mask</strong>  $\M$ is a central-symmetric set of weighted
             vectors with no null vectors and containing at least a basis of
             $\Z^n$.
-            
-          <p class="box" data-title="Rational ball, minimal
+              </p></td><td><img width=1200 src="images/chamferVect.svg" style="position:relative; left:50px;" /></td></tr>
+
+              <tr>
+              <td>
+          <p   class="box" style="font-size:60%" data-title="Rational ball, minimal
                                      H-representation [Thiel, Normand]">
             Given a Chamfer norm $\M$, the
             <strong>rational ball</strong> associated with $\M$ is the polytope
@@ -331,8 +339,9 @@
           ~\exists x\in P,\quad A_kx=y_k$. <br>$f$ is the number of rows in $A$ and the number of
           facets in $\B$, and is thus related to $|\M|$.
           </p>
+          </td></tr></table>
           
-          <p align="left" style="font-size:70%"><em>$A_k$ being the $k^{th}$ row
+          <p align="left" style="font-size:70%" ><em>$A_k$ being the $k^{th}$ row
               of $A$.</em></p>
           
         </section>
@@ -405,11 +414,26 @@
              processes</strong> whatever the dimension </li>
              <li>Generic: only based on two predicates</li>
              <ul>
-               <li>Closest</li>
-               <li>HiddenBy</li>
+               <div class="fragment">
+                 <table><tr><td><li><strong>Closest(a,b,c)</strong>: <em>Which one
+                           from b or c is closest to a
+                           ?</em></li></td><td><img width="70%" src="images/closest.png"></td></tr></table>
+               </div>
+               <div class="fragment">
+                 <table><tr><td><li><strong>HiddenBy(a,b,c,S)</strong>: <em>Do a and c
+                           voronoi cell  hides the voronoi cell of c on 1D
+                           span S ?</em></li>
+                     </td><td><img width="900" src="images/hidden.png"></td></tr></table>
              </ul>
 
            </ul>
+         </section>
+
+         <section>
+           <h3>Separable Voronoi Map Algorithm ($L_2$ case)</h3>
+
+           <img src="images/snapshot.png" />
+           
          </section>
 
         
@@ -418,7 +442,126 @@
         </section>
         
         
+        
+        <section>
+          <h3>Metric conditions for separability</h3>
 
+          <p class="box-green" data-title="Generic complexity">
+            Let $(\Z^n, F, d)$ be a metric space, if distance
+            comparison $$ d(a,b) < d(c,d)\quad for\quad
+            a,b,c,d\in\Z^n$$ is <strong>exact</strong>,
+            then <strong>Closest</strong>
+            and <strong>HiddenBy</strong> predicates can be
+            implemented and Alg. 1 is in $$ O(n\cdot N^n\cdot (C+H))
+            $$
+    
+          <div align="right" style="font-size:60%; " > <strong>Closest</strong> being in $O(C)$ and
+            <strong>HiddenBy</strong> in $O(H)$
+        </div></p>
+
+           <p class="box" data-title="Metric conditions 2 [Hirata]">
+              Let $d$ be a metric induced by a <strong>norm whose unit
+               ball is symmetric with respect to grid
+               axes</strong>. Then, if distance comparison predicate is
+              <strong>exact</strong>, Algorithm 1 is <strong>correct</strong> and returns a Voronoi map
+               $\Pi_X$.
+           </p>
+
+          <p class="fragment"><strong><em>Fine with Chamfer
+                mask/Neig. sequences !! </em></strong> </p>
+
+          
+        </section>
+
+        
+
+        <section>
+          <h3>Distance Evaluation in dimension 2</h3>
+
+          <p style="font-size:80%" align="left">
+            $\M = \{\vec{v}^k\}_{k=1\ldots m}$
+         <strong> sorted counterclockwise</strong>
+          <br>
+          We define a <strong>wedge</strong>
+as a angular sector defined by $(\vec{v}^i,\vec{v}^{i+1})$ and the origin
+          </p><br>
+         <p class="box"> $$  d_\M(O,a) =  \max_{1\leq k \leq f} \{ A_k\cdot
+           a^T\}= A_i\cdot a^T$$
+           $i$ being the index of the wedge
+           $(\vec{v}^i,\vec{v}^{i+1})$, $a$ belongs to.
+         </p>
+          <br>
+          <p style="font-size:80%" align="left"><strong>Distance evaluation</strong> $d(O,a)$ <strong>as a geometrical
+              problem</strong>:</p>
+          <ul>
+            <li>Locate the wedge containing $a$</li>
+            <li> Return  $A_i\cdot a^T$
+          </li></ul><br>
+        
+          <p class="box-red" data-title="Closest Predicate"> Distance
+          evaluation and Closest predicate are in  $O(\log m)$</p>
+          <p align="right" style="font-size:80%"> <em>[Hint: thanks to the
+          convexity of the metric, perform dichotomic search on the sorted
+              wedge</em>]</p>
+        </section>
+
+        <section>
+          <h3>HiddenBy predicate: Step1 -- VoronoiEdgeWedge</h3>
+
+          <p><strong>Problem</strong> Find the index of the
+          intersection between the voronoi edge of $a$ and $b$ along
+            $S$ for the metric $d_\M$</p>
+          
+          <table><tr><td><img src="images/vorowedge.png"> </td><td>$\Rightarrow$</td><td> <img src="images/vorowedge-final.png"></td></tr></table>
+
+          <p><strong>Idea</strong> Shrink the two set of wedges
+          until each one has rays in different Voronoi cells</p>
+        </section>
+        
+          
+         
+        <section>
+          <h3>HiddenBy predicate: Step1 -- VoronoiEdgeWedge</h3>
+          
+          <p align="left"><strong>Sketch of the algorithm</strong>
+            <ul>
+              <li>Shrink the wedges centered at $a$ w.r.t. $b$
+              <li>Shrink the wedges centered at $b$ w.r.t. the final wedge of $a$
+            </li></ul>
+            <br><br>
+          
+          <p align="left" style="font-size:80%"> <strong>Shrinking</strong> involves $O(\log{m})$ steps (binary search) of $O(\log{m})$ each
+               (2 distance evaluations)</p>
+<br>
+          <p class="box-red" data-title="VoronoiEdgeWedge">
+            The two wedges containing the intersection of the Voronoi
+            edge of $a$ and $b$ and $S$ can be obtained in
+            $O(\log{m}^2)$
+          </p>
+          
+        </section>
+        
+           
+        <section>
+          <h3>HiddenBy predicate: Step2</h3>
+          
+     
+        </section>
+        
+          
+        <section>
+          <h3>Overall Algorithm</h3>
+          
+          
+        </section>
+        
+          
+       
+
+        
+
+
+        
         <section>
           <h1>Experiments</h1>
         </section>
@@ -452,7 +595,8 @@
 
   theme: 'solarized',
   transition: 'none',
-
+  slideNumber: true,
+  
   math: {
   mathjax: 'http://cdn.mathjax.org/mathjax/latest/MathJax.js',//'/js/MathJax.js', //
   config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
@@ -479,3 +623,4 @@
 
 </body>
 </html>
+
