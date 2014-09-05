@@ -312,9 +312,9 @@
           <h3>Definitions</h3>
 
           <p class="box" data-title="Distance Transformation and Voronoi Map">
-            The <strong>distance transform</strong> $DT_X$ associated with a digital metric space
-            $(\Z^n,\Z,d)$ is a map  $X\rightarrow\Z$ such that, for $a\in X$
-            $    DT_X(a) = \min_{b\in \Z^n\setminus X} \{d(a,b)\}$.<br>br>
+            The <strong>distance transform</strong> $DT_X$ associated with a  metric space
+            $(\Z^n,F,d)$ is a map  $X\rightarrow F$ such that, for $a\in X$
+            $    DT_X(a) = \min_{b\in \Z^n\setminus X} \{d(a,b)\}$.<br><br>
     The <strong>Voronoi map</strong> is the map $X\rightarrow\Z^n$:
     $    \Pi_X(a) = \min_{b\in \Z^n\setminus X} \{d(a,b)\}$.
 </p>
@@ -378,7 +378,7 @@
 
     $$    d_\M(O,a) =  \max_{1\leq k \leq f} \{ A_k a^T\}$$
     
-    <li>-weighted- dNeighborhood sequences  admit similar <strong>rational ball
+    <li>-weighted- Neighborhood sequences  admit similar <strong>rational ball
         representations</strong> and we also have</li>
     $$  d(O,a)  =\max_{1\leq k \leq f} \{ f_k(A_k a^T)\}$$
   </ul>
@@ -388,7 +388,7 @@
 
 
 <section style="font-size:80%" >
-  <h3>Separable Voronoi Map Algorithm ($L_2$ case)</h3>
+  <h2>Separable Voronoi Map Algorithm ($L_2$ case)</h2>
 
 
   $Step$ $1$
