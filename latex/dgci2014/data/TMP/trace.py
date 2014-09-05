@@ -78,7 +78,10 @@ with plt.xkcd():
     plt.ylabel( 'Speedup' )
 
    
-    p1,=plt.plot( scaleup[:,0],35633/scaleup[:,1], 'g',label="Separable Voronoi Map",alpha=1 )
+    pmp,=plt.plot( scaleup[:,0],35633/scaleup[:,1], '-+g',label="Separable Voronoi Map",alpha=1 )
+    liness2=[pmp]#,p3,p4]
+    ##plt.legend( loc=2 )
+    plt.legend(liness2, [l.get_label() for l in lines], loc=2,prop={'size':16},frameon=False)
 
 
 ##plt.show()
