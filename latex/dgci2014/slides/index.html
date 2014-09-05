@@ -261,12 +261,12 @@
           <p align="left" class="fragment"> Bonus</p>
           
           <ul align="left">
+            <li class="fragment"> <strong> Parallel implementation
+                thanks to separability
+            </strong></li>
             <li class="fragment">$O(n\cdot
               N^n\cdot\log{p}\cdot\log{N})$ <strong> DT for any</strong> $L_p$<strong> 
                 metric </strong></li>
-            <li class="fragment"> <strong> Trivial parallel
-                implementation thanks to separability
-            </strong></li>
             <li class="fragment"> <strong> Extension for path-based
                 norms in higher dimensions
             </strong></li>
@@ -493,7 +493,7 @@
 
 
 
-<section style="font-size:80%">
+<section style="font-size:90%">
   <h3>Distance Evaluation in dimension 2</h3>
 
   <table>
@@ -533,9 +533,8 @@
     intersection between the voronoi edge of $a$ and $b$ along
     $S$ for the metric $d_\M$</p>
   
-  <table><tr><td><img width="60%"
-  src="images/vorowedge.png"> </td><td>$\Rightarrow$</td><td> <img  width="60%"
-  src="images/vorowedge-final.png"></td></tr></table>
+  <table style="font-size:70%"><tr><td><img  src="images/vorowedge.png"></td><td>$\Rightarrow$</td><td> <img  
+  src="images/vorowedge-final.png"></td><td>$\Rightarrow$</td><td> $A_k\cdot(e-a)^T=A_j\cdot(e-b)^T$</td></tr></table>
 
   <p><strong>Idea</strong> Shrink the two set of wedges
     until each one has rays in different Voronoi cells</p>
