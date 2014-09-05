@@ -126,7 +126,7 @@
           <h3>Context</h3>
 
           <table>
-            <tr><td  width="100%"
+            <tr><td  width="80%"
                      style="vertical-align:center;"><p>High-performance <strong>volumetric
                     analysis</strong>  of digital objects</p>
                 <ul class="fragment">
@@ -146,7 +146,7 @@
           <h3>Context</h3>
 
           <table>
-            <tr><td width="100%" style="vertical-align:center;"><p><strong>High-performance</strong> volumetric analysis of digital objects</p>
+            <tr><td width="80%" style="vertical-align:center;"><p><strong>High-performance</strong> volumetric analysis of digital objects</p>
                 <ul class="fragment">
 	          <li><em>Accuracy</em></li>
 	          <li ><em>Asymptotical Complexity</em></li>
@@ -162,7 +162,7 @@
         <section>
           <h3>Context</h3>
           <table>
-            <tr><td width="100%"
+            <tr><td width="80%"
                     style="vertical-align:center;"><p>High-performance volumetric analysis of <strong>digital objects</strong></p>
                 <br>
 
@@ -231,7 +231,7 @@
                   <ul>
                     <li> Increasing the <em>size of the mask</em> $m$ (or
                       complexity of the N.S)
-                    <li> Weigh optimization (analytical/statistical process,...)
+                    <li> Weights optimization (analytical/statistical process,...)
                   </ul>
                   <li> Raster-scan/Disjktra-like algorithms in $O(m\cdot
                     N^n)$ / $O(mn\cdot         N^n\log N)$
@@ -239,10 +239,11 @@
                   <li>Hard to parallelize</li>
                 </ul>
 
-              </td><td><img width=300 src="images/chamferMask.png"></td></tr></table>
+              </td><td></td></tr></table>
                 
 
-          <p align="right"><img src="images/pathbased.png"></p>
+          <p align="right"><img width=200 align='center'
+          src="images/chamferMask.png">&nbsp;<img align="center" src="images/pathbased.png"></p>
         </section>
 
         
@@ -252,7 +253,7 @@
         <section>
           <h3> Contributions</h3>
           <ul align="left">
-            <li class="fragment"><strong>Separable approach can be used for Path-based norms </strong></li>
+            <li class="fragment"><strong>Separable approach can be used for path-based norms </strong></li>
             <li class="fragment"> $O(\log^2 m\cdot N^2)$<strong> DT/Voronoi
                 Map algorithm </strong> (chamfer mask of size $m$)</li>
           </ul>
@@ -331,7 +332,7 @@
   
   <table>
     <tr>
-      <td width="150%" ><p  class="box"  style="font-size:60%" data-title="Chamfer Mask">
+      <td width="80%" ><p  class="box"  style="font-size:60%" data-title="Chamfer Mask">
           A <strong>weighted vector</strong> is a pair $(\vec{v},w)$ with $\vec{v}\in\Z^n$ and
           $w\in\N^*$. <strong>A chamfer mask</strong>  $\M$ is a central-symmetric set of weighted
           vectors with no null vectors and containing at least a basis of
@@ -355,8 +356,9 @@
           ~\exists x\in P,\quad A_kx=y_k$. <br>$f$ is the number of rows in $A$ and the number of
           facets in $\B$, and is thus related to $|\M|$.
         </p>
-      </td><td><img width=200 src="images/ratball2d.svg" style="position:relative; left:50px;" /><br><img width=250 src="images/ratball3d.png" style="position:relative; left:50px;" /</td></tr></table>
-                                                                                                          
+      </td><td><img width=200 src="images/ratball2d.svg" style="position:relative; left:50px;" /><br><img width=250 src="images/ratball3d.png" style="position:relative; left:50px;"></td></tr></table>
+  
+  
                                                                                                           <p align="left" style="font-size:70%" ><em>$A_k$ being the $k^{th}$ row
                                                                                                               of $A$ <br>
                                                                                                               $A_k$
@@ -385,39 +387,36 @@
 </section>
 
 
-<section>
+<section style="font-size:80%" >
   <h3>Separable Voronoi Map Algorithm ($L_2$ case)</h3>
 
 
   $Step$ $1$
   <table >
-    <tr><td><img width=400
+    <tr><td><img width=350
                  src="images/Voro1/Voromap-random-orig.svg"></td>
-      <td><img width=400 src="images/Voro1/Voromap-random-diag.svg">
+      <td><img width=350 src="images/Voro1/Voromap-random-diag.svg">
       </td>
-      <td><img width=400 src="images/Voro1/Voromap-random.svg">
+      <td><img width=350 src="images/Voro1/Voromap-random.svg">
       </td>
-      <td><img width=400 src="images/Voro1/Voromap-random-hue.svg">
+      <td><img width=350 src="images/Voro1/Voromap-random-hue.svg">
       </td>
     </tr>
 
   </table>
-
   <div class="fragment">
     $Step$ $2$
     <table>
-      <tr><td><img width=400
+      <tr><td><img width=350
                    src="images/Voromap-random-orig.svg"></td>
-        <td><img width=400 src="images/Voromap-random-diag.svg">
+        <td><img width=350 src="images/Voromap-random-diag.svg">
         </td>
-        <td><img width=400 src="images/Voromap-random.svg">
+        <td><img width=350 src="images/Voromap-random.svg">
         </td>
-        <td><img width=400 src="images/Voromap-random-hue.svg">
+        <td><img width=350 src="images/Voromap-random-hue.svg">
         </td>
       </tr>
     </table>
-
-
     $...$ $other$ $dimensions$
     <p align="right" style="font-size:70%; color:#22BB22;"
        >[Saito/Toriwaki,Hirata,Meijster,Maurer,...]</p>
@@ -436,7 +435,7 @@
       <div class="fragment">
         <table><tr><td><li><strong>Closest(a,b,c)</strong>: <em>Which one
                   from $b$ or $c$ is closest to $a$
-                  ?</em></li></td><td><img width="70%" src="images/closest.png"></td></tr></table>
+                  ?</em></li></td><td><img width="50%" src="images/closest.png"></td></tr></table>
       </div>
       <div class="fragment">
         <table><tr><td><li><strong>HiddenBy(a,b,c,S)</strong>: <em>Do $a$ and $c$
@@ -451,8 +450,8 @@
 <section>
   <h3>Separable Voronoi Map Algorithm ($L_2$ case)</h3>
 
-  <img src="images/snapshot.png" />
-  
+  <img style="width:60%" src="images/snapshot.png"> 
+ 
 </section>
 
 
@@ -494,12 +493,12 @@
 
 
 
-<section>
+<section style="font-size:80%">
   <h3>Distance Evaluation in dimension 2</h3>
 
   <table>
     <tr>
-      <td width="150%" >
+      <td width="70%" >
         <p style="font-size:80%" align="left">
           $\M = \{\vec{v}^k\}_{k=1\ldots m}$
           <strong> sorted counterclockwise</strong>
@@ -534,7 +533,9 @@
     intersection between the voronoi edge of $a$ and $b$ along
     $S$ for the metric $d_\M$</p>
   
-  <table><tr><td><img src="images/vorowedge.png"> </td><td>$\Rightarrow$</td><td> <img src="images/vorowedge-final.png"></td></tr></table>
+  <table><tr><td><img width="60%"
+  src="images/vorowedge.png"> </td><td>$\Rightarrow$</td><td> <img  width="60%"
+  src="images/vorowedge-final.png"></td></tr></table>
 
   <p><strong>Idea</strong> Shrink the two set of wedges
     until each one has rays in different Voronoi cells</p>
@@ -547,7 +548,7 @@
   
   <table>
     <tr>
-      <td width="150%" > <p align="left"><strong>Sketch of the algorithm</strong>
+      <td width="80%" > <p align="left"><strong>Sketch of the algorithm</strong>
           <ul>
             <li>Shrink the wedges centered at $a$ w.r.t. $b$
             <li>Shrink the wedges centered at $b$ w.r.t. the final wedge of $a$
@@ -576,14 +577,14 @@
   <h3>HiddenBy predicate: Step2</h3>
 
   
-  <img width=400 src="images/step2.svg"
-       style="position:relative; left:50px;" /><img width=400 src="images/step2b.svg"
+  <img width=350 src="images/step2.svg"
+       style="position:relative; left:50px;" /><img width=350 src="images/step2b.svg"
                                                     style="position:relative; left:50px;" />
   
   <p class="box-red" data-title="HiddenBy Predicate">
     HiddenBy(a,b,c,S) predicate can be implemented in   $H=O(\log^2 m)$</p>
   <p align="right" style="font-size:80%"> <em>[Hint:  two
-      VoronoiEdgeWedge computation]</em>]</p>
+      VoronoiEdgeWedge computation]</em></p>
 
 </section>
 
@@ -681,7 +682,7 @@
   
   <table>
     <tr>
-      <td width="150%" >   <p class="box-red" data-title="HiddenBy Predicate">
+      <td width="70%" >   <p class="box-red" data-title="HiddenBy Predicate">
           With some equi-distribution hypothesis on vectors in
           $\M$, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           HiddenBy n-D $\Rightarrow$ HiddenBy 2d $\Rightarrow$  $O(d\cdot\log^2 m)$
