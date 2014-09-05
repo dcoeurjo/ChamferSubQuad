@@ -1,0 +1,1992 @@
+# mask size= 8
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (4645.08 ms)##
+8 4645.08
+# mask size= 16
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (6561.47 ms)##
+16 6561.47
+# mask size= 24
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (7791.14 ms)##
+24 7791.14
+# mask size= 40
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (9626.88 ms)##
+40 9626.88
+# mask size= 48
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (9606.88 ms)##
+48 9606.88
+# mask size= 72
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (11979.5 ms)##
+72 11979.5
+# mask size= 88
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (12365.1 ms)##
+88 12365.1
+# mask size= 112
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (12774.2 ms)##
+112 12774.2
+# mask size= 128
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (13523.8 ms)##
+128 13523.8
+# mask size= 168
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (15146.9 ms)##
+168 15146.9
+# mask size= 184
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (15279 ms)##
+184 15279
+# mask size= 232
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (15837.1 ms)##
+232 15837.1
+# mask size= 256
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (16518.9 ms)##
+256 16518.9
+# mask size= 288
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (18103.5 ms)##
+288 18103.5
+# mask size= 320
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (18292.2 ms)##
+320 18292.2
+# mask size= 384
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (18539.7 ms)##
+384 18539.7
+# mask size= 408
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (18667.4 ms)##
+408 18667.4
+# mask size= 480
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (19152.1 ms)##
+480 19152.1
+# mask size= 512
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (19691.4 ms)##
+512 19691.4
+# mask size= 560
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (21100.6 ms)##
+560 21100.6
+# mask size= 600
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (21257.1 ms)##
+600 21257.1
+# mask size= 688
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (21426.8 ms)##
+688 21426.8
+# mask size= 720
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (21527.9 ms)##
+720 21527.9
+# mask size= 800
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (21898.4 ms)##
+800 21898.4
+# mask size= 848
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (22199.7 ms)##
+848 22199.7
+# mask size= 920
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (22310.1 ms)##
+920 22310.1
+# mask size= 968
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (22527.3 ms)##
+968 22527.3
+# mask size= 1080
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (24512.7 ms)##
+1080 24512.7
+# mask size= 1112
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (24772.4 ms)##
+1112 24772.4
+# mask size= 1232
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (24574.4 ms)##
+1232 24574.4
+# mask size= 1296
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (25031.9 ms)##
+1296 25031.9
+# mask size= 1376
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (24944.8 ms)##
+1376 24944.8
+# mask size= 1440
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (24962.9 ms)##
+1440 24962.9
+# mask size= 1536
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (25142.8 ms)##
+1536 25142.8
+# mask size= 1584
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (25399 ms)##
+1584 25399
+# mask size= 1728
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (25464.3 ms)##
+1728 25464.3
+# mask size= 1800
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (25892.6 ms)##
+1800 25892.6
+# mask size= 1896
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (25869.2 ms)##
+1896 25869.2
+# mask size= 1960
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (25999.8 ms)##
+1960 25999.8
+# mask size= 2120
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (28217 ms)##
+2120 28217
+# mask size= 2168
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (28026.6 ms)##
+2168 28026.6
+# mask size= 2336
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (28284.1 ms)##
+2336 28284.1
+# mask size= 2416
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (28370.3 ms)##
+2416 28370.3
+# mask size= 2512
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (28440.2 ms)##
+2512 28440.2
+# mask size= 2600
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (28599.8 ms)##
+2600 28599.8
+# mask size= 2784
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (28686.2 ms)##
+2784 28686.2
+# mask size= 2848
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (28771.3 ms)##
+2848 28771.3
+# mask size= 3016
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (28959.6 ms)##
+3016 28959.6
+# mask size= 3096
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (29126.5 ms)##
+3096 29126.5
+# mask size= 3224
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (29195.5 ms)##
+3224 29195.5
+# mask size= 3320
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (29216.9 ms)##
+3320 29216.9
+# mask size= 3528
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (29428.5 ms)##
+3528 29428.5
+# mask size= 3600
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (29297.6 ms)##
+3600 29297.6
+# mask size= 3760
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (29659 ms)##
+3760 29659
+# mask size= 3856
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (29457.1 ms)##
+3856 29457.1
+# mask size= 4000
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (29907.6 ms)##
+4000 29907.6
+# mask size= 4112
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (31682.5 ms)##
+4112 31682.5
+# mask size= 4344
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (31835.8 ms)##
+4344 31835.8
+# mask size= 4408
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (31790.5 ms)##
+4408 31790.5
+# mask size= 4648
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (31985.3 ms)##
+4648 31985.3
+# mask size= 4768
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (32020.3 ms)##
+4768 32020.3
+# mask size= 4912
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (32019.8 ms)##
+4912 32019.8
+# mask size= 5040
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (32178.1 ms)##
+5040 32178.1
+# mask size= 5232
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (32235.2 ms)##
+5232 32235.2
+# mask size= 5312
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (32217.7 ms)##
+5312 32217.7
+# mask size= 5576
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (32289.3 ms)##
+5576 32289.3
+# mask size= 5704
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (32452.9 ms)##
+5704 32452.9
+# mask size= 5880
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (32822.4 ms)##
+5880 32822.4
+# mask size= 5976
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (32868.9 ms)##
+5976 32868.9
+# mask size= 6256
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (33029 ms)##
+6256 33029
+# mask size= 6352
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (33006.9 ms)##
+6352 33006.9
+# mask size= 6640
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (33172.9 ms)##
+6640 33172.9
+# mask size= 6784
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (33290 ms)##
+6784 33290
+# mask size= 6944
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (33384.2 ms)##
+6944 33384.2
+# mask size= 7088
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (33522.2 ms)##
+7088 33522.2
+# mask size= 7328
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (33433.9 ms)##
+7328 33433.9
+# mask size= 7424
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (33543.1 ms)##
+7424 33543.1
+# mask size= 7736
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (33975.3 ms)##
+7736 33975.3
+# mask size= 7864
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (34117.4 ms)##
+7864 34117.4
+# mask size= 8080
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (34151.6 ms)##
+8080 34151.6
+# mask size= 8240
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (36217.2 ms)##
+8240 36217.2
+# mask size= 8568
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (36235.7 ms)##
+8568 36235.7
+# mask size= 8664
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (36300.2 ms)##
+8664 36300.2
+# mask size= 8920
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (36144.1 ms)##
+8920 36144.1
+# mask size= 9088
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (36006.8 ms)##
+9088 36006.8
+# mask size= 9312
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (36100.6 ms)##
+9312 36100.6
+# mask size= 9472
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (36212.7 ms)##
+9472 36212.7
+# mask size= 9824
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (36208.5 ms)##
+9824 36208.5
+# mask size= 9920
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (36183 ms)##
+9920 36183
+# mask size= 10208
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (36413.9 ms)##
+10208 36413.9
+# mask size= 10384
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (36506.6 ms)##
+10384 36506.6
+# mask size= 10624
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (36506.6 ms)##
+10624 36506.6
+# mask size= 10808
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (36666.4 ms)##
+10808 36666.4
+# mask size= 11096
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (36746 ms)##
+11096 36746
+# mask size= 11224
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (36735.2 ms)##
+11224 36735.2
+# mask size= 11608
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (36894.4 ms)##
+11608 36894.4
+# mask size= 11776
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (36850 ms)##
+11776 36850
+# mask size= 12016
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (36975.3 ms)##
+12016 36975.3
+# mask size= 12176
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (37060 ms)##
+12176 37060
+# mask size= 12576
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (37104.3 ms)##
+12576 37104.3
+# mask size= 12704
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (37102.1 ms)##
+12704 37102.1
+# mask size= 13112
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (37644.6 ms)##
+13112 37644.6
+# mask size= 13304
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (37427.8 ms)##
+13304 37427.8
+# mask size= 13496
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (37539.4 ms)##
+13496 37539.4
+# mask size= 13704
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (37588.8 ms)##
+13704 37588.8
+# mask size= 14128
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (37785.5 ms)##
+14128 37785.5
+# mask size= 14272
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (37627.1 ms)##
+14272 37627.1
+# mask size= 14704
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (37802.6 ms)##
+14704 37802.6
+# mask size= 14864
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (37898.1 ms)##
+14864 37898.1
+# mask size= 15152
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (37998.9 ms)##
+15152 37998.9
+# mask size= 15344
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (38037.7 ms)##
+15344 38037.7
+# mask size= 15792
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (38207.6 ms)##
+15792 38207.6
+# mask size= 15936
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (38308.8 ms)##
+15936 38308.8
+# mask size= 16288
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (38235.5 ms)##
+16288 38235.5
+# mask size= 16512
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (40585.8 ms)##
+16512 40585.8
+# mask size= 16800
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (40568.9 ms)##
+16800 40568.9
+# mask size= 17032
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (40726 ms)##
+17032 40726
+# mask size= 17416
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (40663.9 ms)##
+17416 40663.9
+# mask size= 17544
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (40987.4 ms)##
+17544 40987.4
+# mask size= 17984
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (40743 ms)##
+17984 40743
+# mask size= 18224
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (41043.1 ms)##
+18224 41043.1
+# mask size= 18544
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (40906.7 ms)##
+18544 40906.7
+# mask size= 18784
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (41004.3 ms)##
+18784 41004.3
+# mask size= 19184
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (40959.3 ms)##
+19184 40959.3
+# mask size= 19328
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (40849.6 ms)##
+19328 40849.6
+# mask size= 19832
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (41031.2 ms)##
+19832 41031.2
+# mask size= 20088
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (41172.7 ms)##
+20088 41172.7
+# mask size= 20424
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (41156.6 ms)##
+20424 41156.6
+# mask size= 20616
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (41311.5 ms)##
+20616 41311.5
+# mask size= 21136
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (41283.9 ms)##
+21136 41283.9
+# mask size= 21296
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (41358.2 ms)##
+21296 41358.2
+# mask size= 21728
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (41491.3 ms)##
+21728 41491.3
+# mask size= 21992
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (41411.8 ms)##
+21992 41411.8
+# mask size= 22280
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (41401.1 ms)##
+22280 41401.1
+# mask size= 22536
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (41521.5 ms)##
+22536 41521.5
+# mask size= 23080
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (41649.3 ms)##
+23080 41649.3
+# mask size= 23256
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (41580.2 ms)##
+23256 41580.2
+# mask size= 23808
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (41739.8 ms)##
+23808 41739.8
+# mask size= 24000
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (41628.4 ms)##
+24000 41628.4
+# mask size= 24368
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (41784.4 ms)##
+24368 41784.4
+# mask size= 24648
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (41951.5 ms)##
+24648 41951.5
+# mask size= 25128
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (41978.7 ms)##
+25128 41978.7
+# mask size= 25320
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (42033.2 ms)##
+25320 42033.2
+# mask size= 25768
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (42042.7 ms)##
+25768 42042.7
+# mask size= 26056
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (42110.1 ms)##
+26056 42110.1
+# mask size= 26392
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (42207.1 ms)##
+26392 42207.1
+# mask size= 26680
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (42378.4 ms)##
+26680 42378.4
+# mask size= 27272
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (42339.6 ms)##
+27272 42339.6
+# mask size= 27432
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (42421.8 ms)##
+27432 42421.8
+# mask size= 28032
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (42351.6 ms)##
+28032 42351.6
+# mask size= 28320
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (42548.8 ms)##
+28320 42548.8
+# mask size= 28704
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (42590.5 ms)##
+28704 42590.5
+# mask size= 28944
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (42727.3 ms)##
+28944 42727.3
+# mask size= 29424
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (42811.9 ms)##
+29424 42811.9
+# mask size= 29616
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (42923.5 ms)##
+29616 42923.5
+# mask size= 30240
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (43009.8 ms)##
+30240 43009.8
+# mask size= 30552
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (43082 ms)##
+30552 43082
+# mask size= 30968
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (43134 ms)##
+30968 43134
+# mask size= 31224
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (43137.9 ms)##
+31224 43137.9
+# mask size= 31752
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (43137.4 ms)##
+31752 43137.4
+# mask size= 31968
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (43288.3 ms)##
+31968 43288.3
+# mask size= 32616
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (43405.2 ms)##
+32616 43405.2
+# mask size= 32936
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (45906.9 ms)##
+32936 45906.9
+# mask size= 33256
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (45741.9 ms)##
+33256 45741.9
+# mask size= 33584
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (45754.2 ms)##
+33584 45754.2
+# mask size= 34248
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (45940 ms)##
+34248 45940
+# mask size= 34440
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (46031.6 ms)##
+34440 46031.6
+# mask size= 35064
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (45903.8 ms)##
+35064 45903.8
+# mask size= 35320
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (45917.8 ms)##
+35320 45917.8
+# mask size= 35752
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (46230 ms)##
+35752 46230
+# mask size= 36088
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (46005.2 ms)##
+36088 46005.2
+# mask size= 36776
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (46228.2 ms)##
+36776 46228.2
+# mask size= 37000
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (46298.8 ms)##
+37000 46298.8
+# mask size= 37480
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (46521.4 ms)##
+37480 46521.4
+# mask size= 37800
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (46487 ms)##
+37800 46487
+# mask size= 38264
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (46443.8 ms)##
+38264 46443.8
+# mask size= 38616
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (46504.3 ms)##
+38616 46504.3
+# mask size= 39328
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (46724.4 ms)##
+39328 46724.4
+# mask size= 39520
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (46489.6 ms)##
+39520 46489.6
+# mask size= 40240
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (46583.5 ms)##
+40240 46583.5
+# mask size= 40528
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (46623.5 ms)##
+40528 46623.5
+# mask size= 41008
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (46745.6 ms)##
+41008 46745.6
+# mask size= 41360
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (46767.7 ms)##
+41360 46767.7
+# mask size= 41936
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (47038.4 ms)##
+41936 47038.4
+# mask size= 42176
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (46938.7 ms)##
+42176 46938.7
+# mask size= 42816
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (46903.1 ms)##
+42816 46903.1
+# mask size= 43184
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (47013.2 ms)##
+43184 47013.2
+# mask size= 43616
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (47089.7 ms)##
+43616 47089.7
+# mask size= 43904
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (47058.8 ms)##
+43904 47058.8
+# mask size= 44664
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (47114.3 ms)##
+44664 47114.3
+# mask size= 44920
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (47093.3 ms)##
+44920 47093.3
+# mask size= 45688
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (47254.7 ms)##
+45688 47254.7
+# mask size= 46072
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (47208.7 ms)##
+46072 47208.7
+# mask size= 46456
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (47214.3 ms)##
+46456 47214.3
+# mask size= 46792
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (47488.4 ms)##
+46792 47488.4
+# mask size= 47576
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (47388.2 ms)##
+47576 47388.2
+# mask size= 47816
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (47674.7 ms)##
+47816 47674.7
+# mask size= 48608
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (47595.9 ms)##
+48608 47595.9
+# mask size= 48928
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (47606.7 ms)##
+48928 47606.7
+# mask size= 49456
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (47593.8 ms)##
+49456 47593.8
+# mask size= 49856
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (47501.1 ms)##
+49856 47501.1
+# mask size= 50528
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (47502.8 ms)##
+50528 47502.8
+# mask size= 50784
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (47693.8 ms)##
+50784 47693.8
+# mask size= 51424
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (47698.3 ms)##
+51424 47698.3
+# mask size= 51832
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (47763.8 ms)##
+51832 47763.8
+# mask size= 52360
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (47994.1 ms)##
+52360 47994.1
+# mask size= 52744
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (48021.2 ms)##
+52744 48021.2
+# mask size= 53464
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (47838.2 ms)##
+53464 47838.2
+# mask size= 53656
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (47888.5 ms)##
+53656 47888.5
+# mask size= 54496
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (47822.1 ms)##
+54496 47822.1
+# mask size= 54912
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (47798.3 ms)##
+54912 47798.3
+# mask size= 55472
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (48082.7 ms)##
+55472 48082.7
+# mask size= 55896
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (48158.2 ms)##
+55896 48158.2
+# mask size= 56568
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (48228.2 ms)##
+56568 48228.2
+# mask size= 56856
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (48234.4 ms)##
+56856 48234.4
+# mask size= 57576
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (48311.8 ms)##
+57576 48311.8
+# mask size= 58008
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (48532.8 ms)##
+58008 48532.8
+# mask size= 58584
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (48540.2 ms)##
+58584 48540.2
+# mask size= 58904
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (48540.6 ms)##
+58904 48540.6
+# mask size= 59672
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (48707.5 ms)##
+59672 48707.5
+# mask size= 59960
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (48554.5 ms)##
+59960 48554.5
+# mask size= 60848
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (48826 ms)##
+60848 48826
+# mask size= 61232
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (48820 ms)##
+61232 48820
+# mask size= 61712
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (48784 ms)##
+61712 48784
+# mask size= 62160
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (48900.1 ms)##
+62160 48900.1
+# mask size= 63064
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (48965.7 ms)##
+63064 48965.7
+# mask size= 63352
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (48888.5 ms)##
+63352 48888.5
+# mask size= 64264
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (49080.2 ms)##
+64264 49080.2
+# mask size= 64616
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (49083.9 ms)##
+64616 49083.9
+# mask size= 65096
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (49329.4 ms)##
+65096 49329.4
+# mask size= 65544
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53852.5 ms)##
+65544 53852.5
+# mask size= 66472
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (51696.9 ms)##
+66472 51696.9
+# mask size= 66760
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (51682.6 ms)##
+66760 51682.6
+# mask size= 67496
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (51738 ms)##
+67496 51738
+# mask size= 67960
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (51773.1 ms)##
+67960 51773.1
+# mask size= 68584
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (51656.2 ms)##
+68584 51656.2
+# mask size= 68968
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (51737.1 ms)##
+68968 51737.1
+# mask size= 69920
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (51985.2 ms)##
+69920 51985.2
+# mask size= 70176
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (51655.6 ms)##
+70176 51655.6
+# mask size= 71136
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (51785.4 ms)##
+71136 51785.4
+# mask size= 71576
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (51895.7 ms)##
+71576 51895.7
+# mask size= 72224
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (52000.8 ms)##
+72224 52000.8
+# mask size= 72704
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (51849.7 ms)##
+72704 51849.7
+# mask size= 73376
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (51938.2 ms)##
+73376 51938.2
+# mask size= 73696
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (51981.6 ms)##
+73696 51981.6
+# mask size= 74560
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (52045.7 ms)##
+74560 52045.7
+# mask size= 75040
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (52209 ms)##
+75040 52209
+# mask size= 75696
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (52016.9 ms)##
+75696 52016.9
+# mask size= 76096
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (52125 ms)##
+76096 52125
+# mask size= 77096
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (52486.3 ms)##
+77096 52486.3
+# mask size= 77384
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (52290.4 ms)##
+77384 52290.4
+# mask size= 78264
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (52146.8 ms)##
+78264 52146.8
+# mask size= 78768
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (52394.4 ms)##
+78768 52394.4
+# mask size= 79280
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (52284.7 ms)##
+79280 52284.7
+# mask size= 79792
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (52337.4 ms)##
+79792 52337.4
+# mask size= 80816
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (52366 ms)##
+80816 52366
+# mask size= 81152
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (52235.4 ms)##
+81152 52235.4
+# mask size= 82016
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (52408.1 ms)##
+82016 52408.1
+# mask size= 82400
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (52478.8 ms)##
+82400 52478.8
+# mask size= 83072
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (52326.9 ms)##
+83072 52326.9
+# mask size= 83592
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (52551.2 ms)##
+83592 52551.2
+# mask size= 84640
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (52553.2 ms)##
+84640 52553.2
+# mask size= 84960
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (52482.9 ms)##
+84960 52482.9
+# mask size= 85792
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (52623 ms)##
+85792 52623
+# mask size= 86224
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (52878.5 ms)##
+86224 52878.5
+# mask size= 86928
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (52970.6 ms)##
+86928 52970.6
+# mask size= 87456
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53224.5 ms)##
+87456 53224.5
+# mask size= 88528
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (52849.4 ms)##
+88528 52849.4
+# mask size= 88816
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (52820.9 ms)##
+88816 52820.9
+# mask size= 89896
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (52786.3 ms)##
+89896 52786.3
+# mask size= 90408
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (52872.6 ms)##
+90408 52872.6
+# mask size= 90984
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53050.6 ms)##
+90984 53050.6
+# mask size= 91528
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53057.6 ms)##
+91528 53057.6
+# mask size= 92328
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53082.9 ms)##
+92328 53082.9
+# mask size= 92680
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53213.7 ms)##
+92680 53213.7
+# mask size= 93784
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53283.6 ms)##
+93784 53283.6
+# mask size= 94336
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53114.4 ms)##
+94336 53114.4
+# mask size= 95056
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53276 ms)##
+95056 53276
+# mask size= 95440
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53282.9 ms)##
+95440 53282.9
+# mask size= 96560
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53366 ms)##
+96560 53366
+# mask size= 96928
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53425.9 ms)##
+96928 53425.9
+# mask size= 98056
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53483.4 ms)##
+98056 53483.4
+# mask size= 98616
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53551.6 ms)##
+98616 53551.6
+# mask size= 99192
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53627.1 ms)##
+99192 53627.1
+# mask size= 99672
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53703.9 ms)##
+99672 53703.9
+# mask size= 100632
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53716.7 ms)##
+100632 53716.7
+# mask size= 101016
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53755.5 ms)##
+101016 53755.5
+# mask size= 102104
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53727.2 ms)##
+102104 53727.2
+# mask size= 102552
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53832.9 ms)##
+102552 53832.9
+# mask size= 103320
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53825.1 ms)##
+103320 53825.1
+# mask size= 103896
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53810.1 ms)##
+103896 53810.1
+# mask size= 105064
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (54150 ms)##
+105064 54150
+# mask size= 105400
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53899.4 ms)##
+105400 53899.4
+# mask size= 106328
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53893.3 ms)##
+106328 53893.3
+# mask size= 106904
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53956.2 ms)##
+106904 53956.2
+# mask size= 107624
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (54032 ms)##
+107624 54032
+# mask size= 108216
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53975.6 ms)##
+108216 53975.6
+# mask size= 109272
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (54231.8 ms)##
+109272 54231.8
+# mask size= 109592
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (54096.1 ms)##
+109592 54096.1
+# mask size= 110600
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (54142.9 ms)##
+110600 54142.9
+# mask size= 111200
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (54019.3 ms)##
+111200 54019.3
+# mask size= 112000
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53857.2 ms)##
+112000 53857.2
+# mask size= 112576
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (53805 ms)##
+112576 53805
+# mask size= 113536
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (54027.8 ms)##
+113536 54027.8
+# mask size= 113920
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (54062.3 ms)##
+113920 54062.3
+# mask size= 115144
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (54227.4 ms)##
+115144 54227.4
+# mask size= 115624
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (54408 ms)##
+115624 54408
+# mask size= 116440
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (54625.2 ms)##
+116440 54625.2
+# mask size= 116920
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (54509.5 ms)##
+116920 54509.5
+# mask size= 118160
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (54589.7 ms)##
+118160 54589.7
+# mask size= 118544
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (54553.1 ms)##
+118544 54553.1
+# mask size= 119792
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (54542.3 ms)##
+119792 54542.3
+# mask size= 120416
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (54638.7 ms)##
+120416 54638.7
+# mask size= 120992
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (55175.6 ms)##
+120992 55175.6
+# mask size= 121616
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (54640.4 ms)##
+121616 54640.4
+# mask size= 122880
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (55167.6 ms)##
+122880 55167.6
+# mask size= 123296
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (54846.6 ms)##
+123296 54846.6
+# mask size= 124416
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (54720.9 ms)##
+124416 54720.9
+# mask size= 124928
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (54869.8 ms)##
+124928 54869.8
+# mask size= 125776
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (55054.7 ms)##
+125776 55054.7
+# mask size= 126304
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (54953.2 ms)##
+126304 54953.2
+# mask size= 127456
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (55109.7 ms)##
+127456 55109.7
+# mask size= 127888
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (54948.8 ms)##
+127888 54948.8
+# mask size= 128848
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (54997.4 ms)##
+128848 54997.4
+# mask size= 129496
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (55302.5 ms)##
+129496 55302.5
+# mask size= 130360
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (55277.3 ms)##
+130360 55277.3
+# mask size= 131000
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (56638.6 ms)##
+131000 56638.6
+# mask size= 132104
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58671.8 ms)##
+132104 58671.8
+# mask size= 132424
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (57923.5 ms)##
+132424 57923.5
+# mask size= 133744
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (57870.5 ms)##
+133744 57870.5
+# mask size= 134400
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (57618.7 ms)##
+134400 57618.7
+# mask size= 135264
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (57782.1 ms)##
+135264 57782.1
+# mask size= 135928
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (57932.3 ms)##
+135928 57932.3
+# mask size= 136984
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (57808.8 ms)##
+136984 57808.8
+# mask size= 137368
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (57897.8 ms)##
+137368 57897.8
+# mask size= 138712
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (57985.5 ms)##
+138712 57985.5
+# mask size= 139336
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58041.4 ms)##
+139336 58041.4
+# mask size= 140232
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58003.7 ms)##
+140232 58003.7
+# mask size= 140744
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58017.4 ms)##
+140744 58017.4
+# mask size= 141944
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58136 ms)##
+141944 58136
+# mask size= 142376
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58196 ms)##
+142376 58196
+# mask size= 143552
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58149.4 ms)##
+143552 58149.4
+# mask size= 144224
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58168.4 ms)##
+144224 58168.4
+# mask size= 144928
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58176.6 ms)##
+144928 58176.6
+# mask size= 145616
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58293.5 ms)##
+145616 58293.5
+# mask size= 147000
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58197.4 ms)##
+147000 58197.4
+# mask size= 147448
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58676.3 ms)##
+147448 58676.3
+# mask size= 148840
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58445.7 ms)##
+148840 58445.7
+# mask size= 149320
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58489 ms)##
+149320 58489
+# mask size= 150184
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58571.9 ms)##
+150184 58571.9
+# mask size= 150824
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58373.3 ms)##
+150824 58373.3
+# mask size= 152232
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58477.6 ms)##
+152232 58477.6
+# mask size= 152696
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58403.9 ms)##
+152696 58403.9
+# mask size= 153816
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58343.5 ms)##
+153816 58343.5
+# mask size= 154520
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58403.5 ms)##
+154520 58403.5
+# mask size= 155288
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58449.2 ms)##
+155288 58449.2
+# mask size= 156000
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58326.1 ms)##
+156000 58326.1
+# mask size= 157432
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58522.4 ms)##
+157432 58522.4
+# mask size= 157816
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58561.4 ms)##
+157816 58561.4
+# mask size= 159184
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58624.4 ms)##
+159184 58624.4
+# mask size= 159904
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58583.1 ms)##
+159904 58583.1
+# mask size= 160784
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58647.1 ms)##
+160784 58647.1
+# mask size= 161360
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58886.5 ms)##
+161360 58886.5
+# mask size= 162512
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58878.6 ms)##
+162512 58878.6
+# mask size= 162992
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58754.3 ms)##
+162992 58754.3
+# mask size= 164456
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58888.8 ms)##
+164456 58888.8
+# mask size= 165160
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58839.1 ms)##
+165160 58839.1
+# mask size= 166120
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58840.3 ms)##
+166120 58840.3
+# mask size= 166696
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58866.8 ms)##
+166696 58866.8
+# mask size= 167944
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58989.7 ms)##
+167944 58989.7
+# mask size= 168424
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58895.7 ms)##
+168424 58895.7
+# mask size= 169912
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58963.1 ms)##
+169912 58963.1
+# mask size= 170552
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (58963.9 ms)##
+170552 58963.9
+# mask size= 171352
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59060.7 ms)##
+171352 59060.7
+# mask size= 172088
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59083 ms)##
+172088 59083
+# mask size= 173432
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59001.1 ms)##
+173432 59001.1
+# mask size= 173864
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59136.7 ms)##
+173864 59136.7
+# mask size= 175376
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59232.7 ms)##
+175376 59232.7
+# mask size= 175952
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59321.4 ms)##
+175952 59321.4
+# mask size= 176960
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59168.1 ms)##
+176960 59168.1
+# mask size= 177720
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59212.8 ms)##
+177720 59212.8
+# mask size= 179248
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59206.3 ms)##
+179248 59206.3
+# mask size= 179760
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59390.2 ms)##
+179760 59390.2
+# mask size= 180720
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59271.9 ms)##
+180720 59271.9
+# mask size= 181488
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59520.4 ms)##
+181488 59520.4
+# mask size= 182496
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59410.2 ms)##
+182496 59410.2
+# mask size= 183264
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59372 ms)##
+183264 59372
+# mask size= 184816
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59423.2 ms)##
+184816 59423.2
+# mask size= 185200
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59345.9 ms)##
+185200 59345.9
+# mask size= 186608
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59511.5 ms)##
+186608 59511.5
+# mask size= 187280
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59635.7 ms)##
+187280 59635.7
+# mask size= 188320
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59405.2 ms)##
+188320 59405.2
+# mask size= 189104
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59492.1 ms)##
+189104 59492.1
+# mask size= 190352
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59347.7 ms)##
+190352 59347.7
+# mask size= 190832
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59385.7 ms)##
+190832 59385.7
+# mask size= 192416
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59353.6 ms)##
+192416 59353.6
+# mask size= 193208
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59554.3 ms)##
+193208 59554.3
+# mask size= 194072
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59731 ms)##
+194072 59731
+# mask size= 194712
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59775.4 ms)##
+194712 59775.4
+# mask size= 196312
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60116 ms)##
+196312 60116
+# mask size= 196840
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60236.8 ms)##
+196840 60236.8
+# mask size= 198280
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59977.2 ms)##
+198280 59977.2
+# mask size= 199080
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59899.4 ms)##
+199080 59899.4
+# mask size= 199944
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59852.1 ms)##
+199944 59852.1
+# mask size= 200616
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59908.4 ms)##
+200616 59908.4
+# mask size= 202056
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60119.4 ms)##
+202056 60119.4
+# mask size= 202568
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60322.6 ms)##
+202568 60322.6
+# mask size= 204200
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60064.2 ms)##
+204200 60064.2
+# mask size= 204840
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60097.9 ms)##
+204840 60097.9
+# mask size= 205928
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60179.5 ms)##
+205928 60179.5
+# mask size= 206744
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (59968.7 ms)##
+206744 59968.7
+# mask size= 208136
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60050.9 ms)##
+208136 60050.9
+# mask size= 208664
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60057.7 ms)##
+208664 60057.7
+# mask size= 209976
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60391.2 ms)##
+209976 60391.2
+# mask size= 210744
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60170.4 ms)##
+210744 60170.4
+# mask size= 211848
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60036.8 ms)##
+211848 60036.8
+# mask size= 212568
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60233.9 ms)##
+212568 60233.9
+# mask size= 214240
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60295.3 ms)##
+214240 60295.3
+# mask size= 214624
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60390.1 ms)##
+214624 60390.1
+# mask size= 216304
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60263.8 ms)##
+216304 60263.8
+# mask size= 217144
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60256 ms)##
+217144 60256
+# mask size= 218248
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60705.1 ms)##
+218248 60705.1
+# mask size= 219080
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60327.8 ms)##
+219080 60327.8
+# mask size= 220360
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60415.6 ms)##
+220360 60415.6
+# mask size= 220920
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60331.9 ms)##
+220920 60331.9
+# mask size= 222360
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60577.1 ms)##
+222360 60577.1
+# mask size= 223208
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60467.5 ms)##
+223208 60467.5
+# mask size= 224168
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60627.1 ms)##
+224168 60627.1
+# mask size= 224840
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60695.4 ms)##
+224840 60695.4
+# mask size= 226560
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60603.4 ms)##
+226560 60603.4
+# mask size= 227136
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60661.2 ms)##
+227136 60661.2
+# mask size= 228864
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60783 ms)##
+228864 60783
+# mask size= 229584
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60698.4 ms)##
+229584 60698.4
+# mask size= 230480
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60772.2 ms)##
+230480 60772.2
+# mask size= 231344
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60614.5 ms)##
+231344 60614.5
+# mask size= 232928
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (61017.3 ms)##
+232928 61017.3
+# mask size= 233504
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (61037.6 ms)##
+233504 61037.6
+# mask size= 235256
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60873.3 ms)##
+235256 60873.3
+# mask size= 235896
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60976.4 ms)##
+235896 60976.4
+# mask size= 236904
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60865.9 ms)##
+236904 60865.9
+# mask size= 237672
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (60976.7 ms)##
+237672 60976.7
+# mask size= 239440
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (61071.4 ms)##
+239440 61071.4
+# mask size= 240016
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (61080 ms)##
+240016 61080
+# mask size= 241424
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (61030.3 ms)##
+241424 61030.3
+# mask size= 242312
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (61091.3 ms)##
+242312 61091.3
+# mask size= 243496
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (61102.8 ms)##
+243496 61102.8
+# mask size= 244264
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (61192.9 ms)##
+244264 61192.9
+# mask size= 246056
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (61202.1 ms)##
+246056 61202.1
+# mask size= 246536
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (61281.5 ms)##
+246536 61281.5
+# mask size= 248136
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (61197.4 ms)##
+248136 61197.4
+# mask size= 249032
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (61547.6 ms)##
+249032 61547.6
+# mask size= 250232
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (61632.3 ms)##
+250232 61632.3
+# mask size= 251136
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (61243.3 ms)##
+251136 61243.3
+# mask size= 252288
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (61328.4 ms)##
+252288 61328.4
+# mask size= 252864
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (61285.1 ms)##
+252864 61285.1
+# mask size= 254688
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (61407.4 ms)##
+254688 61407.4
+# mask size= 255600
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (61518.3 ms)##
+255600 61518.3
+# mask size= 256752
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (61352.9 ms)##
+256752 61352.9
+# mask size= 257456
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (61707.9 ms)##
+257456 61707.9
+# mask size= 259296
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (61681.1 ms)##
+259296 61681.1
+# mask size= 259776
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (61830.6 ms)##
+259776 61830.6
+# mask size= 261624
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (63546.1 ms)##
+261624 63546.1
+# mask size= 262520
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (66206.9 ms)##
+262520 66206.9
+# mask size= 263480
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64846.3 ms)##
+263480 64846.3
+# mask size= 264408
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64433.5 ms)##
+264408 64433.5
+# mask size= 266272
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64477.2 ms)##
+266272 64477.2
+# mask size= 266848
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64468.3 ms)##
+266848 64468.3
+# mask size= 268432
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64543.6 ms)##
+268432 64543.6
+# mask size= 269168
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64495.2 ms)##
+269168 64495.2
+# mask size= 270416
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64640.8 ms)##
+270416 64640.8
+# mask size= 271344
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64481.3 ms)##
+271344 64481.3
+# mask size= 273024
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64484.8 ms)##
+273024 64484.8
+# mask size= 273648
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64441 ms)##
+273648 64441
+# mask size= 275088
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64540.1 ms)##
+275088 64540.1
+# mask size= 275856
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64515.2 ms)##
+275856 64515.2
+# mask size= 277104
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64538.5 ms)##
+277104 64538.5
+# mask size= 278056
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64528.6 ms)##
+278056 64528.6
+# mask size= 279968
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64696.9 ms)##
+279968 64696.9
+# mask size= 280480
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64695.3 ms)##
+280480 64695.3
+# mask size= 282208
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64724.3 ms)##
+282208 64724.3
+# mask size= 283168
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64740 ms)##
+283168 64740
+# mask size= 284224
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64660.1 ms)##
+284224 64660.1
+# mask size= 285104
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64651.4 ms)##
+285104 64651.4
+# mask size= 286640
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64603.8 ms)##
+286640 64603.8
+# mask size= 287288
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64698.3 ms)##
+287288 64698.3
+# mask size= 289232
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64822.8 ms)##
+289232 64822.8
+# mask size= 290192
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64782.8 ms)##
+290192 64782.8
+# mask size= 291488
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64765.7 ms)##
+291488 64765.7
+# mask size= 292160
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64613.7 ms)##
+292160 64613.7
+# mask size= 294120
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64802.9 ms)##
+294120 64802.9
+# mask size= 294760
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64835.4 ms)##
+294760 64835.4
+# mask size= 296552
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64895.3 ms)##
+296552 64895.3
+# mask size= 297416
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64980.4 ms)##
+297416 64980.4
+# mask size= 298376
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64944.5 ms)##
+298376 64944.5
+# mask size= 299336
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (65052.3 ms)##
+299336 65052.3
+# mask size= 301016
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64865.3 ms)##
+301016 64865.3
+# mask size= 301672
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64985.4 ms)##
+301672 64985.4
+# mask size= 303664
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (64973.6 ms)##
+303664 64973.6

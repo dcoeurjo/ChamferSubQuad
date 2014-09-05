@@ -334,15 +334,18 @@
             <br>
 
             Rational ball $\B$ can also be described as the H-representation of
-          polytope with minimal parameter [Normand]: <br> $$P
+          polytope with <strong>minimal parameter</strong> [Normand]: <br> $$P
           = \{ x\in\Z^n; Ax \leq y\;\}$$ such that $\forall k\in[1\ldots f],
           ~\exists x\in P,\quad A_kx=y_k$. <br>$f$ is the number of rows in $A$ and the number of
           facets in $\B$, and is thus related to $|\M|$.
           </p>
-          </td></tr></table>
+          </td><td><img width=200 src="images/ratball2d.svg" style="position:relative; left:50px;" /><br><img width=250 src="images/ratball3d.png" style="position:relative; left:50px;" /</td></tr></table>
           
           <p align="left" style="font-size:70%" ><em>$A_k$ being the $k^{th}$ row
-              of $A$.</em></p>
+              of $A$ <br>
+              $A_k$
+              can also be seen as a <strong> --non-unitary-- normal vector to</strong> $\B$ <strong>facets</strong>
+                [Normand et al]).</em></p>
           
         </section>
 
@@ -478,31 +481,34 @@
         <section>
           <h3>Distance Evaluation in dimension 2</h3>
 
-          <p style="font-size:80%" align="left">
-            $\M = \{\vec{v}^k\}_{k=1\ldots m}$
-         <strong> sorted counterclockwise</strong>
-          <br>
-          We define a <strong>wedge</strong>
-as a angular sector defined by $(\vec{v}^i,\vec{v}^{i+1})$ and the origin
-          </p><br>
-         <p class="box"> $$  d_\M(O,a) =  \max_{1\leq k \leq f} \{ A_k\cdot
-           a^T\}= A_i\cdot a^T$$
-           $i$ being the index of the wedge
-           $(\vec{v}^i,\vec{v}^{i+1})$, $a$ belongs to.
-         </p>
-          <br>
-          <p style="font-size:80%" align="left"><strong>Distance evaluation</strong> $d(O,a)$ <strong>as a geometrical
-              problem</strong>:</p>
-          <ul>
-            <li>Locate the wedge containing $a$</li>
-            <li> Return  $A_i\cdot a^T$
-          </li></ul><br>
-        
+      <table>
+            <tr>
+              <td width="150%" >
+                <p style="font-size:80%" align="left">
+                  $\M = \{\vec{v}^k\}_{k=1\ldots m}$
+                  <strong> sorted counterclockwise</strong>
+                  <br>
+                  We define a <strong>wedge</strong>
+                  as a angular sector defined by $(\vec{v}^i,\vec{v}^{i+1})$ and the origin
+                </p><br>
+                <p class="box"> $$  d_\M(O,a) =  \max_{1\leq k \leq f} \{ A_k\cdot
+                  a^T\}= A_i\cdot a^T$$
+                  $i$ being the index of the wedge
+                  $(\vec{v}^i,\vec{v}^{i+1})$, $a$ belongs to.
+                </p>
+                <br>
+                <p style="font-size:80%" align="left"><strong>Distance evaluation</strong> $d(O,a)$ <strong>as a geometrical
+                    problem</strong>:</p>
+                <ul>
+                  <li>Locate the wedge containing $a$</li>
+                  <li> Return  $A_i\cdot a^T$
+                </li></ul><br>
+      </td><td><img width=400 src="images/wedges.svg" style="position:relative; left:50px;" /></td></tr></table>
+      
           <p class="box-red" data-title="Closest Predicate"> Distance
           evaluation and Closest predicate are in  $O(\log m)$</p>
-          <p align="right" style="font-size:80%"> <em>[Hint: thanks to the
-          convexity of the metric, perform dichotomic search on the sorted
-              wedge</em>]</p>
+          <p align="right" style="font-size:80%"> <em>[Hint:  binary search on the sorted
+              wedges</em>]</p>
         </section>
 
         <section>
@@ -523,7 +529,9 @@ as a angular sector defined by $(\vec{v}^i,\vec{v}^{i+1})$ and the origin
         <section>
           <h3>HiddenBy predicate: Step1 -- VoronoiEdgeWedge</h3>
           
-          <p align="left"><strong>Sketch of the algorithm</strong>
+          <table>
+            <tr>
+              <td width="150%" > <p align="left"><strong>Sketch of the algorithm</strong>
             <ul>
               <li>Shrink the wedges centered at $a$ w.r.t. $b$
               <li>Shrink the wedges centered at $b$ w.r.t. the final wedge of $a$
@@ -532,38 +540,67 @@ as a angular sector defined by $(\vec{v}^i,\vec{v}^{i+1})$ and the origin
           
           <p align="left" style="font-size:80%"> <strong>Shrinking</strong> involves $O(\log{m})$ steps (binary search) of $O(\log{m})$ each
                (2 distance evaluations)</p>
-<br>
+          <br>
+
+  
           <p class="box-red" data-title="VoronoiEdgeWedge">
             The two wedges containing the intersection of the Voronoi
             edge of $a$ and $b$ and $S$ can be obtained in
             $O(\log{m}^2)$
           </p>
-          
+        </td><td><img width=200 src="images/algoMid.svg"
+ style="position:relative; left:50px;" /><br><img width=200 src="images/algoMid2.svg"
+ style="position:relative; left:50px;" /><br></td></tr></table>
+     
+           
         </section>
         
            
         <section>
           <h3>HiddenBy predicate: Step2</h3>
+
           
+     <img width=400 src="images/step2.svg"
+ style="position:relative; left:50px;" /><img width=400 src="images/step2b.svg"
+ style="position:relative; left:50px;" />
      
+          <p class="box-red" data-title="HiddenBy Predicate">
+          HiddenBy(a,b,c,S) predicate can be implemented in   $O(\log^2 m)$</p>
+          <p align="right" style="font-size:80%"> <em>[Hint:  two
+              VoronoiEdgeWedge computation]</em>]</p>
+
         </section>
         
           
         <section>
           <h3>Overall Algorithm</h3>
-          
+
+          <p class="box-red" data-title="Theorem">
+            Let $\M$ be a 2D chamfer <strong>norm with axis symmetric
+            unit ball</strong>and $m$ weighted vectors, then we have
+            Algorithm 1 computes an <strong>exact Voronoi map</strong> $\Pi_X$ and thus the
+            distance transformation of $X$ for metric $d_{\M}$ in $$O(
+            \log^2{m}\cdot N^2)$$
+          </p>
+
+          <p style="font-size:80%">Thanks to H-minimal parameter representation, also true for
+            -weighted- <strong>neighborhood sequences</strong> under same hypotheses </p>
+        </section>
+        
+        <section data-background="images/image-dt-chamf_5711.png">
+          <h1>Experiments</h1>
+
+      
           
         </section>
         
-          
-       
 
-        
+        <section >
+          <h3>Voronoi Maps and Distance Transformations</h3>
 
-
-        
-        <section>
-          <h1>Experiments</h1>
+          <img src="images/results.png">
+        </section>
+        <section data-background="images/graphs.png">
         </section>
         
 
@@ -624,3 +661,4 @@ as a angular sector defined by $(\vec{v}^i,\vec{v}^{i+1})$ and the origin
 </body>
 </html>
 
+4

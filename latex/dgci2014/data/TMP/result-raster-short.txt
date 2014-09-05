@@ -1,0 +1,28 @@
+##[ChamferNorm2D] mask size= 8
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (974.884 ms)##
+8 487.442
+##amferNorm2D] mask size= 16
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (1247.72 ms)##
+16 623.86
+##amferNorm2D] mask size= 24
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (1463.54 ms)##
+24 731.77
+##amferNorm2D] mask size= 40
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (1959.41 ms)##
+40 979.704
+##amferNorm2D] mask size= 48
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (2237.12 ms)##
+48 1118.56
+##amferNorm2D] mask size= 72
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (3108.16 ms)##
+72 1554.08
+##amferNorm2D] mask size= 88
+##[1mNew Block [DT distances]##
+##[1mEndBlock [DT distances] (3564.84 ms)##
+88 1782.42
