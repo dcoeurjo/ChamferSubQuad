@@ -67,9 +67,22 @@ with plt.xkcd():
     ##plt.legend( loc=2 )
     plt.legend(liness, [l.get_label() for l in lines], loc=2,prop={'size':16},frameon=False)
 
+    plt.savefig( 'result-zoom.pdf', format='PDF' )
+
+
+    scaleup = pylab.loadtxt( "scaleup.txt" )
+    
+    fig3 = plt.figure()
+    axes3 = fig3.add_subplot( 1, 1, 1 )
+    plt.xlabel( "Number of threads" )
+    plt.ylabel( 'Speedup' )
+
+   
+    p1,=plt.plot( scaleup[:,0],35633/scaleup[:,1], 'g',label="Separable Voronoi Map",alpha=1 )
+
 
 ##plt.show()
-plt.savefig( 'result-zoom.pdf', format='PDF' )
+plt.savefig( 'result-mp.pdf', format='PDF' )
 
 
 
