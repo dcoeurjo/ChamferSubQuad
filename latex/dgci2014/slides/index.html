@@ -114,7 +114,7 @@
           <br><br><br>
           <center><img width=200  align="center"
                        src="images/logo_liris.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width=150  align="center"
-                                                                                                        src="logo-cnrs.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img align="center" width=200 src="logoANR.png"></center>
+                                                                                                                          src="logo-cnrs.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img align="center" width=200 src="logoANR.png"></center>
 
         </section>
 
@@ -198,40 +198,55 @@
         
         <section>
           <h3>Option 1</h3>
-
-
-          <p align="left"><strong>Path-based metrics</strong> (chamfer masks, -weigthed-  neig. sequences,...)</p>
-          <ul align="left">
-            <li>Discrete distance functions which can induce  metrics/norms</li>
-            <li>Isotropy and quality w.r.t. Euclidean distance is
-              obtained by</li>
-            <ul>
-              <li> Increasing the <em>size of the mask</em> $m$ (or
-                complexity of the N.S)
-              <li> Weigh optimization (analytical/statistical process,...)
-            </ul>
-            <li> Raster-scan/Disjktra-like algorithms in $O(m\cdot
-              N^n)$ / $O(mn\cdot         N^n\log N)$
-            <li>Ok for non-convex domains (instrsinc metric)</li>
-            <li>Hard to parallelize</li>
-          </ul>
-        </section>
-
-        <section>
-          <h3>Option 2</h3>
           
           <p align="left"><strong>p-norms</strong> ($L_2$, $L_p$,...)</p>
           <ul>
             <li>not discrete metrics <strong>but</strong> exact
               representations ( $d(\cdot,\cdot)^p\in\Z$, displacement
-              vector,...)</li>
+              vectors,...)</li>
             <li>For $L_2$, $L_1$ and
               $L_\infty$ <strong>error-free</strong> and <strong>separable</strong> volumetric algorithms
-              in $O(n\cdot N^n)$</li>
+              in $$O(n\cdot N^n)$$</li>
             
-            <li>Trivial but optimal parallel implementations (shard memory model)
+            <li>Trivial but optimal parallel implementations (shard
+              memory model)</li>
+            <li>Complex generalization to non-convex domains</li>
           </ul>
+
+          <img src="images/lp.png">
+
         </section>
+
+        <section>
+          <h3>Option 2</h3>
+
+
+          <table>
+            <tr>
+              <td width="150%" > <p align="left"><strong>Path-based metrics</strong> (chamfer masks, -weigthed-  neig. sequences,...)</p>
+                <ul align="left">
+                  <li>Discrete distance functions which can induce  metrics/norms</li>
+                  <li>Isotropy and quality w.r.t. Euclidean distance is
+                    obtained by</li>
+                  <ul>
+                    <li> Increasing the <em>size of the mask</em> $m$ (or
+                      complexity of the N.S)
+                    <li> Weigh optimization (analytical/statistical process,...)
+                  </ul>
+                  <li> Raster-scan/Disjktra-like algorithms in $O(m\cdot
+                    N^n)$ / $O(mn\cdot         N^n\log N)$
+            <li>Ok for non-convex domains (instrsinc metric)</li>
+                  <li>Hard to parallelize</li>
+                </ul>
+
+              </td><td><img width=300 src="images/chamferMask.png"></td></tr></table>
+                
+
+          <p align="right"><img src="images/pathbased.png"></p>
+        </section>
+
+        
+        
         
         
         <section>
@@ -252,7 +267,7 @@
                 implementation thanks to separability
             </strong></li>
             <li class="fragment"> <strong> Extension for path-based
-            norms in higher dimensions
+                norms in higher dimensions
             </strong></li>
           </ul>
         </section>
@@ -281,14 +296,14 @@
             $E$ such that for $a,b\in E$, $(b-a)\in EV$).
           </p>
           
-    <p align="left" style="font-size:80%">      E.g. weighted p-norms:
-          $d_{L_p} (a,b) = \left ( \sum_{k=1}^n w_k|a_k-b_k |^p \right )^{\frac{1}{p}}$
-      <br>
-      $(\Z^n,\R,d_{L_p})$ is a metric space
-      <br>
-      $(\Z^n,\Z,\lceil d_{L_p}\rceil)$ is a digital metric space</p>
+          <p align="left" style="font-size:80%">      E.g. weighted p-norms:
+            $d_{L_p} (a,b) = \left ( \sum_{k=1}^n w_k|a_k-b_k |^p \right )^{\frac{1}{p}}$
+            <br>
+            $(\Z^n,\R,d_{L_p})$ is a metric space
+            <br>
+            $(\Z^n,\Z,\lceil d_{L_p}\rceil)$ is a digital metric space</p>
 
-    <img width="100%" src="images/metrics.png" />
+          <img width="100%" src="images/metrics.png" />
 
         </section>
         
@@ -299,395 +314,404 @@
             The <strong>distance transform</strong> $DT_X$ associated with a digital metric space
             $(\Z^n,\Z,d)$ is a map  $X\rightarrow\Z$ such that, for $a\in X$
             $    DT_X(a) = \min_{b\in \Z^n\setminus X} \{d(a,b)\}$.<br>br>
-            The <strong>Voronoi map</strong> is the map $X\rightarrow\Z^n$:
-            $    \Pi_X(a) = \min_{b\in \Z^n\setminus X} \{d(a,b)\}$.
-          </p>
+    The <strong>Voronoi map</strong> is the map $X\rightarrow\Z^n$:
+    $    \Pi_X(a) = \min_{b\in \Z^n\setminus X} \{d(a,b)\}$.
+</p>
 
 
 <center>
   <img width="25%" src="images/neigeDT_508_p.png"> &nbsp; &nbsp; &nbsp; &nbsp;
   <img  width="25%" src="images/AlCaponeDistanceMap.png">
 </center>
-          
-        </section>
-        
-        <section>
-          <h3>Chamfer mask / Chamfer norms $(\Z^n,\Z,d_\M)$</h3>
-          
-          <table>
-            <tr>
-              <td width="150%" ><p  class="box"  style="font-size:60%" data-title="Chamfer Mask">
-            A <strong>weighted vector</strong> is a pair $(\vec{v},w)$ with $\vec{v}\in\Z^n$ and
-            $w\in\N^*$. <strong>A chamfer mask</strong>  $\M$ is a central-symmetric set of weighted
-            vectors with no null vectors and containing at least a basis of
-            $\Z^n$.
-              </p></td><td><img width=1200 src="images/chamferVect.svg" style="position:relative; left:50px;" /></td></tr>
 
-              <tr>
-              <td>
-          <p   class="box" style="font-size:60%" data-title="Rational ball, minimal
-                                     H-representation [Thiel, Normand]">
-            Given a Chamfer norm $\M$, the
-            <strong>rational ball</strong> associated with $\M$ is the polytope
-            
-            $$  \B = conv\left\{ \frac{\vec{v}_k}{w_k};\; (\vec{v}_k,w_k)\in\M
-            \right \}$$
-            <br>
+</section>
 
-            Rational ball $\B$ can also be described as the H-representation of
+<section>
+  <h3>Chamfer mask / Chamfer norms $(\Z^n,\Z,d_\M)$</h3>
+  
+  <table>
+    <tr>
+      <td width="150%" ><p  class="box"  style="font-size:60%" data-title="Chamfer Mask">
+          A <strong>weighted vector</strong> is a pair $(\vec{v},w)$ with $\vec{v}\in\Z^n$ and
+          $w\in\N^*$. <strong>A chamfer mask</strong>  $\M$ is a central-symmetric set of weighted
+          vectors with no null vectors and containing at least a basis of
+          $\Z^n$.
+      </p></td><td><img width=1200 src="images/chamferVect.svg" style="position:relative; left:50px;" /></td></tr>
+
+    <tr>
+      <td>
+        <p   class="box" style="font-size:60%" data-title="Rational ball, minimal
+             H-representation [Thiel, Normand]">
+          Given a Chamfer norm $\M$, the
+          <strong>rational ball</strong> associated with $\M$ is the polytope
+          
+          $$  \B = conv\left\{ \frac{\vec{v}_k}{w_k};\; (\vec{v}_k,w_k)\in\M
+          \right \}$$
+          <br>
+
+          Rational ball $\B$ can also be described as the H-representation of
           polytope with <strong>minimal parameter</strong> [Normand]: <br> $$P
           = \{ x\in\Z^n; Ax \leq y\;\}$$ such that $\forall k\in[1\ldots f],
           ~\exists x\in P,\quad A_kx=y_k$. <br>$f$ is the number of rows in $A$ and the number of
           facets in $\B$, and is thus related to $|\M|$.
-          </p>
-          </td><td><img width=200 src="images/ratball2d.svg" style="position:relative; left:50px;" /><br><img width=250 src="images/ratball3d.png" style="position:relative; left:50px;" /</td></tr></table>
-          
-          <p align="left" style="font-size:70%" ><em>$A_k$ being the $k^{th}$ row
-              of $A$ <br>
-              $A_k$
-              can also be seen as a <strong> --non-unitary-- normal vector to</strong> $\B$ <strong>facets</strong>
-                [Normand et al]).</em></p>
-          
-        </section>
+        </p>
+      </td><td><img width=200 src="images/ratball2d.svg" style="position:relative; left:50px;" /><br><img width=250 src="images/ratball3d.png" style="position:relative; left:50px;" /</td></tr></table>
+                                                                                                          
+                                                                                                          <p align="left" style="font-size:70%" ><em>$A_k$ being the $k^{th}$ row
+                                                                                                              of $A$ <br>
+                                                                                                              $A_k$
+                                                                                                              can also be seen as a <strong> --non-unitary-- normal vector to</strong> $\B$ <strong>facets</strong>
+                                                                                                              [Normand et al]).</em></p>
+                                                                                                          
+</section>
 
-        <section>
-          <h3>Few things around chamfer mask/path-based norms</h3>
+<section>
+  <h3>Few things around chamfer mask/path-based norms</h3>
 
-          <ul>
-            <li>Weighted vectors can be optimized to obtain
-              a <strong>digital metric induced by a norm</strong></li>
-            <li>Distance evaluation is related to
-              a <strong>linear problem</strong></li>
+  <ul>
+    <li>Weighted vectors can be optimized to obtain
+      a <strong>digital metric induced by a norm</strong></li>
+    <li>Distance evaluation is related to
+      a <strong>linear problem</strong></li>
 
-            $$    d_\M(O,a) =  \max_{1\leq k \leq f} \{ A_k a^T\}$$
-            
-            <li>-weighted- dNeighborhood sequences  admit similar <strong>rational ball
-              representations</strong> and we also have</li>
-            $$  d(O,a)  =\max_{1\leq k \leq f} \{ f_k(A_k a^T)\}$$
-          </ul>
-          <p align="right" style="font-size:70%; color:#22BB22;" >[Borgefors, Thiel, Strand, Normand,...]
-          </p>
-        </section>
-
-
-         <section>
-          <h3>Separable Voronoi Map Algorithm ($L_2$ case)</h3>
-
-
-          $Step$ $1$
-          <table >
-            <tr><td><img width=400
-                         src="images/Voro1/Voromap-random-orig.svg"></td>
-              <td><img width=400 src="images/Voro1/Voromap-random-diag.svg">
-              </td>
-              <td><img width=400 src="images/Voro1/Voromap-random.svg">
-              </td>
-              <td><img width=400 src="images/Voro1/Voromap-random-hue.svg">
-              </td>
-            </tr>
-
-          </table>
-
-          <div class="fragment">
-                $Step$ $2$
-          <table>
-            <tr><td><img width=400
-                         src="images/Voromap-random-orig.svg"></td>
-              <td><img width=400 src="images/Voromap-random-diag.svg">
-              </td>
-               <td><img width=400 src="images/Voromap-random.svg">
-              </td>
-              <td><img width=400 src="images/Voromap-random-hue.svg">
-              </td>
-            </tr>
-          </table>
-
-
-          $...$ $other$ $dimensions$
-      <p align="right" style="font-size:70%; color:#22BB22;"
-         >[Saito/Toriwaki,Hirata,Meijster,Maurer,...]</p>
-          </p>
-          </div>
-         </section>
-
-         <section>
-           <h3>Separable Voronoi Map Algorithm ($L_2$ case)</h3>
-           
-           <ul>
-             <li>Simple algorithm:<strong> independent 1D
-             processes</strong> whatever the dimension </li>
-             <li>Generic: only based on two predicates</li>
-             <ul>
-               <div class="fragment">
-                 <table><tr><td><li><strong>Closest(a,b,c)</strong>: <em>Which one
-                           from b or c is closest to a
-                           ?</em></li></td><td><img width="70%" src="images/closest.png"></td></tr></table>
-               </div>
-               <div class="fragment">
-                 <table><tr><td><li><strong>HiddenBy(a,b,c,S)</strong>: <em>Do a and c
-                           voronoi cell  hides the voronoi cell of c on 1D
-                           span S ?</em></li>
-                     </td><td><img width="900" src="images/hidden.png"></td></tr></table>
-             </ul>
-
-           </ul>
-         </section>
-
-         <section>
-           <h3>Separable Voronoi Map Algorithm ($L_2$ case)</h3>
-
-           <img src="images/snapshot.png" />
-           
-         </section>
-
-        
-        <section>
-          <h2>Subquadratic Separable Algorithm</h2>
-        </section>
-        
-        
-        
-        <section>
-          <h3>Metric conditions for separability</h3>
-
-          <p class="box-green" data-title="Generic complexity">
-            Let $(\Z^n, F, d)$ be a metric space, if distance
-            comparison $$ d(a,b) < d(c,d)\quad for\quad
-            a,b,c,d\in\Z^n$$ is <strong>exact</strong>,
-            then <strong>Closest</strong>
-            and <strong>HiddenBy</strong> predicates can be
-            implemented and Alg. 1 is in $$ O(n\cdot N^n\cdot (C+H))
-            $$
+    $$    d_\M(O,a) =  \max_{1\leq k \leq f} \{ A_k a^T\}$$
     
-          <div align="right" style="font-size:60%; " > <strong>Closest</strong> being in $O(C)$ and
-            <strong>HiddenBy</strong> in $O(H)$
-        </div></p>
+    <li>-weighted- dNeighborhood sequences  admit similar <strong>rational ball
+        representations</strong> and we also have</li>
+    $$  d(O,a)  =\max_{1\leq k \leq f} \{ f_k(A_k a^T)\}$$
+  </ul>
+  <p align="right" style="font-size:70%; color:#22BB22;" >[Borgefors, Thiel, Strand, Normand,...]
+  </p>
+</section>
 
-           <p class="box" data-title="Metric conditions 2 [Hirata]">
-              Let $d$ be a metric induced by a <strong>norm whose unit
-               ball is symmetric with respect to grid
-               axes</strong>. Then, if distance comparison predicate is
-              <strong>exact</strong>, Algorithm 1 is <strong>correct</strong> and returns a Voronoi map
-               $\Pi_X$.
-           </p>
 
-          <p class="fragment"><strong><em>Fine with Chamfer
-                mask/Neig. sequences !! </em></strong> </p>
+<section>
+  <h3>Separable Voronoi Map Algorithm ($L_2$ case)</h3>
 
-          
-        </section>
 
-        
+  $Step$ $1$
+  <table >
+    <tr><td><img width=400
+                 src="images/Voro1/Voromap-random-orig.svg"></td>
+      <td><img width=400 src="images/Voro1/Voromap-random-diag.svg">
+      </td>
+      <td><img width=400 src="images/Voro1/Voromap-random.svg">
+      </td>
+      <td><img width=400 src="images/Voro1/Voromap-random-hue.svg">
+      </td>
+    </tr>
 
-        <section>
-          <h3>Distance Evaluation in dimension 2</h3>
+  </table>
 
-      <table>
-            <tr>
-              <td width="150%" >
-                <p style="font-size:80%" align="left">
-                  $\M = \{\vec{v}^k\}_{k=1\ldots m}$
-                  <strong> sorted counterclockwise</strong>
-                  <br>
-                  We define a <strong>wedge</strong>
-                  as a angular sector defined by $(\vec{v}^i,\vec{v}^{i+1})$ and the origin
-                </p><br>
-                <p class="box"> $$  d_\M(O,a) =  \max_{1\leq k \leq f} \{ A_k\cdot
-                  a^T\}= A_i\cdot a^T$$
-                  $i$ being the index of the wedge
-                  $(\vec{v}^i,\vec{v}^{i+1})$, $a$ belongs to.
-                </p>
-                <br>
-                <p style="font-size:80%" align="left"><strong>Distance evaluation</strong> $d(O,a)$ <strong>as a geometrical
-                    problem</strong>:</p>
-                <ul>
-                  <li>Locate the wedge containing $a$</li>
-                  <li> Return  $A_i\cdot a^T$
-                </li></ul><br>
-      </td><td><img width=400 src="images/wedges.svg" style="position:relative; left:50px;" /></td></tr></table>
-      
-          <p class="box-red" data-title="Closest Predicate"> Distance
-          evaluation and Closest predicate are in  $O(\log m)$</p>
-          <p align="right" style="font-size:80%"> <em>[Hint:  binary search on the sorted
-              wedges</em>]</p>
-        </section>
+  <div class="fragment">
+    $Step$ $2$
+    <table>
+      <tr><td><img width=400
+                   src="images/Voromap-random-orig.svg"></td>
+        <td><img width=400 src="images/Voromap-random-diag.svg">
+        </td>
+        <td><img width=400 src="images/Voromap-random.svg">
+        </td>
+        <td><img width=400 src="images/Voromap-random-hue.svg">
+        </td>
+      </tr>
+    </table>
 
-        <section>
-          <h3>HiddenBy predicate: Step1 -- VoronoiEdgeWedge</h3>
 
-          <p><strong>Problem</strong> Find the index of the
-          intersection between the voronoi edge of $a$ and $b$ along
-            $S$ for the metric $d_\M$</p>
-          
-          <table><tr><td><img src="images/vorowedge.png"> </td><td>$\Rightarrow$</td><td> <img src="images/vorowedge-final.png"></td></tr></table>
+    $...$ $other$ $dimensions$
+    <p align="right" style="font-size:70%; color:#22BB22;"
+       >[Saito/Toriwaki,Hirata,Meijster,Maurer,...]</p>
+</p>
+</div>
+</section>
 
-          <p><strong>Idea</strong> Shrink the two set of wedges
-          until each one has rays in different Voronoi cells</p>
-        </section>
-        
-          
-         
-        <section>
-          <h3>HiddenBy predicate: Step1 -- VoronoiEdgeWedge</h3>
-          
-          <table>
-            <tr>
-              <td width="150%" > <p align="left"><strong>Sketch of the algorithm</strong>
-            <ul>
-              <li>Shrink the wedges centered at $a$ w.r.t. $b$
-              <li>Shrink the wedges centered at $b$ w.r.t. the final wedge of $a$
-            </li></ul>
-            <br><br>
-          
-          <p align="left" style="font-size:80%"> <strong>Shrinking</strong> involves $O(\log{m})$ steps (binary search) of $O(\log{m})$ each
-               (2 distance evaluations)</p>
-          <br>
+<section>
+  <h3>Separable Voronoi Map Algorithm ($L_2$ case)</h3>
+  
+  <ul>
+    <li>Simple algorithm:<strong> independent 1D
+        processes</strong> whatever the dimension </li>
+    <li>Generic: only based on two predicates</li>
+    <ul>
+      <div class="fragment">
+        <table><tr><td><li><strong>Closest(a,b,c)</strong>: <em>Which one
+                  from $b$ or $c$ is closest to $a$
+                  ?</em></li></td><td><img width="70%" src="images/closest.png"></td></tr></table>
+      </div>
+      <div class="fragment">
+        <table><tr><td><li><strong>HiddenBy(a,b,c,S)</strong>: <em>Do $a$ and $c$
+                  Voronoi cells  hide the                  Voronoi cell of $c$ on 1D
+                  span $S$ ?</em></li>
+            </td><td><img width="900" src="images/hidden.png"></td></tr></table>
+    </ul>
+
+  </ul>
+</section>
+
+<section>
+  <h3>Separable Voronoi Map Algorithm ($L_2$ case)</h3>
+
+  <img src="images/snapshot.png" />
+  
+</section>
+
+
+<section>
+  <h2>Subquadratic Separable Algorithm</h2>
+</section>
+
+
+
+<section>
+  <h3>Metric conditions for separability</h3>
+
+  <p class="box-green" data-title="Generic complexity">
+    Let $(\Z^n, F, d)$ be a metric space, if distance
+    comparison $$ d(a,b) < d(c,d)\quad for\quad
+                           a,b,c,d\in\Z^n$$ is <strong>exact</strong>,
+                           then <strong>Closest</strong>
+                           and <strong>HiddenBy</strong> predicates can be
+                           implemented and Alg. 1 is in $$ O(n\cdot N^n\cdot (C+H))
+                           $$
+                           
+                           <div align="right" style="font-size:60%; " > <strong>Closest</strong> being in $O(C)$ and
+                             <strong>HiddenBy</strong> in $O(H)$
+  </div></p>
+
+  <p class="box" data-title="Metric conditions [Hirata]">
+    Let $d$ be a metric induced by a <strong>norm whose unit
+      ball is symmetric with respect to grid
+      axes</strong>. Then, if distance comparison predicate is
+    <strong>exact</strong>, Algorithm 1 is <strong>correct</strong> and returns a Voronoi map
+    $\Pi_X$.
+  </p>
+
+  <p class="fragment"><strong><em>Fine with Chamfer
+        mask/Neig. sequences !! </em></strong> </p>
 
   
-          <p class="box-red" data-title="VoronoiEdgeWedge">
-            The two wedges containing the intersection of the Voronoi
-            edge of $a$ and $b$ and $S$ can be obtained in
-            $O(\log{m}^2)$
-          </p>
-        </td><td><img width=200 src="images/algoMid.svg"
- style="position:relative; left:50px;" /><br><img width=200 src="images/algoMid2.svg"
- style="position:relative; left:50px;" /><br></td></tr></table>
-     
-           
-        </section>
-        
-           
-        <section>
-          <h3>HiddenBy predicate: Step2</h3>
+</section>
 
-          
-     <img width=400 src="images/step2.svg"
- style="position:relative; left:50px;" /><img width=400 src="images/step2b.svg"
- style="position:relative; left:50px;" />
-     
-          <p class="box-red" data-title="HiddenBy Predicate">
-          HiddenBy(a,b,c,S) predicate can be implemented in   $O(\log^2 m)$</p>
-          <p align="right" style="font-size:80%"> <em>[Hint:  two
-              VoronoiEdgeWedge computation]</em>]</p>
 
-        </section>
-        
-          
-        <section>
-          <h3>Overall Algorithm</h3>
 
-          <p class="box-red" data-title="Theorem">
-            Let $\M$ be a 2D chamfer <strong>norm with axis symmetric
-            unit ball</strong>and $m$ weighted vectors, then we have
-            Algorithm 1 computes an <strong>exact Voronoi map</strong> $\Pi_X$ and thus the
-            distance transformation of $X$ for metric $d_{\M}$ in $$O(
-            \log^2{m}\cdot N^2)$$
-          </p>
+<section>
+  <h3>Distance Evaluation in dimension 2</h3>
 
-          <p style="font-size:80%">Thanks to H-minimal parameter representation, also true for
-            -weighted- <strong>neighborhood sequences</strong> under same hypotheses </p>
-        </section>
-        
-        <section data-background="images/image-dt-chamf_5711.png">
-          <h1>Experiments</h1>
- 
-        </section>
-        
+  <table>
+    <tr>
+      <td width="150%" >
+        <p style="font-size:80%" align="left">
+          $\M = \{\vec{v}^k\}_{k=1\ldots m}$
+          <strong> sorted counterclockwise</strong>
+          <br>
+          We define a <strong>wedge</strong>
+          as a angular sector defined by $(\vec{v}^i,\vec{v}^{i+1})$ and the origin
+        </p><br>
+        <p class="box"> $$  d_\M(O,a) =  \max_{1\leq k \leq f} \{ A_k\cdot
+          a^T\}= A_i\cdot a^T$$
+          $i$ being the index of the wedge
+          $(\vec{v}^i,\vec{v}^{i+1})$, $a$ belongs to.
+        </p>
+        <br>
+        <p style="font-size:80%" align="left"><strong>Distance evaluation</strong> $d(O,a)$ <strong>as a geometrical
+            problem</strong>:</p>
+        <ul>
+          <li>Locate the wedge containing $a$</li>
+          <li> Return  $A_i\cdot a^T$
+        </li></ul><br>
+      </td><td><img width=400 src="images/wedges.svg" style="position:relative; left:50px;" /></td></tr></table>
+  
+  <p class="box-red" data-title="Closest Predicate"> Distance
+    evaluation and Closest predicate are in  $C=O(\log m)$</p>
+  <p align="right" style="font-size:80%"> <em>[Hint:  binary search on the sorted
+      wedges</em>]</p>
+</section>
 
-        <section >
-          <h3>Voronoi Maps and Distance Transformations</h3>
+<section>
+  <h3>HiddenBy predicate: Step1 -- VoronoiEdgeWedge</h3>
 
-          <img src="images/results.png">
+  <p><strong>Problem</strong> Find the index of the
+    intersection between the voronoi edge of $a$ and $b$ along
+    $S$ for the metric $d_\M$</p>
+  
+  <table><tr><td><img src="images/vorowedge.png"> </td><td>$\Rightarrow$</td><td> <img src="images/vorowedge-final.png"></td></tr></table>
 
-          <p align="right"><img width="300"  src="images/logoDGtal.svg"></p>
+  <p><strong>Idea</strong> Shrink the two set of wedges
+    until each one has rays in different Voronoi cells</p>
+</section>
 
-        </section>
-        <section>
-          <h3>Complexity</h3>
 
-          <img src="images/results-graph.svg">
-        </section>
-        
-        <section>
-          <h3>Complexity</h3>
-          <img src="images/results-graph-zoom.svg">
-        </section>
 
-        <section>
-          <h3>Multithread speedup</h3>
-          <img src="images/result-mp.svg">
-        </section>
-        
-
-          <section>
-          <h1>Conclusion</h1>
+<section>
+  <h3>HiddenBy predicate: Step1 -- VoronoiEdgeWedge</h3>
+  
+  <table>
+    <tr>
+      <td width="150%" > <p align="left"><strong>Sketch of the algorithm</strong>
           <ul>
-            <li class="fragment"> Separable algorithms for Voronoi Map/Distance
-            Transformation work for path-based norms </li>
-            <li class="fragment"> $O(\log^2{m}\cdot N^2)$ </li>
-            <li class="fragment"> Easy multithread implementation
-              <img width="500" align="center" src="images/edt_multithread.png"></li>
-
-            <li class="fragment">Want to play with the code
-                ?<br><code data-trim class="cpp" style="font-size:80%">
-                DGtal::experimental::ChamferNorm2D;
-                DGtal::ExactPredicateLpSeparableMetric;
-                DGtal::DigitalMetricAdapter;
-                DGtal::SeparableMetricAdapter;
-            </code></li>
-          </ul>
-          </section>
-
-          <section data-background="#44DDDD" >
-            <h1>One more thing</h1>
-          </section>
-
-          <section  data-background="#44DDDD">
-            <h3>Voronoi maps for Chamfer norms in higher dimensions</h3>
-            
-
-            <p>Distance evaluation $\Rightarrow$ Ray shooting in convex
-            polytope  $\Rightarrow$ $O(\log m)$ per query (with
-            $O(m^{\lfloor d/2 \rfloor})$ pre-processing</p>
-            <br>
-            
-            <p class="box-red" data-title="Closest Predicate">
-              $O(d\cdot\log m)$
-            </p>
-
-           
-          <table>
-            <tr>
-              <td width="150%" >   <p class="box-red" data-title="HiddenBy Predicate">
-              With some equi-distribution hypothesis on vectors in
-              $\M$, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              HiddenBy n-D $\Rightarrow$ HiddenBy 2d $\Rightarrow$  $O(d\cdot\log^2 m)$
-              </p></td>
-              <td>
-           <img width=300 style="position:relative; left:50px;" src="images/hidden3d.png">
-          </td></tr></table>
-          </section>
+            <li>Shrink the wedges centered at $a$ w.r.t. $b$
+            <li>Shrink the wedges centered at $b$ w.r.t. the final wedge of $a$
+          </li></ul>
+          <br><br>
           
-        
-        
-          <section  data-background="#44DDDD">
-            <h3>Extensions</h3>
-            
+        <p align="left" style="font-size:80%"> <strong>Shrinking</strong> involves $O(\log{m})$ steps (binary search) of $O(\log{m})$ each
+          (2 distance evaluations)</p>
+        <br>
 
-            <p><strong>Separable Power Map</strong> computation
-              algorithms can also be described in terms of Closest and
-              HiddenBy predicates</p>
-            <br>
-            
-            $\Rightarrow$ <strong> Reverse Distance
-            transformation</strong> in $O(\log^2m\cdot N^2)$
+        
+        <p class="box-red" data-title="VoronoiEdgeWedge">
+          The two wedges containing the intersection of the Voronoi
+          edge of $a$ and $b$ and $S$ can be obtained in
+          $O(\log{m}^2)$
+        </p>
+      </td><td><img width=200 src="images/algoMid.svg"
+                    style="position:relative; left:50px;" /><br><img width=200 src="images/algoMid2.svg"
+                                                                     style="position:relative; left:50px;" /><br></td></tr></table>
+  
+  
+</section>
 
-            <br>
-            
-            $\Rightarrow$ <strong> Medial Axis extraction  </strong> in $O(\log^2m\cdot N^2)$
-            
-          </section>
-          
+
+<section>
+  <h3>HiddenBy predicate: Step2</h3>
+
+  
+  <img width=400 src="images/step2.svg"
+       style="position:relative; left:50px;" /><img width=400 src="images/step2b.svg"
+                                                    style="position:relative; left:50px;" />
+  
+  <p class="box-red" data-title="HiddenBy Predicate">
+    HiddenBy(a,b,c,S) predicate can be implemented in   $H=O(\log^2 m)$</p>
+  <p align="right" style="font-size:80%"> <em>[Hint:  two
+      VoronoiEdgeWedge computation]</em>]</p>
+
+</section>
+
+
+<section>
+  <h3>Overall Algorithm</h3>
+
+  <p class="box-red" data-title="Theorem">
+    Let $\M$ be a 2D chamfer <strong>norm with axis symmetric
+      unit ball</strong>and $m$ weighted vectors, then we have
+    Algorithm 1 computes an <strong>exact Voronoi map</strong> $\Pi_X$ and thus the
+    distance transformation of $X$ for metric $d_{\M}$ in $$O(
+    \log^2{m}\cdot N^2)$$
+  </p>
+
+  <p style="font-size:80%">Thanks to H-minimal parameter representation, also true for
+    -weighted- <strong>neighborhood sequences</strong> under same hypotheses </p>
+</section>
+
+<section data-background="images/image-dt-chamf_5711.png">
+  <h1>Experiments</h1>
+  
+</section>
+
+
+<section >
+  <h3>Voronoi Maps and Distance Transformations</h3>
+
+  <table>
+    <tr>
+      <td>$\M_{5-7-11}$ <br>  <br>  <br>  <br> $L_2$<td> <img src="images/results.png">
+  </td></tr></table>
+
+  <p align="right"><img width="300"  src="images/logoDGtal.svg"></p>
+</section>
+<section>
+  <h3>Complexity</h3>
+
+  <img src="images/results-graph.svg">
+</section>
+
+<section>
+  <h3>Complexity</h3>
+  <img src="images/results-graph-zoom.svg">
+</section>
+
+<section>
+  <h3>Multithread speedup</h3>
+  <img src="images/result-mp.svg">
+</section>
+
+
+<section>
+  <h1>Conclusion</h1>
+</section>
+
+<section>
+  <ul>
+    <li class="fragment"><strong> Separable algorithms for Voronoi Map/Distance
+        Transformation work for path-based norms</strong> </li>
+    <li class="fragment"> $O(\log^2{m}\cdot N^2)$ </li>
+    <li class="fragment"> Easy multithread
+      implementation&nbsp; 
+      <img width="500" align="center" src="images/edt_multithread.png"></li>
+
+    <li class="fragment">Want to play with the code
+      ?<br><code data-trim class="cpp" style="font-size:80%">
+        DGtal::experimental::ChamferNorm2D;
+        DGtal::ExactPredicateLpSeparableMetric;
+        DGtal::DigitalMetricAdapter;
+        DGtal::SeparableMetricAdapter;
+    </code></li>
+  </ul>
+  <p class="fragment" style="font-size:60%" align="right"><img align="center" width="300"
+                                                               src="images/logoDGtal.svg"> v0.8</p>
+</section>
+
+<section data-background="#DDDD44" >
+  <h1>One more thing</h1>
+</section>
+
+<section  data-background="#DDDD44">
+  <h3>Voronoi maps for Chamfer norms in higher dimensions</h3>
+  
+
+  <p>Distance evaluation $\Rightarrow$ Ray shooting in convex
+    polytope  $\Rightarrow$ $O(\log m)$ per query (with
+    $O(m^{\lfloor d/2 \rfloor})$ pre-processing  [Matousek and Schwarzkpof]</p>
+  <br>
+  
+  <p class="box-red" data-title="Closest Predicate">
+    $O(d\cdot\log m)$
+  </p>
+
+  
+  <table>
+    <tr>
+      <td width="150%" >   <p class="box-red" data-title="HiddenBy Predicate">
+          With some equi-distribution hypothesis on vectors in
+          $\M$, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          HiddenBy n-D $\Rightarrow$ HiddenBy 2d $\Rightarrow$  $O(d\cdot\log^2 m)$
+      </p></td>
+      <td>
+        <img width=300 style="position:relative; left:50px;" src="images/hidden3d.png">
+  </td></tr></table>
+</section>
+
+
+
+<section  data-background="#DDDD44">
+  <h3>Extensions</h3>
+  
+
+  <p><strong>Separable Power Map</strong> computation
+    algorithms can also be described in terms of Closest and
+    HiddenBy predicates</p>
+  <br>
+  
+  $\Rightarrow$ <strong> Reverse Distance
+    transformation</strong> in $O(\log^2m\cdot N^2)$
+
+  <br>
+  
+  $\Rightarrow$ <strong>Maximal balls/Medial Axis
+    </strong> could be obtained in $O(\log^2m\cdot N^2)$
+  
+</section>
+
 
 
 </div>
@@ -712,7 +736,7 @@
   slideNumber: true,
   
   math: {
-  mathjax: 'http://cdn.mathjax.org/mathjax/latest/MathJax.js',//'/js/MathJax.js', //
+  mathjax: 'MathJax-2.4-latest/MathJax.js',//'/js/MathJax.js', //
   config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
   },
 

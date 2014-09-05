@@ -45,7 +45,7 @@ using namespace experimental;
 
 int main(int argc, char **argv)
 {
-  unsigned int maxN = 200;
+  unsigned int maxN = 100;
   unsigned int domSize = 2048;
   unsigned int nbSeeds = domSize;
   
