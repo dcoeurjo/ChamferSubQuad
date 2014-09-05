@@ -6,9 +6,9 @@ import os
 
 with plt.xkcd():
 
-    from matplotlib import rc
-    rc('font',**{'size': 18})
-    rc('text', usetex=True)
+    #from matplotlib import rc
+    #rc('font',**{'size': 18})
+    #rc('text', usetex=True)
     
     current_path=os.getcwd()
     
