@@ -40,6 +40,8 @@ void constructPredicate(Predicate &mySet, const unsigned int nbSeeds, const unsi
 }
 
 
+using namespace experimental;
+
 int main(int argc, char **argv)
 {
   unsigned int maxN = 500;

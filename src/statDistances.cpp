@@ -27,6 +27,9 @@ double bruteForceDT( Mask &avec, const Point &p, const Point &q)
   return maxdot;
 }
 
+using namespace experimental;
+
+
 int main(int argc, char **argv)
 {
   double accum = 0.0;
