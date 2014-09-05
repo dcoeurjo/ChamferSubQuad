@@ -55,9 +55,8 @@ int main(int argc, char **argv)
   DigitalSetBySTLSet<Z2i::Domain> mySet(domain);
   constructPredicate<DigitalSetBySTLSet<Z2i::Domain> >(mySet,nbSeeds, domSize);
   
+  unsigned int N = maxN;
   
-  for(unsigned int N = 2 ; N < maxN; )
-  {
     ChamferNorm2D<Z2i::Space> mask(N);
     trace.info() << mask<<std::endl;
     Z2i::Point origin(0,0);
@@ -101,7 +100,7 @@ int main(int argc, char **argv)
     
 #endif
     
-  }
+  
   
   return 0;
 }

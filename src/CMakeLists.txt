@@ -32,6 +32,7 @@ SET(DGTAL_TOOLS_SRC
   testLogChamfer
   statDistances
   statVoronoi
+  statVoronoiMP
   statVoronoil2
   statVoronoi-raster
 )
