@@ -87,6 +87,7 @@ void rasterScan(const  Domain &aDomain,
   }
 }
 
+using namespace experimental;
 
 int main(int argc, char **argv)
 {

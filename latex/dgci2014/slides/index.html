@@ -589,9 +589,7 @@
         
         <section data-background="images/image-dt-chamf_5711.png">
           <h1>Experiments</h1>
-
-      
-          
+ 
         </section>
         
 
@@ -599,18 +597,90 @@
           <h3>Voronoi Maps and Distance Transformations</h3>
 
           <img src="images/results.png">
-        </section>
-        <section data-background="images/graphs.png">
-        </section>
-        
 
+          <p align="right"><img width="300"  src="images/logoDGtal.svg"></p>
+
+        </section>
         <section>
-          <h1>Conclusion</h1>
+          <h3>Complexity</h3>
+
+          <img src="images/results-graph.svg">
         </section>
+          <section>
+          <h3>Complexity</h3>
+<img src="images/results-graph-zoom.svg">
+        </section>
+        
 
+          <section>
+          <h1>Conclusion</h1>
+          <ul>
+            <li class="fragment"> Separable algorithms for Voronoi Map/Distance
+            Transformation work for path-based norms </li>
+            <li class="fragment"> $O(\log^2{m}\cdot N^2)$ </li>
+            <li class="fragment"> Easy multithread implementation
+              <img width="500" align="center" src="images/edt_multithread.png"></li>
 
+            <li class="fragment">Want to play with the code
+                ?<br><code data-trim class="cpp" style="font-size:80%">
+                DGtal::experimental::ChamferNorm2D;
+                DGtal::ExactPredicateLpSeparableMetric;
+                DGtal::DigitalMetricAdapter;
+                DGtal::SeparableMetricAdapter;
+            </code></li>
+          </ul>
+          </section>
+
+          <section data-background="#44DDDD" >
+            <h1>One more thing</h1>
+          </section>
+
+          <section  data-background="#44DDDD">
+            <h3>Voronoi maps for Chamfer norms in higher dimensions</h3>
+            
+
+            <p>Distance evaluation $\Rightarrow$ Ray shooting in convex
+            polytope  $\Rightarrow$ $O(\log m)$ per query (with
+            $O(m^{\lfloor d/2 \rfloor})$ pre-processing</p>
+            <br>
+            
+            <p class="box-red" data-title="Closest Predicate">
+              $O(d\cdot\log m)$
+            </p>
+
+           
+          <table>
+            <tr>
+              <td width="150%" >   <p class="box-red" data-title="HiddenBy Predicate">
+              With some equi-distribution hypothesis on vectors in
+              $\M$, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              HiddenBy n-D $\Rightarrow$ HiddenBy 2d $\Rightarrow$  $O(d\cdot\log^2 m)$
+              </p></td>
+              <td>
+           <img width=300 style="position:relative; left:50px;" src="images/hidden3d.png">
+          </td></tr></table>
+          </section>
+          
         
         
+          <section  data-background="#44DDDD">
+            <h3>Extensions</h3>
+            
+
+            <p><strong>Separable Power Map</strong> computation
+              algorithms can also be described in terms of Closest and
+              HiddenBy predicates</p>
+            <br>
+            
+            $\Rightarrow$ <strong> Reverse Distance
+            transformation</strong> in $O(\log^2m\cdot N^2)$
+
+            <br>
+            
+            $\Rightarrow$ <strong> Medial Axis extraction  </strong> in $O(\log^2m\cdot N^2)$
+            
+          </section>
+          
 
 
 </div>
