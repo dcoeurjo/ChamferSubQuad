@@ -78,7 +78,7 @@ with plt.xkcd():
     plt.ylabel( 'Speedup' )
 
    
-    p1,=plt.plot( scaleup[:,0],35633/scaleup[:,1], 'g',label="Separable Voronoi Map",alpha=1 )
+    p1,=plt.plot( scaleup[:,0],35633/scaleup[:,1],'-g',label="Separable Voronoi Map",alpha=1 )
 
 
 ##plt.show()
