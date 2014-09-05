@@ -151,14 +151,14 @@
 	          <li><em>Accuracy</em></li>
 	          <li ><em>Asymptotical Complexity</em></li>
 	          <li><em>Efficiency</em></li>
-	          <li><em>Scalability (multithread, out-of-code,...)</li>
+	          <li><em>Scalability (multithread, out-of-core,...)</li>
 	        </ul>
               </td><td style="vertical-align:center;">
                 <img align="middle" width=400 src="images/M2DISCO9.png"></td></tr>
           </table>
         </section>
 
-
+<!--
         <section>
           <h3>Context</h3>
           <table>
@@ -171,7 +171,7 @@
                 <img align="middle" width=400 src="images/M2DISCO9.png"></td></tr>
           </table>
         </section>
-
+-->
 
         <section>
           <h3>Requirements on the metric</h3>
@@ -189,8 +189,8 @@
               <ul>
                 <li>$discrete$  $metrics$ $\Z^n\rightarrow\Z$  </li>
                 <li> or $exact$ and $reliable$ representations of the distance values </li>
-                <li>$fast$ $and$ $exact$ volumetric
-                  processing (e.g. DT)</li>
+                <li>$fast$ $and$ $exact$ volumetric processing
+                  (e.g. DT)</li>
             </ul></p>
           </div>
         </section>
@@ -235,7 +235,7 @@
                   </ul>
                   <li> Raster-scan/Disjktra-like algorithms in $O(m\cdot
                     N^n)$ / $O(mn\cdot         N^n\log N)$
-            <li>Ok for non-convex domains (instrsinc metric)</li>
+            <li>Ok for non-convex domains (intrinsic metric)</li>
                   <li>Hard to parallelize</li>
                 </ul>
 
@@ -464,6 +464,15 @@
 <section>
   <h3>Metric conditions for separability</h3>
 
+
+  <p class="box" data-title="Metric conditions [Hirata]">
+    Let $d$ be a metric induced by a <strong>norm whose unit
+      ball is symmetric with respect to grid
+      axes</strong>. Then, if distance comparison predicate is
+    <strong>exact</strong>, Algorithm 1 is <strong>correct</strong> and returns a Voronoi map
+    $\Pi_X$.
+  </p>
+
   <p class="box-green" data-title="Generic complexity">
     Let $(\Z^n, F, d)$ be a metric space, if distance
     comparison $$ d(a,b) < d(c,d)\quad for\quad
@@ -476,14 +485,6 @@
                            <div align="right" style="font-size:60%; " > <strong>Closest</strong> being in $O(C)$ and
                              <strong>HiddenBy</strong> in $O(H)$
   </div></p>
-
-  <p class="box" data-title="Metric conditions [Hirata]">
-    Let $d$ be a metric induced by a <strong>norm whose unit
-      ball is symmetric with respect to grid
-      axes</strong>. Then, if distance comparison predicate is
-    <strong>exact</strong>, Algorithm 1 is <strong>correct</strong> and returns a Voronoi map
-    $\Pi_X$.
-  </p>
 
   <p class="fragment"><strong><em>Fine with Chamfer
         mask/Neig. sequences !! </em></strong> </p>
@@ -563,7 +564,7 @@
         <p class="box-red" data-title="VoronoiEdgeWedge">
           The two wedges containing the intersection of the Voronoi
           edge of $a$ and $b$ and $S$ can be obtained in
-          $O(\log{m}^2)$
+          $O(\log^2{m})$
         </p>
       </td><td><img width=200 src="images/algoMid.svg"
                     style="position:relative; left:50px;" /><br><img width=200 src="images/algoMid2.svg"
@@ -584,7 +585,7 @@
   <p class="box-red" data-title="HiddenBy Predicate">
     HiddenBy(a,b,c,S) predicate can be implemented in   $H=O(\log^2 m)$</p>
   <p align="right" style="font-size:80%"> <em>[Hint:  two
-      VoronoiEdgeWedge computation]</em></p>
+      VoronoiEdgeWedge computations]</em></p>
 
 </section>
 
